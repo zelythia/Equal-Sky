@@ -3,8 +3,8 @@
 This is a beginner-friendly Minecraft 1.20.1 Fabric Skyblock Modpack with many quests to showcase Aequitas
 
 <p float="left">
-  <img src="/assets/StarterTree.png" height="250" />
-  <img src="/assets/GettingStarted.png" height="250" />
+  <img src="/assets/StarterTree.png" height="300" />
+  <img src="/assets/GettingStarted.png" height="300" />
 </p>
 
 ## Gameplay
@@ -22,6 +22,6 @@ You start only with a single tree and one dirt block. Through sieving things lik
 ---
 
 <p float="left">
-  <img src="/assets/MakingProgress.png" height="250" />
-  <img src="/assets/TheEnd.png" height="250" />
+  <img src="/assets/MakingProgress.png" height="300" />
+  <img src="/assets/TheEnd.png" height="300" />
 </p>
