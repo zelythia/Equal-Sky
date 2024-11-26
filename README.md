@@ -21,6 +21,10 @@ You start only with a single tree and one dirt block. Through sieving things lik
 
 ---
 
+**[Download Server Files](https://www.curseforge.com/api/v1/mods/1122647/files/5939641/download)**
+
+---
+
 <p float="left">
   <img src="/assets/MakingProgress.png" height="300" />
   <img src="/assets/TheEnd.png" height="300" />
