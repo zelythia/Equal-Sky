@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "0D711345288453A9"
+  ],
+  "tasks": {
+    "32AB00ED37E00723": {
+      "type": "heracles:item",
+      "item": "minecraft:string",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7B72B839B6030144": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "308667F8F395286D": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Using a Silk Worm on leaves turns them into infested ones which drop string"
+    },
+    "description": [
+      "<subtitle id=\"288A9C724F521F46\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"32AB00ED37E00723\" quest=\"288A9C724F521F46\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"308667F8F395286D\" quest=\"288A9C724F521F46\"/>",
+      "<reward reward=\"7B72B839B6030144\" quest=\"288A9C724F521F46\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -176,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:string",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "String"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

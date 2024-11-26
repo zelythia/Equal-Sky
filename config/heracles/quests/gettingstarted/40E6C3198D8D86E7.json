@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "3403B524AD01622A"
+  ],
+  "tasks": {
+    "400313B29A627D5F": {
+      "type": "heracles:item",
+      "item": "fabricaeexnihilo:porcelain_crucible",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4D716DD7D6588059": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"400313B29A627D5F\" quest=\"40E6C3198D8D86E7\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4D716DD7D6588059\" quest=\"40E6C3198D8D86E7\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -112,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:porcelain_crucible",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Porcelain Crucible"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

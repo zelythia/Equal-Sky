@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "50D1BB9836B9D4E6": {
+      "type": "heracles:item",
+      "item": "bewitchment:white_coffin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Skips the day"
+    },
+    "description": [
+      "<subtitle id=\"1A5FF81EEBD0D8EB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"50D1BB9836B9D4E6\" quest=\"1A5FF81EEBD0D8EB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -256,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:white_coffin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Coffin"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

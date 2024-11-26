@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "6D2BF5998DC828AF"
+  ],
+  "tasks": {
+    "7525F54B4DC39B3E": {
+      "type": "heracles:item",
+      "item": "botania:terra_sword",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7525F54B4DC39B3E\" quest=\"2821118B0FA38830\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          96,
+          272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:terra_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Terra Blade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

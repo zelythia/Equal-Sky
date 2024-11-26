@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "5EC7DF00CF761494"
+  ],
+  "tasks": {
+    "720A743D7D997AB8": {
+      "type": "heracles:item",
+      "item": "#excompressum:compressed_hammers",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #excompressum:compressed_hammers"
+    }
+  },
+  "rewards": {
+    "3F56F77CFB3F53D2": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "3B323835C194C834": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"720A743D7D997AB8\" quest=\"35FC9384A7584235\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3F56F77CFB3F53D2\" quest=\"35FC9384A7584235\"/>",
+      "<reward reward=\"3B323835C194C834\" quest=\"35FC9384A7584235\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          16,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "excompressum:compressed_stone_hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Compressed Hammer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "66720373D89424DA",
+    "0B2F92F713051C31"
+  ],
+  "tasks": {
+    "0B0D7EB06126D38D": {
+      "type": "heracles:item",
+      "item": "avaritia:singularity",
+      "nbt": {
+        "singularity_type": "redstone"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0B0D7EB06126D38D\" quest=\"4ECF43DAFA99529D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          112,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:singularity",
+        "count": 1,
+        "nbt": {
+          "singularity_type": "redstone"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Redstone Singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

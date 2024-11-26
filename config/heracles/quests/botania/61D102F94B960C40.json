@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "3029BCAB9E0ADD2E",
+    "6D2BF5998DC828AF"
+  ],
+  "tasks": {
+    "74EB01C4AF7204C0": {
+      "type": "heracles:item",
+      "item": "botania:alfheim_portal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "52BBFC8FACC1E2D6": {
+      "type": "heracles:item",
+      "item": "botania:livingwood_log",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    },
+    "2F1B8A6437221FF2": {
+      "type": "heracles:item",
+      "item": "botania:glimmering_livingwood_log",
+      "amount": 3,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7309C32A2BE83B07": {
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"74EB01C4AF7204C0\" quest=\"61D102F94B960C40\"/>",
+      "<task task=\"52BBFC8FACC1E2D6\" quest=\"61D102F94B960C40\"/>",
+      "<task task=\"2F1B8A6437221FF2\" quest=\"61D102F94B960C40\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7309C32A2BE83B07\" quest=\"61D102F94B960C40\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          208,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:alfheim_portal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elven Gateway"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

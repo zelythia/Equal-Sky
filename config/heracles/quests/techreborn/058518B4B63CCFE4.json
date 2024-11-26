@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "78FCD374EB47637C": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_sawmill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2488C51F050CB44B": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_machine_casing",
+      "amount": 18,
+      "collection": "AUTOMATIC"
+    },
+    "7DB8F0BA59417CC2": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_machine_casing",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"78FCD374EB47637C\" quest=\"058518B4B63CCFE4\"/>",
+      "<task task=\"7DB8F0BA59417CC2\" quest=\"058518B4B63CCFE4\"/>",
+      "<task task=\"2488C51F050CB44B\" quest=\"058518B4B63CCFE4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          432,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_sawmill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sawmill"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

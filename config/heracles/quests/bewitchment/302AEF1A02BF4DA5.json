@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "38E7E174D62D6380"
+  ],
+  "tasks": {
+    "70F570A9B74A5426": {
+      "type": "heracles:item",
+      "item": "bewitchment:scepter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Defeat Leonard"
+    },
+    "description": [
+      "<subtitle id=\"302AEF1A02BF4DA5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"70F570A9B74A5426\" quest=\"302AEF1A02BF4DA5\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          64,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:scepter",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scepter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

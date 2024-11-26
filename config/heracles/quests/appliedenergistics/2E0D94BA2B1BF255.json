@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "785456CEB46050A5"
+  ],
+  "tasks": {
+    "313DE3C1A5C62410": {
+      "type": "heracles:item",
+      "item": "ae2:molecular_assembler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"313DE3C1A5C62410\" quest=\"2E0D94BA2B1BF255\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -208,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:molecular_assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Molecular Assembler"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

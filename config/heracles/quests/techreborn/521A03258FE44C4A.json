@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "4BD3BC86DA70DE43": {
+      "type": "heracles:item",
+      "item": "techreborn:auto_crafting_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4BD3BC86DA70DE43\" quest=\"521A03258FE44C4A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          480,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:auto_crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Auto Crafting Table"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

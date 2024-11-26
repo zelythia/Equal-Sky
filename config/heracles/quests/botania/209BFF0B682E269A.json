@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "47ED10253458DDE0"
+  ],
+  "tasks": {
+    "39F42538A8F09381": {
+      "type": "heracles:item",
+      "item": "botania:corporea_spark_master",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39F42538A8F09381\" quest=\"209BFF0B682E269A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:corporea_spark_master",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Master Corporea Spark"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

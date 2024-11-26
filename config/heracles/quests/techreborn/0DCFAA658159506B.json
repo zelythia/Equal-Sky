@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "1C8AA68D3D5D841D"
+  ],
+  "tasks": {
+    "026DCF832F0F1099": {
+      "type": "heracles:item",
+      "item": "techreborn:uu_matter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "07C772B66382C1D8": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"026DCF832F0F1099\" quest=\"0DCFAA658159506B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"07C772B66382C1D8\" quest=\"0DCFAA658159506B\"/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          688,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:uu_matter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "UU-Matter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

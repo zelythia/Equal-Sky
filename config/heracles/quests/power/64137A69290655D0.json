@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4AC42213F18F52A9"
+  ],
+  "tasks": {
+    "16F933EACB541122": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_blazing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"16F933EACB541122\" quest=\"64137A69290655D0\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          128,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cell_blazing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Cell (Blazing)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

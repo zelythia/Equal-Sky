@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "03B1F28E3DD7CC10"
+  ],
+  "tasks": {
+    "3093347708F9D776": {
+      "type": "heracles:item",
+      "item": "botania:spark",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3093347708F9D776\" quest=\"46124BCCC52928F3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          192,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:spark",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Spark"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

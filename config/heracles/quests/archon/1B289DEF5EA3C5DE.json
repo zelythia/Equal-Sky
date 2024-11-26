@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "67F1EEA83C697C5D": {
+      "type": "heracles:item",
+      "item": "archon:end_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Can be found in the End"
+    },
+    "description": [
+      "<subtitle id=\"1B289DEF5EA3C5DE\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"67F1EEA83C697C5D\" quest=\"1B289DEF5EA3C5DE\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          224,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:end_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "End Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

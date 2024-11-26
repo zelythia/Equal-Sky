@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "511ABE1B2DB00858"
+  ],
+  "tasks": {
+    "1558E3A7EFBC24E8": {
+      "type": "heracles:item",
+      "item": "energizedpower:pulverizer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Multiply raw ores"
+    },
+    "description": [
+      "<subtitle id=\"3DC58DC08785E574\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1558E3A7EFBC24E8\" quest=\"3DC58DC08785E574\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -42,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:pulverizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pulverizer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

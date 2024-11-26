@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "52C74FDC5606313C": {
+      "type": "heracles:item",
+      "item": "techreborn:solid_fuel_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"52C74FDC5606313C\" quest=\"026489F9896580DC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -144,
+          250
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:solid_fuel_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Generator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

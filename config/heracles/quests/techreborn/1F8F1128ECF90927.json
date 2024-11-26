@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "026489F9896580DC"
+  ],
+  "tasks": {
+    "50176E21A835F348": {
+      "type": "heracles:item",
+      "item": "techreborn:water_mill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"50176E21A835F348\" quest=\"1F8F1128ECF90927\"/>",
+      "<hr/>",
+      "<br/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -80,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:water_mill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Water Mill"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

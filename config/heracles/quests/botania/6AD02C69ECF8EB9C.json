@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "0E8316066C1EC6BD"
+  ],
+  "tasks": {
+    "7B12EF36BAEDDFDC": {
+      "type": "heracles:item",
+      "item": "botania:elementium_axe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "4305B86F55831C3E": {
+      "type": "heracles:item",
+      "item": "botania:elementium_shears",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "10CB0292A2997986": {
+      "type": "heracles:item",
+      "item": "botania:elementium_pickaxe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5D86D3B90287F7D7": {
+      "type": "heracles:item",
+      "item": "botania:elementium_shovel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"10CB0292A2997986\" quest=\"6AD02C69ECF8EB9C\"/>",
+      "<task task=\"5D86D3B90287F7D7\" quest=\"6AD02C69ECF8EB9C\"/>",
+      "<task task=\"7B12EF36BAEDDFDC\" quest=\"6AD02C69ECF8EB9C\"/>",
+      "<task task=\"4305B86F55831C3E\" quest=\"6AD02C69ECF8EB9C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          256,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:elementium_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elementium Tools"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4C3A5C2886C06C33"
+  ],
+  "tasks": {
+    "4BF432C697285995": {
+      "type": "heracles:item",
+      "item": "energizedpower:solar_panel_2",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4BF432C697285995\" quest=\"325781F5326F58BE\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          144,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:solar_panel_2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solar Panel (Tier II)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

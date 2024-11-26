@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2EB99D088E482C92"
+  ],
+  "tasks": {
+    "55610BEB0B1F3765": {
+      "type": "heracles:item",
+      "item": "conjuring:soul_weaver",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"55610BEB0B1F3765\" quest=\"3AD4A350595D9FD0\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          48,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:soul_weaver",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soul Weaver"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

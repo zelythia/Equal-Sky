@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3C463CD3D7D34016"
+  ],
+  "tasks": {
+    "02BC14234B893D4E": {
+      "type": "heracles:item",
+      "item": "botania:monocle",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"02BC14234B893D4E\" quest=\"10346DC95E429483\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:monocle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Manaseer Monocle"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

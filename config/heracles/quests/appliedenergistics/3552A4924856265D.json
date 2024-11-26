@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26EA04F82708B88F"
+  ],
+  "tasks": {
+    "06EBEC5425D61516": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"06EBEC5425D61516\" quest=\"3552A4924856265D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -96,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:crafting_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "ME Crafting Terminal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

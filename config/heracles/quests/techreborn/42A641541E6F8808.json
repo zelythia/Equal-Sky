@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "1C9A5C47A01CF3FB": {
+      "type": "heracles:item",
+      "item": "techreborn:nano_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "598E2614E0C9BD9A": {
+      "type": "heracles:item",
+      "item": "techreborn:nano_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3D0C7A8BB896DBF7": {
+      "type": "heracles:item",
+      "item": "techreborn:nano_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "00F4EAAF3F566A31": {
+      "type": "heracles:item",
+      "item": "techreborn:nano_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1C9A5C47A01CF3FB\" quest=\"42A641541E6F8808\"/>",
+      "<task task=\"00F4EAAF3F566A31\" quest=\"42A641541E6F8808\"/>",
+      "<task task=\"3D0C7A8BB896DBF7\" quest=\"42A641541E6F8808\"/>",
+      "<task task=\"598E2614E0C9BD9A\" quest=\"42A641541E6F8808\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          384,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:nano_chestplate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nano Armor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

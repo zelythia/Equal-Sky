@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4DA86E2F77BEBB90"
+  ],
+  "tasks": {
+    "637EC617375484E5": {
+      "type": "heracles:item",
+      "item": "merequester:requester",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"637EC617375484E5\" quest=\"598A63FE23844AA8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -358,
+          165
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "merequester:requester",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "ME Requester"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

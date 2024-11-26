@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "492CCDDF9881B4AA"
+  ],
+  "tasks": {
+    "274DA8AD6CA59074": {
+      "type": "heracles:item",
+      "item": "minecraft:end_stone",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "45EAD5B17C3AF8FB": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "05ED4BA491A20239": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"274DA8AD6CA59074\" quest=\"55211A60E8E10FB9\"/>",
+      "<hr/>",
+      "glowstone dust",
+      "<hr/>",
+      "<reward reward=\"45EAD5B17C3AF8FB\" quest=\"55211A60E8E10FB9\"/>",
+      "<reward reward=\"05ED4BA491A20239\" quest=\"55211A60E8E10FB9\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          16,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:end_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "End Stone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

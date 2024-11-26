@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "71C5271571D8B2E7"
+  ],
+  "tasks": {
+    "3B5443D9537C3953": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:loot_fabricator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3B5443D9537C3953\" quest=\"16A0878B1EFCCDE9\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          256,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:loot_fabricator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Loot Fabricator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

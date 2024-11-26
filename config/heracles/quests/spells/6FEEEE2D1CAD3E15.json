@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4D3E3013BD42312D": {
+      "type": "heracles:item",
+      "item": "wizards:wizard_robe_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "4309E35DFB6E18A5": {
+      "type": "heracles:item",
+      "item": "wizards:wizard_robe_feet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "50EDA7417B264E24": {
+      "type": "heracles:item",
+      "item": "wizards:wizard_robe_legs",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2549D3BE26E03BBC": {
+      "type": "heracles:item",
+      "item": "wizards:wizard_robe_head",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2549D3BE26E03BBC\" quest=\"6FEEEE2D1CAD3E15\"/>",
+      "<task task=\"4D3E3013BD42312D\" quest=\"6FEEEE2D1CAD3E15\"/>",
+      "<task task=\"50EDA7417B264E24\" quest=\"6FEEEE2D1CAD3E15\"/>",
+      "<task task=\"4309E35DFB6E18A5\" quest=\"6FEEEE2D1CAD3E15\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Spells": {
+        "position": [
+          48,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wizards:wizard_robe_chest",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wizard Robe"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

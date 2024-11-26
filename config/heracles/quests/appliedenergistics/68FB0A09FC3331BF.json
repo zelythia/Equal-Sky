@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4521D30F031EEC71"
+  ],
+  "tasks": {
+    "236D71E79D192B53": {
+      "type": "heracles:item",
+      "item": "ae2:equal_distribution_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"236D71E79D192B53\" quest=\"68FB0A09FC3331BF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -16,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:equal_distribution_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Equal Distribution Card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

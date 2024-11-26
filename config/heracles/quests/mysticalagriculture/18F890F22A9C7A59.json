@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "6B3CD73CA0452E79"
+  ],
+  "tasks": {
+    "5E3C69C2DCFC1EBC": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_watering_can",
+      "nbt": {
+        "Water": 0,
+        "Active": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5E3C69C2DCFC1EBC\" quest=\"18F890F22A9C7A59\"/>",
+      "<hr/>",
+      "Essence Watering Cans have the special ability to automatically water plants without manual input. Shift-right-click an Essence Watering Can in the air to toggle this functionality."
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:inferium_watering_can",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Watering Can"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

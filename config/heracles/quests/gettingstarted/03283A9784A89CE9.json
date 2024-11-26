@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "492CCDDF9881B4AA"
+  ],
+  "tasks": {
+    "20939F34B57E576C": {
+      "type": "heracles:item",
+      "item": "minecraft:netherrack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3C1A3C1462DC08B7": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "5B7E9735E4DE1BD7": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"20939F34B57E576C\" quest=\"03283A9784A89CE9\"/>",
+      "<hr/>",
+      "redstone dust",
+      "<hr/>",
+      "<reward reward=\"3C1A3C1462DC08B7\" quest=\"03283A9784A89CE9\"/>",
+      "<reward reward=\"5B7E9735E4DE1BD7\" quest=\"03283A9784A89CE9\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          16,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:netherrack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Netherrack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

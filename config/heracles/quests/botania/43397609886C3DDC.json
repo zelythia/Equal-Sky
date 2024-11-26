@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "0E8316066C1EC6BD"
+  ],
+  "tasks": {
+    "36B44DB8FF1345D1": {
+      "type": "heracles:item",
+      "item": "botania:gaia_pylon",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    },
+    "28133E3C6AD1DA1C": {
+      "type": "heracles:item",
+      "item": "minecraft:beacon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5746F9934AC08141": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"28133E3C6AD1DA1C\" quest=\"43397609886C3DDC\"/>",
+      "<task task=\"5746F9934AC08141\" quest=\"43397609886C3DDC\"/>",
+      "<task task=\"36B44DB8FF1345D1\" quest=\"43397609886C3DDC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:gaia_pylon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ritual of Gaia"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

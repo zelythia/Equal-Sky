@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5D79B5D0558A3AC1"
+  ],
+  "tasks": {
+    "1DADE933E0E09CA3": {
+      "type": "heracles:item",
+      "item": "energizedpower:item_conveyor_belt",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1DADE933E0E09CA3\" quest=\"759B6DDB07AB850C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -272,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:item_conveyor_belt",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Conveyor Belt"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

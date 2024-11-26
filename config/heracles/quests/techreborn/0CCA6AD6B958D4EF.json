@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "5BBF28DDC9A44AE1",
+    "22F987A3CCBBC62C"
+  ],
+  "tasks": {
+    "55D1B7FBB81DB4FD": {
+      "type": "heracles:item",
+      "item": "techreborn:omni_tool",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"55D1B7FBB81DB4FD\" quest=\"0CCA6AD6B958D4EF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          0,
+          -134
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:omni_tool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Omni-Tool"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

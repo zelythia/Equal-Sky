@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "0E8316066C1EC6BD"
+  ],
+  "tasks": {
+    "798CF3113FEF86DF": {
+      "type": "heracles:item",
+      "item": "botania:elementium_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "ele_boots": {
+      "type": "heracles:item",
+      "item": "botania:elementium_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "ele_helmet": {
+      "type": "heracles:item",
+      "item": "botania:elementium_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "ele_leggings": {
+      "type": "heracles:item",
+      "item": "botania:elementium_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"ele_helmet\" quest=\"0BCC07D2E518D303\"/>",
+      "<task task=\"798CF3113FEF86DF\" quest=\"0BCC07D2E518D303\"/>",
+      "<task task=\"ele_leggings\" quest=\"0BCC07D2E518D303\"/>",
+      "<task task=\"ele_boots\" quest=\"0BCC07D2E518D303\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          320,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:elementium_chestplate",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elementium Armor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7E942732B75EEADD": {
+      "type": "heracles:item",
+      "item": "rechiseled:chisel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7E942732B75EEADD\" quest=\"0277B8FFFE0C16C2\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          432,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "rechiseled:chisel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chisel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

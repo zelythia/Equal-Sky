@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4DDD9EBE529EC514": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:yellow_fertilizer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Prevents trampling"
+    },
+    "description": [
+      "<task task=\"4DDD9EBE529EC514\" quest=\"672ACB423908DB4A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          176,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:yellow_fertilizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Yellow Fertilizer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

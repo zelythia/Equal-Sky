@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2E51BAF7AEDA11B4": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:feeding_trough",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Auto-feeds nearby animals ready to mate"
+    },
+    "description": [
+      "<task task=\"2E51BAF7AEDA11B4\" quest=\"6ADC6E15A3F87F4B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -64,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:feeding_trough",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Feeding Through"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

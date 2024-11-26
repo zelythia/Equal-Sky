@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "0C2B302457E5D225"
+  ],
+  "tasks": {
+    "679F1739B1E67829": {
+      "type": "heracles:item",
+      "item": "tconstruct:part_builder",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"679F1739B1E67829\" quest=\"75D1DB0D9FEAC7D0\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:part_builder",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Part builder"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

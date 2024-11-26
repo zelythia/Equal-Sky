@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "562BB9EC08DDF4AC",
+    "26566B6D1BD3DC7B"
+  ],
+  "tasks": {
+    "5CA48905F4D13A32": {
+      "type": "heracles:item",
+      "item": "appbot:mana_storage_cell_1k",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5CA48905F4D13A32\" quest=\"0A696D3A9873B0EF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          144,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "appbot:mana_storage_cell_1k",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "1k ME Mana Storage Cell"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

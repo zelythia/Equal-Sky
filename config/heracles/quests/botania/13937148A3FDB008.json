@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26566B6D1BD3DC7B"
+  ],
+  "tasks": {
+    "26D748246E9F754A": {
+      "type": "heracles:item",
+      "item": "botania:flugel_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"26D748246E9F754A\" quest=\"13937148A3FDB008\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          416,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:flugel_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Eye of the Flügel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

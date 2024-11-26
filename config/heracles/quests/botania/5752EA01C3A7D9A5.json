@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "61D102F94B960C40"
+  ],
+  "tasks": {
+    "349AC92B0ED054A9": {
+      "type": "heracles:item",
+      "item": "botania:loonium",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Spawns monsters with dungeon loot"
+    },
+    "description": [
+      "<subtitle id=\"5752EA01C3A7D9A5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"349AC92B0ED054A9\" quest=\"5752EA01C3A7D9A5\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -112,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:loonium",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Loonium"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

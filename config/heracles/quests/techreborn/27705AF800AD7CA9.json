@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "563DB162563FF813": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Pickaxe + Shovel"
+    },
+    "description": [
+      "<subtitle id=\"27705AF800AD7CA9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"563DB162563FF813\" quest=\"27705AF800AD7CA9\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -72,
+          -158
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:basic_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Drill"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

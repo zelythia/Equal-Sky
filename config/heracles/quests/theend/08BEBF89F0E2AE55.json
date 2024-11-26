@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "41789F73D6D48F7E"
+  ],
+  "tasks": {
+    "08B48420EE102D78": {
+      "type": "heracles:item",
+      "item": "avaritia:neutron_collector",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6DA6F1D0208271E4": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"08B48420EE102D78\" quest=\"08BEBF89F0E2AE55\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6DA6F1D0208271E4\" quest=\"08BEBF89F0E2AE55\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -118,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:neutron_collector",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Neutron Collector"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "19E821ABEB01CC31"
+  ],
+  "tasks": {
+    "5085AE6481F14E29": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_shovel"
+    }
+  },
+  "rewards": {
+    "07462D5982F2BEAF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:awakened_supremium_shovel",
+    "description": [
+      "<task task=\"5085AE6481F14E29\" quest=\"28F28EC616E94992\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"07462D5982F2BEAF\" quest=\"28F28EC616E94992\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_shovel"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          176,
+          32
+        ]
+      }
+    }
+  }
+}

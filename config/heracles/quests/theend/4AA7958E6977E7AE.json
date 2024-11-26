@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "0B91511C52265D75"
+  ],
+  "tasks": {
+    "6F9F0981DD4F5142": {
+      "type": "heracles:item",
+      "item": "storagedrawers:creative_storage_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6F9F0981DD4F5142\" quest=\"4AA7958E6977E7AE\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          326,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "storagedrawers:creative_storage_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Creative Storage Upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

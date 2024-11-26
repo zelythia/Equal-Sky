@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "116423F000D9E9EB"
+  ],
+  "tasks": {
+    "07FF7FA94D745368": {
+      "type": "heracles:item",
+      "item": "techreborn:lamp_incandescent",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Speed up the growth rate"
+    },
+    "description": [
+      "<subtitle id=\"67350EBFE3CBEECB\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"07FF7FA94D745368\" quest=\"67350EBFE3CBEECB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          480,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:lamp_incandescent",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Incandescent Lamp"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

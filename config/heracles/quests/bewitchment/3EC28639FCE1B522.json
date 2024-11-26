@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26ADA51D334B771F"
+  ],
+  "tasks": {
+    "51512450246FF152": {
+      "type": "heracles:item",
+      "item": "bewitchment:dragons_blood_resin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"51512450246FF152\" quest=\"3EC28639FCE1B522\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -64,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:dragons_blood_resin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dragon's Blood Resin"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

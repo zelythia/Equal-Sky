@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3AF67B29006FE48A"
+  ],
+  "tasks": {
+    "5090D06D44AFBAA8": {
+      "type": "heracles:item",
+      "item": "storagedrawers:controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5090D06D44AFBAA8\" quest=\"0547FCDD9E5E182B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          224,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "storagedrawers:controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer Controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

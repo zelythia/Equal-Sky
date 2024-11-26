@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "37438C22C132B703"
+  ],
+  "tasks": {
+    "6A821E196624F9E4": {
+      "type": "heracles:item",
+      "item": "fabricaeexnihilo:flint_mesh",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "634AEDA493363209": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6A821E196624F9E4\" quest=\"48E0F5CE9378077F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"634AEDA493363209\" quest=\"48E0F5CE9378077F\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          144,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:flint_mesh",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Flint Mesh"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

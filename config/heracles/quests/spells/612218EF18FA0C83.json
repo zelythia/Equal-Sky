@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5C99BCD13CB3E150": {
+      "type": "heracles:item",
+      "item": "wizards:fire_robe_feet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "56D952DAEC408DFB": {
+      "type": "heracles:item",
+      "item": "wizards:fire_robe_head",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "64BDEC87FD03C9D2": {
+      "type": "heracles:item",
+      "item": "wizards:fire_robe_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "7F398F8BE564D513": {
+      "type": "heracles:item",
+      "item": "wizards:fire_robe_legs",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"56D952DAEC408DFB\" quest=\"612218EF18FA0C83\"/>",
+      "<task task=\"64BDEC87FD03C9D2\" quest=\"612218EF18FA0C83\"/>",
+      "<task task=\"7F398F8BE564D513\" quest=\"612218EF18FA0C83\"/>",
+      "<task task=\"5C99BCD13CB3E150\" quest=\"612218EF18FA0C83\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Spells": {
+        "position": [
+          0,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wizards:fire_robe_chest",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fire Robe"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "3AFF1FA05EA908AA",
+    "7EEBE717681E0AC8"
+  ],
+  "tasks": {
+    "113B239CE126DDC9": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:simulation_chamber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"113B239CE126DDC9\" quest=\"02A1B3E6F4303740\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          16,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:simulation_chamber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Simulation Chamber"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

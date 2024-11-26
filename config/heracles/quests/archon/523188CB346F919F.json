@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "2C3521C0E8FFD43C"
+  ],
+  "tasks": {
+    "1F575E800F982EA1": {
+      "type": "heracles:item",
+      "item": "archon:heat_ranger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1F575E800F982EA1\" quest=\"523188CB346F919F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          176,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:heat_ranger",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Heat Ranger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

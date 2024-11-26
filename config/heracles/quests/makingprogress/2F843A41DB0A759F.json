@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "tasks": {
+    "3E397C9B43874EC5": {
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:wither"
+      }
+    }
+  },
+  "rewards": {
+    "357E125A54A02ED0": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    },
+    "3DD85F386C8B29D7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Kill a Wither",
+    "description": [
+      "<task task=\"3E397C9B43874EC5\" quest=\"2F843A41DB0A759F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"357E125A54A02ED0\" quest=\"2F843A41DB0A759F\"/>",
+      "<reward reward=\"3DD85F386C8B29D7\" quest=\"2F843A41DB0A759F\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Making Progress": {
+        "position": [
+          35,
+          144
+        ]
+      }
+    }
+  }
+}

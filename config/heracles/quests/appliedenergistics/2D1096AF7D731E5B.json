@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "612556C984A56DE7",
+    "4234DB35FE100FB9"
+  ],
+  "tasks": {
+    "005F5E01427D8877": {
+      "type": "heracles:item",
+      "item": "ae2:speed_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"005F5E01427D8877\" quest=\"2D1096AF7D731E5B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -320,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:speed_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acceleration Card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

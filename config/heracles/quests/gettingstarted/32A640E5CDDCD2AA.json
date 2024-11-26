@@ -1,0 +1,73 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3AF533AA8F369F08": {
+      "title": "FTB Ultimine",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "17389724DBCD0089": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "110762B88C9A320A": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use Veinmine to fell trees way faster"
+    },
+    "description": [
+      "<subtitle id=\"32A640E5CDDCD2AA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3AF533AA8F369F08\" quest=\"32A640E5CDDCD2AA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"17389724DBCD0089\" quest=\"32A640E5CDDCD2AA\"/>",
+      "<reward reward=\"110762B88C9A320A\" quest=\"32A640E5CDDCD2AA\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -304,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Veinmine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

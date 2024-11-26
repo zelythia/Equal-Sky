@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "58B226CD09182437"
+  ],
+  "tasks": {
+    "06CD08F423E448B9": {
+      "type": "heracles:item",
+      "item": "techreborn:superconductor_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"06CD08F423E448B9\" quest=\"677601DB9E6E679E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          80,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:superconductor_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Superconductor Cable"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

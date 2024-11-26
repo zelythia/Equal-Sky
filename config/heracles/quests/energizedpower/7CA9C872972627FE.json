@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "511ABE1B2DB00858"
+  ],
+  "tasks": {
+    "5AA0DB074B949998": {
+      "type": "heracles:item",
+      "item": "energizedpower:plant_growth_chamber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5AA0DB074B949998\" quest=\"7CA9C872972627FE\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -128,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:plant_growth_chamber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Plant Growth Chamber"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "27705AF800AD7CA9"
+  ],
+  "tasks": {
+    "101624ACEA99D2A7": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"101624ACEA99D2A7\" quest=\"22F987A3CCBBC62C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -24,
+          -158
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:advanced_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Drill"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

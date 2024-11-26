@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4DEC991C1866C76F"
+  ],
+  "tasks": {
+    "032C8A5BABF3FB3D": {
+      "type": "heracles:item",
+      "item": "megacells:greater_energy_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"032C8A5BABF3FB3D\" quest=\"409440F19D62D7E5\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          160,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "megacells:greater_energy_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Greater Energy Card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

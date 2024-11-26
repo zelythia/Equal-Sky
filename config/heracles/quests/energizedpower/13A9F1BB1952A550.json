@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "03B1F28E3DD7CC10"
+  ],
+  "tasks": {
+    "5F47E92E818FAEEA": {
+      "type": "heracles:item",
+      "item": "energizedpower:cable_insulator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5F47E92E818FAEEA\" quest=\"13A9F1BB1952A550\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -336,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:cable_insulator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cable Insulator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

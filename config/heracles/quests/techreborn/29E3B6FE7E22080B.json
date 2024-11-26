@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "35D6F61A4ABEED32": {
+      "type": "heracles:item",
+      "item": "techreborn:energy_storage_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"35D6F61A4ABEED32\" quest=\"29E3B6FE7E22080B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          272,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:energy_storage_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Storage Upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

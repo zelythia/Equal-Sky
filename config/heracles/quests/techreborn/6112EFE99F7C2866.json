@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "026489F9896580DC"
+  ],
+  "tasks": {
+    "29B38ABD61D91743": {
+      "type": "heracles:item",
+      "item": "techreborn:wind_mill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"29B38ABD61D91743\" quest=\"6112EFE99F7C2866\"/>",
+      "<hr/>",
+      "<br/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -80,
+          272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:wind_mill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wind Mill"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

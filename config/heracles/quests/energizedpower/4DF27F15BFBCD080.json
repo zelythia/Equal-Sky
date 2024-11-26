@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "511ABE1B2DB00858"
+  ],
+  "tasks": {
+    "18C1699D9FA69CA8": {
+      "type": "heracles:item",
+      "item": "energizedpower:block_placer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"18C1699D9FA69CA8\" quest=\"4DF27F15BFBCD080\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -128,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:block_placer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Block Placer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

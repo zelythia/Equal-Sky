@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "031BB560C97679A9"
+  ],
+  "tasks": {
+    "48614ACC9AA3CA1F": {
+      "type": "heracles:item",
+      "item": "energizedpower:heat_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"48614ACC9AA3CA1F\" quest=\"282ED8F5DCCE747D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -64,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:heat_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Heat Generator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

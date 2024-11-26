@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3BDD9ADE2F1E1D39"
+  ],
+  "tasks": {
+    "0E2254F248BA4ADF": {
+      "type": "heracles:item",
+      "item": "archon:soul_core_player",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0E2254F248BA4ADF\" quest=\"36D9B318F6697EF0\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -104,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:soul_core_player",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Player Soul Core"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

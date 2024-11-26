@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "2C1AC5C89B6E7323",
+    "141BB69211DA120D"
+  ],
+  "tasks": {
+    "06EB44CE65C12488": {
+      "type": "heracles:item",
+      "item": "archon:sea_master_charm",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"06EB44CE65C12488\" quest=\"5BA2B5E5CD5A43F5\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          224,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:sea_master_charm",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sea Master Charm"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

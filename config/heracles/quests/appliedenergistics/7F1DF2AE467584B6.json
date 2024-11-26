@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "49530EE197F5ED4D"
+  ],
+  "tasks": {
+    "28A2F7C298247137": {
+      "type": "heracles:item",
+      "item": "ae2wtlib:wireless_universal_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"28A2F7C298247137\" quest=\"7F1DF2AE467584B6\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          96,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2wtlib:wireless_universal_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Universal Terminal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

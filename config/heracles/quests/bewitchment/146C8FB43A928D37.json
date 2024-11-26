@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "249068AD6027534F"
+  ],
+  "tasks": {
+    "19A96944B752E913": {
+      "type": "heracles:item",
+      "item": "bewitchment:alchemist_robes",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Doubles duration of brews"
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -240,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:alchemist_robes",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alchemist Robes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "56BE01689DC512BD"
+  ],
+  "tasks": {
+    "4E9432600CB55B58": {
+      "type": "heracles:item",
+      "item": "storagedrawers:iron_storage_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4E9432600CB55B58\" quest=\"2D24B6D031048ED1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          176,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "storagedrawers:iron_storage_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Upgrade (II)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

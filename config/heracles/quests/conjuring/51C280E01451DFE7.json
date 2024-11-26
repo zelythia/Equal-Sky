@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2EFC73899EC11E1E"
+  ],
+  "tasks": {
+    "1B464E1B738518EC": {
+      "type": "heracles:item",
+      "item": "conjuring:scope_gem",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1B464E1B738518EC\" quest=\"51C280E01451DFE7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          32,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:scope_gem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scope Gem"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7AF20D448637D10B": {
+      "type": "heracles:item",
+      "item": "bewitchment:mandrake_root",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7AF20D448637D10B\" quest=\"205B6A5794ACCA70\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -352,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:mandrake_root",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Mandrake Root"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "1874CC0D2EB66B7C": {
+      "type": "heracles:item",
+      "item": "industrialreborn:powered_spawner",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uses energy to spawn mobs"
+    },
+    "description": [
+      "<subtitle id=\"575591B0A8FA840E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1874CC0D2EB66B7C\" quest=\"575591B0A8FA840E\"/>",
+      "<hr/>",
+      "Set the desired mob via a Soul vial"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          432,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialreborn:powered_spawner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Powered Spawner"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

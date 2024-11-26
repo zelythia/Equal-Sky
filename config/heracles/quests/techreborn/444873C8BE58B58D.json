@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "026489F9896580DC"
+  ],
+  "tasks": {
+    "1275C74FF432F932": {
+      "type": "heracles:item",
+      "item": "techreborn:plasma_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1275C74FF432F932\" quest=\"444873C8BE58B58D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -32,
+          320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:plasma_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Plasma Generator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

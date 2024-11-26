@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "240ED8ACE424549A": {
+      "type": "heracles:item",
+      "item": "techreborn:superconductor_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"240ED8ACE424549A\" quest=\"32DBA2CF44CF700E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          272,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:superconductor_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Superconductor Upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

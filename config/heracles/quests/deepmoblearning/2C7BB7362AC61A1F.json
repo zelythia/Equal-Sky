@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3B4DB00C75E0E5BB"
+  ],
+  "tasks": {
+    "4C2B30F1FA8B020A": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:data_model_skeleton",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4C2B30F1FA8B020A\" quest=\"2C7BB7362AC61A1F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -176,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:data_model_skeleton",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Skeleton Data Model"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

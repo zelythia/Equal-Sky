@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "12FA0E5B70F5CA99"
+  ],
+  "tasks": {
+    "148B15E864DC2528": {
+      "type": "heracles:item",
+      "item": "botania:livingwood_log",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "236E012D4421D4F0": {
+      "type": "heracles:item",
+      "item": "botania:livingrock",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"148B15E864DC2528\" quest=\"6B389372EA3F187D\"/>",
+      "<task task=\"236E012D4421D4F0\" quest=\"6B389372EA3F187D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -48,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:livingwood_log",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Living Resources"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

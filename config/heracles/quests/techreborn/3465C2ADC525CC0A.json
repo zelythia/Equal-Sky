@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "09D6855369FD8E1A"
+  ],
+  "tasks": {
+    "49D20A8AAEA7BC22": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_machine_frame",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "64B2EFBF69A283C3": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"64B2EFBF69A283C3\" quest=\"3465C2ADC525CC0A\"/>",
+      "<task task=\"49D20A8AAEA7BC22\" quest=\"3465C2ADC525CC0A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          342,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:advanced_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Advanced Circuit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

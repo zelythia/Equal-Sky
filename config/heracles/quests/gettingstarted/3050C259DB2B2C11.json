@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "5A8797A4D88BD6B2"
+  ],
+  "tasks": {
+    "61366AAD1A972AB4": {
+      "type": "heracles:item",
+      "item": "excompressum:auto_hammer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7F11D7296E1EFD2A": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "1162E2111D5BA45C": {
+      "xptype": "POINTS",
+      "amount": 20,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"61366AAD1A972AB4\" quest=\"3050C259DB2B2C11\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1162E2111D5BA45C\" quest=\"3050C259DB2B2C11\"/>",
+      "<reward reward=\"7F11D7296E1EFD2A\" quest=\"3050C259DB2B2C11\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          336,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "excompressum:auto_hammer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Auto Hammer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

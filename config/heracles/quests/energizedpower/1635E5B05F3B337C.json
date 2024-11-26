@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "17907BFE253971F6"
+  ],
+  "tasks": {
+    "2EF48368916FCE8B": {
+      "type": "heracles:item",
+      "item": "energizedpower:energizer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2EF48368916FCE8B\" quest=\"1635E5B05F3B337C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          320,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:energizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Emergizer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

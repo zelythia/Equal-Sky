@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4DA86E2F77BEBB90"
+  ],
+  "tasks": {
+    "4FEC68ADD324D9DE": {
+      "type": "heracles:item",
+      "item": "wirelesschargers:basic_wireless_block_charger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4FEC68ADD324D9DE\" quest=\"1F8AA03717ECE82B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          -256,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wirelesschargers:basic_wireless_block_charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Wireless Charger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "2C1AC5C89B6E7323",
+    "57DC7DF5134A79D3"
+  ],
+  "tasks": {
+    "41FB136FFDDF2F76": {
+      "type": "heracles:item",
+      "item": "archon:wave_crystal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"41FB136FFDDF2F76\" quest=\"141BB69211DA120D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:wave_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wave Crystal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

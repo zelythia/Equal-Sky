@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "0B91511C52265D75"
+  ],
+  "tasks": {
+    "358F24130FC3E7D3": {
+      "type": "heracles:item",
+      "item": "tconstruct:creative_slot",
+      "nbt": {
+        "slot": "defense"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2F5CB051D87809BB": {
+      "type": "heracles:item",
+      "item": "tconstruct:creative_slot",
+      "nbt": {
+        "slot": "souls"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6B75511BAA80C470": {
+      "type": "heracles:item",
+      "item": "tconstruct:creative_slot",
+      "nbt": {
+        "slot": "upgrades"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "33F85EE5D652C912": {
+      "type": "heracles:item",
+      "item": "tconstruct:creative_slot",
+      "nbt": {
+        "slot": "abilities"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "704E9B21DB989E7A": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 4,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"33F85EE5D652C912\" quest=\"1BF01012238F950B\"/>",
+      "<task task=\"358F24130FC3E7D3\" quest=\"1BF01012238F950B\"/>",
+      "<task task=\"6B75511BAA80C470\" quest=\"1BF01012238F950B\"/>",
+      "<task task=\"2F5CB051D87809BB\" quest=\"1BF01012238F950B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"704E9B21DB989E7A\" quest=\"1BF01012238F950B\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          262,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Hephaestus Creative Upgrades"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

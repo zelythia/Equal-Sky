@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3B64F43558265711": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:chicken_nest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Collects Eggs laid by chickens"
+    },
+    "description": [
+      "<task task=\"3B64F43558265711\" quest=\"074B60A7F2251EAE\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -128,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:chicken_nest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Chicken Nest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "76B99C3D3571484E"
+  ],
+  "tasks": {
+    "18125612B0969098": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "05618AE4DE06443C": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"18125612B0969098\" quest=\"0B91511C52265D75\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"05618AE4DE06443C\" quest=\"0B91511C52265D75\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          256,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:infinity_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Infinity Ingot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

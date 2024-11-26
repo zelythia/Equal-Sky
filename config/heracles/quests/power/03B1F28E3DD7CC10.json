@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "30322C7663279CF7"
+  ],
+  "tasks": {
+    "6E4854CF15162450": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_spirited",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6E4854CF15162450\" quest=\"03B1F28E3DD7CC10\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          224,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:thermo_generator_spirited",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Thermo Generator (Spirited)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

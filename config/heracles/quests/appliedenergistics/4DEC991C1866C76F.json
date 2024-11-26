@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "49530EE197F5ED4D"
+  ],
+  "tasks": {
+    "098391CB68BA78AD": {
+      "type": "heracles:item",
+      "item": "ae2:energy_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"098391CB68BA78AD\" quest=\"4DEC991C1866C76F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          96,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:energy_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

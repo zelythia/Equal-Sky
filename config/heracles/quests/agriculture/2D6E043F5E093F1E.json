@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "16BAB4D3C1EF73E0": {
+      "type": "heracles:item",
+      "item": "botanypots:terracotta_botany_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"16BAB4D3C1EF73E0\" quest=\"2D6E043F5E093F1E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -127,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botanypots:terracotta_botany_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Botany Pot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

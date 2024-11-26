@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "775CC0CE080D9AF9"
+  ],
+  "tasks": {
+    "6D613DFE3C95B722": {
+      "type": "heracles:item",
+      "item": "archon:soul_crusher",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Generates mana when killing mobs"
+    },
+    "description": [
+      "<subtitle id=\"0CD5E086DEEA8399\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6D613DFE3C95B722\" quest=\"0CD5E086DEEA8399\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -16,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:soul_crusher",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soul Crusher"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "144912B6252E1FB5"
+  ],
+  "tasks": {
+    "3E99AFC3AE6FD81D": {
+      "type": "heracles:item",
+      "item": "archon:fist_of_fury",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3E99AFC3AE6FD81D\" quest=\"4ACC0344A68961D6\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          224,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:fist_of_fury",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fist of Fury"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

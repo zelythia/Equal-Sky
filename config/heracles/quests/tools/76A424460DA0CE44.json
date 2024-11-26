@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "32EEFF178B6383C7",
+    "54AC71EB9D4C9984"
+  ],
+  "tasks": {
+    "30DAB38ADC3FF180": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_basin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6469286CEA3E9D11": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_faucet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "45F190334D46A762": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6469286CEA3E9D11\" quest=\"76A424460DA0CE44\"/>",
+      "<task task=\"30DAB38ADC3FF180\" quest=\"76A424460DA0CE44\"/>",
+      "<task task=\"45F190334D46A762\" quest=\"76A424460DA0CE44\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -128,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:seared_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Smeltery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

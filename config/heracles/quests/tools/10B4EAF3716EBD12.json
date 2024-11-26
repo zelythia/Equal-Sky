@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "356020BADB234ECD": {
+      "type": "heracles:item",
+      "item": "voidtotem:totem_of_void_undying",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"356020BADB234ECD\" quest=\"10B4EAF3716EBD12\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          432,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "voidtotem:totem_of_void_undying",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Void Totem"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

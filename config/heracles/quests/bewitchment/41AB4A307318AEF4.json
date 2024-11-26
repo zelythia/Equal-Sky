@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "3E70A97F8A71F949"
+  ],
+  "tasks": {
+    "4DC269944D01534F": {
+      "title": "Poppets",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4DC269944D01534F\" quest=\"41AB4A307318AEF4\"/>",
+      "<hr/>",
+      "Foppets are handy effigies which can he used for bothmalicious and protective purposes.",
+      "They are always bound to an entity.",
+      "In order to be active they need to be inside your Inventory or a Poppet Shelf."
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -192,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:voodoo_poppet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Poppets"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

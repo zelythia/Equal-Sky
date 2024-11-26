@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "dependencies": [
+    "19E821ABEB01CC31"
+  ],
+  "tasks": {
+    "6F3B2E97A51D6FF1": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_helmet"
+    },
+    "262A66FB0BC96924": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_chestplate"
+    },
+    "11D6AD59AA8F5641": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_leggings"
+    },
+    "72C22BBC1CA8B3FE": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_boots"
+    }
+  },
+  "rewards": {
+    "4128AE6579186099": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 4,
+        "nbt": {
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Awakened Supremium Armor",
+    "description": [
+      "<task task=\"6F3B2E97A51D6FF1\" quest=\"0FDF59141118FCFF\"/>",
+      "<task task=\"262A66FB0BC96924\" quest=\"0FDF59141118FCFF\"/>",
+      "<task task=\"11D6AD59AA8F5641\" quest=\"0FDF59141118FCFF\"/>",
+      "<task task=\"72C22BBC1CA8B3FE\" quest=\"0FDF59141118FCFF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4128AE6579186099\" quest=\"0FDF59141118FCFF\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_chestplate"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          240,
+          -16
+        ]
+      }
+    }
+  }
+}

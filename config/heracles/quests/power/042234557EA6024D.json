@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "6DF08BDA00C03052"
+  ],
+  "tasks": {
+    "34132CEE6F85C6DB": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_basic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"34132CEE6F85C6DB\" quest=\"042234557EA6024D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          32,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:solar_panel_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solar Panel (Basic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

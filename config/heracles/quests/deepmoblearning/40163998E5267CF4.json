@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3B4DB00C75E0E5BB"
+  ],
+  "tasks": {
+    "2965BC7C1002D436": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:data_model_slimy",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2965BC7C1002D436\" quest=\"40163998E5267CF4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -128,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:data_model_slimy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Slimy Data Model"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

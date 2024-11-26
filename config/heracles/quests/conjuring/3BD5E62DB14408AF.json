@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "61969B0D7467DE98"
+  ],
+  "tasks": {
+    "783893E52D084FD2": {
+      "type": "heracles:item",
+      "item": "conjuring:conjuring_scepter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"783893E52D084FD2\" quest=\"3BD5E62DB14408AF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          16,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:conjuring_scepter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Conjuring Scepter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

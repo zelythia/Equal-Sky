@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "15A933EACE2600E7": {
+      "type": "heracles:item",
+      "item": "techreborn:overclocker_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"15A933EACE2600E7\" quest=\"041FED7E4ADC5008\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          176,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:overclocker_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Overclocker Upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

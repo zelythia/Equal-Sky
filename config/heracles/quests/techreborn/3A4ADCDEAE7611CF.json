@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5BBF28DDC9A44AE1"
+  ],
+  "tasks": {
+    "687105EFBA0ED83F": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_chainsaw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"687105EFBA0ED83F\" quest=\"3A4ADCDEAE7611CF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          24,
+          -110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_chainsaw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Industrial Chainsaw"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "3BA71EA53AA3C737"
+  ],
+  "tasks": {
+    "3CE94B5DB7CB5127": {
+      "type": "heracles:item",
+      "item": "#fabricaeexnihilo:sieves",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #fabricaeexnihilo:sieves"
+    }
+  },
+  "rewards": {
+    "610C54E3BD07E743": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 43520,
+          "Loot": "aequitas_sky:lootbags/start",
+          "Name": "Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3CE94B5DB7CB5127\" quest=\"44CA76AB4CD881A6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"610C54E3BD07E743\" quest=\"44CA76AB4CD881A6\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -48,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:oak_sieve",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Sieve"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

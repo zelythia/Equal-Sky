@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "3AFF1FA05EA908AA"
+  ],
+  "tasks": {
+    "4BDC5DA39D39CFD2": {
+      "title": "Gathering Data",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4BDC5DA39D39CFD2\" quest=\"664132B7CF4BD97E\"/>",
+      "<hr/>",
+      "Equip a Data Model inside the Deep Learner and start killing mobs. (The Deep Learner has to be in your hotbar)"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          80,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gathering Data"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

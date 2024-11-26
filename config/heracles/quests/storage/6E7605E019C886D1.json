@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "307A1F2AB7C6A313"
+  ],
+  "tasks": {
+    "5BC26D3E93D8FB37": {
+      "type": "heracles:item",
+      "item": "ironchests:obsidian_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5BC26D3E93D8FB37\" quest=\"6E7605E019C886D1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -144,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:obsidian_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Obsidian Chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

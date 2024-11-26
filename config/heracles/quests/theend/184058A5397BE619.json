@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "66720373D89424DA"
+  ],
+  "tasks": {
+    "6DD0715BA68C1FAA": {
+      "type": "heracles:item",
+      "item": "avaritia:singularity",
+      "nbt": {
+        "singularity_type": "emerald"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6DD0715BA68C1FAA\" quest=\"184058A5397BE619\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          48,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:singularity",
+        "count": 1,
+        "nbt": {
+          "singularity_type": "emerald"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Emerald Singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

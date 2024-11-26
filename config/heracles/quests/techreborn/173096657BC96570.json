@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "793B562E88EA2163"
+  ],
+  "tasks": {
+    "1C76422A4C0E5C34": {
+      "type": "heracles:item",
+      "item": "techreborn:rubber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1C76422A4C0E5C34\" quest=\"173096657BC96570\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -13,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:rubber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rubber"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "settings": {},
+  "dependencies": [
+    "46D68961728F257E",
+    "7031FE012C3E3B15"
+  ],
+  "tasks": {
+    "725A263BBC25943D": {
+      "type": "heracles:item",
+      "item": "aequitas:pristine_essence_helmet"
+    },
+    "6AF7BEE3A55B4226": {
+      "type": "heracles:item",
+      "item": "aequitas:pristine_essence_chestplate"
+    },
+    "06EE263B32833725": {
+      "type": "heracles:item",
+      "item": "aequitas:pristine_essence_leggings"
+    },
+    "3E85B9127EEA846D": {
+      "type": "heracles:item",
+      "item": "aequitas:pristine_essence_boots"
+    }
+  },
+  "rewards": {
+    "14E5E130B8A6F47B": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    },
+    "79F5F7F88C2418C5": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 200
+    }
+  },
+  "display": {
+    "title": "Pristine Armor",
+    "description": [
+      "<task task=\"725A263BBC25943D\" quest=\"409DC2CF429757A9\"/>",
+      "<task task=\"6AF7BEE3A55B4226\" quest=\"409DC2CF429757A9\"/>",
+      "<task task=\"06EE263B32833725\" quest=\"409DC2CF429757A9\"/>",
+      "<task task=\"3E85B9127EEA846D\" quest=\"409DC2CF429757A9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"14E5E130B8A6F47B\" quest=\"409DC2CF429757A9\"/>",
+      "<reward reward=\"79F5F7F88C2418C5\" quest=\"409DC2CF429757A9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "aequitas:pristine_essence_chestplate"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Making Progress": {
+        "position": [
+          83,
+          64
+        ]
+      }
+    }
+  }
+}

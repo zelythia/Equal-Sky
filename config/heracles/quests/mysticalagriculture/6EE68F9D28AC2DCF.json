@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1EDA836756F3C23C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prosperity_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1EDA836756F3C23C\" quest=\"6EE68F9D28AC2DCF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -272,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:prosperity_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Prosperity Shard"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

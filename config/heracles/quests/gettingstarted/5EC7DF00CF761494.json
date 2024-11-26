@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "2CE35E1B4330E446"
+  ],
+  "tasks": {
+    "75350CC24D3FB5B1": {
+      "type": "heracles:item",
+      "item": "#excompressum:hammers",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #excompressum:hammers"
+    }
+  },
+  "rewards": {
+    "5A0387A299AAB0B7": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "45DDF42DF34DE34E": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"75350CC24D3FB5B1\" quest=\"5EC7DF00CF761494\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"45DDF42DF34DE34E\" quest=\"5EC7DF00CF761494\"/>",
+      "<reward reward=\"5A0387A299AAB0B7\" quest=\"5EC7DF00CF761494\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          16,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:stone_hammer",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Hammer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

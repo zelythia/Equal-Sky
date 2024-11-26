@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4D7882890D0BA517"
+  ],
+  "tasks": {
+    "39F475658F220DAD": {
+      "type": "heracles:item",
+      "item": "energizedpower:weather_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39F475658F220DAD\" quest=\"7C5869331865CF86\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          448,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:weather_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Weather Controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

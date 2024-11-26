@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7C6E028BB210D02E": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_chainsaw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C6E028BB210D02E\" quest=\"33AA34D878AF3C92\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -72,
+          -110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:basic_chainsaw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Chainsaw"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

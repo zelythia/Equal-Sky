@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "631947D1732C737B"
+  ],
+  "tasks": {
+    "515E64255C85B941": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tertium_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"515E64255C85B941\" quest=\"70EF9657D4C432B6\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -80,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:tertium_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tertium Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

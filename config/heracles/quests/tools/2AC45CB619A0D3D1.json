@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "32EEFF178B6383C7",
+    "54AC71EB9D4C9984"
+  ],
+  "tasks": {
+    "2E8BEA4532165A54": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_heater",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2E8BEA4532165A54\" quest=\"2AC45CB619A0D3D1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -128,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:seared_heater",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Seared Heater"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

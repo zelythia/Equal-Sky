@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3B4DB00C75E0E5BB"
+  ],
+  "tasks": {
+    "02E6AC99AA802589": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:data_model_overworld",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"02E6AC99AA802589\" quest=\"13610EA280940180\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -80,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:data_model_overworld",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Overworld Data Model"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "3AF67B29006FE48A"
+  ],
+  "tasks": {
+    "086EFEDE31B83D2F": {
+      "type": "heracles:item",
+      "item": "storagedrawers:compacting_drawers_3",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "storagedrawers:compacting_drawers_3"
+          },
+          {
+            "Count": 1,
+            "id": "storagedrawers:compacting_drawers_2"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Compacting Drawer"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"086EFEDE31B83D2F\" quest=\"026D47BD373D3EE1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          224,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "storagedrawers:compacting_drawers_3",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Compacting Drawer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

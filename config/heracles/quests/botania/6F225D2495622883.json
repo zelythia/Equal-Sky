@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "7AA840C591281093",
+    "46124BCCC52928F3"
+  ],
+  "tasks": {
+    "748C09E12A7B9AD2": {
+      "type": "heracles:item",
+      "item": "botania:terra_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3E24C82F62190D40": {
+      "type": "heracles:item",
+      "item": "botania:livingrock",
+      "amount": 5,
+      "collection": "AUTOMATIC"
+    },
+    "25CC9CBD96A7AB3F": {
+      "type": "heracles:item",
+      "item": "minecraft:lapis_block",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "706B84104AC0BBF8": {
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"748C09E12A7B9AD2\" quest=\"6F225D2495622883\"/>",
+      "<task task=\"25CC9CBD96A7AB3F\" quest=\"6F225D2495622883\"/>",
+      "<task task=\"3E24C82F62190D40\" quest=\"6F225D2495622883\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"706B84104AC0BBF8\" quest=\"6F225D2495622883\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          144,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:terra_plate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Terrasteel Agglomeration Plate"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

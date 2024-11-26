@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "4A165A94EB6B23D0"
+  ],
+  "tasks": {
+    "234C029B8AAA116C": {
+      "type": "heracles:item",
+      "item": "simple_cobblestone_generator:generator_tier2",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5372AAFAFC76874D": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"234C029B8AAA116C\" quest=\"040A548417295849\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5372AAFAFC76874D\" quest=\"040A548417295849\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          208,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simple_cobblestone_generator:generator_tier2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cobblestone Generator 2"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

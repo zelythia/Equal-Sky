@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "434BCC1C5D36B493"
+  ],
+  "tasks": {
+    "50AAC77C148428AF": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_basic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"50AAC77C148428AF\" quest=\"7C50FE7EF6F23284\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          32,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cell_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Cell (Basic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

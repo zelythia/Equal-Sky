@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "0F530EEAD32D8E65"
+  ],
+  "tasks": {
+    "6ABD9CE45144BDD4": {
+      "type": "heracles:item",
+      "item": "techreborn:scrapboxinator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Automatically opens Scrapboxes"
+    },
+    "description": [
+      "<subtitle id=\"7B480A43C4B4D84A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"6ABD9CE45144BDD4\" quest=\"7B480A43C4B4D84A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          272,
+          -146
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:scrapboxinator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scrapbox-Inator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

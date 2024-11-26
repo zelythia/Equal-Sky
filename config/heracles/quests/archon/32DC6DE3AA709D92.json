@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5801AFF6E51B220C": {
+      "type": "heracles:item",
+      "item": "archon:grimoire",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5801AFF6E51B220C\" quest=\"32DC6DE3AA709D92\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -280,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:grimoire",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Grimoire"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "5026418EDE8EA0CF"
+  ],
+  "tasks": {
+    "344FC37B150ABE06": {
+      "type": "heracles:item",
+      "item": "energizedpower:advanced_machine_frame"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: energizedpower:advanced_machine_frame",
+    "description": [
+      "<task task=\"344FC37B150ABE06\" quest=\"17907BFE253971F6\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "energizedpower:advanced_machine_frame"
+    },
+    "groups": {
+      "Energized Power": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    }
+  }
+}

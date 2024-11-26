@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "03B1F28E3DD7CC10"
+  ],
+  "tasks": {
+    "0105C6C4AEFE2671": {
+      "type": "heracles:item",
+      "item": "botania:lexicon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0105C6C4AEFE2671\" quest=\"13888B3C097A5F9A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -256,
+          1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:lexicon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Lexica Botania"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

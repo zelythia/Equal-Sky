@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "5D812365F8C76ADC"
+  ],
+  "tasks": {
+    "4A061F27D17C0186": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:copper_jetpack"
+          },
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:stone_jetpack"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4A061F27D17C0186\" quest=\"72B98BD44330C547\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iron-jetpacks:stone_jetpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 1 Jetpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "26ADA51D334B771F"
+  ],
+  "tasks": {
+    "094F84E99AE8B93C": {
+      "type": "heracles:item",
+      "item": "bewitchment:demon_horn",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Kill a Hellhound"
+    },
+    "description": [
+      "<subtitle id=\"737FF05BA7F2728D\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"094F84E99AE8B93C\" quest=\"737FF05BA7F2728D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -64,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:demon_horn",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Demon Horn"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

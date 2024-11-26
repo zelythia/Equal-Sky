@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "1E728756A582F482",
+    "0411E2A075826521"
+  ],
+  "tasks": {
+    "46AF5B9328A5CA61": {
+      "type": "heracles:item",
+      "item": "energizedpower:hardened_machine_frame",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"46AF5B9328A5CA61\" quest=\"5026418EDE8EA0CF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          102,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:hardened_machine_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hardened Machine Frame"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

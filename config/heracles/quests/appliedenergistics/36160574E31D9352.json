@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4234DB35FE100FB9"
+  ],
+  "tasks": {
+    "09D8CF8BF6FD8EB2": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_crystal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"09D8CF8BF6FD8EB2\" quest=\"36160574E31D9352\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -288,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluix_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluix Crystal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

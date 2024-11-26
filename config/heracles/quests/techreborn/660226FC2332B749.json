@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "28C47058991B5131": {
+      "type": "heracles:item",
+      "item": "industrialreborn:animal_baby_separator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Separates baby animals from an area, to another area"
+    },
+    "description": [
+      "<subtitle id=\"660226FC2332B749\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"28C47058991B5131\" quest=\"660226FC2332B749\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          224,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialreborn:animal_baby_separator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Animal Baby Separator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

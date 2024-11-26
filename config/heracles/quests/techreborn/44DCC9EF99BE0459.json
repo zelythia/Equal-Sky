@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "45FF89BF7CDBC608": {
+      "type": "heracles:item",
+      "item": "industrialreborn:range_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Works with Powered Spawner, Mob Slaughter, Animal Feeder, Animal Baby Seperator"
+    },
+    "description": [
+      "<subtitle id=\"44DCC9EF99BE0459\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"45FF89BF7CDBC608\" quest=\"44DCC9EF99BE0459\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          224,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialreborn:range_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Range Upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "02F6A3226EBD2124": {
+      "icon": {
+        "item": {
+          "id": "twilightforest:twilight_portal_miniature_structure",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "twilightforest:twilight_forest",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "1D819362774B8C38": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "3B5208D43FCCAF76": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 43690,
+          "Loot": "aequitas_sky:lootbags/rare",
+          "Name": "Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"02F6A3226EBD2124\" quest=\"34E098A5B3719423\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3B5208D43FCCAF76\" quest=\"34E098A5B3719423\"/>",
+      "<reward reward=\"1D819362774B8C38\" quest=\"34E098A5B3719423\"/>"
+    ],
+    "groups": {
+      "Making Progress": {
+        "position": [
+          35,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "twilightforest:twilight_portal_miniature_structure",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "The Twilight Forest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3AF67B29006FE48A"
+  ],
+  "tasks": {
+    "3AC9BA95FB2AB6D4": {
+      "type": "heracles:item",
+      "item": "storagedrawers:obsidian_storage_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3AC9BA95FB2AB6D4\" quest=\"56BE01689DC512BD\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          176,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "storagedrawers:obsidian_storage_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Upgrade (I)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

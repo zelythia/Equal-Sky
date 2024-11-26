@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "47EA3D9C5E5632F2",
+    "32EEFF178B6383C7",
+    "76A424460DA0CE44"
+  ],
+  "tasks": {
+    "77D24AE12641B5FB": {
+      "type": "heracles:item",
+      "item": "tconstruct:scorched_drain",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "01C3A92501460B85": {
+      "type": "heracles:item",
+      "item": "tconstruct:scorched_chute",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "25F7ADAFB6DC4887": {
+      "type": "heracles:item",
+      "item": "tconstruct:foundry_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Can't alloy"
+    },
+    "description": [
+      "<subtitle id=\"484A0ED557A6BCE8\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"25F7ADAFB6DC4887\" quest=\"484A0ED557A6BCE8\"/>",
+      "<task task=\"77D24AE12641B5FB\" quest=\"484A0ED557A6BCE8\"/>",
+      "<task task=\"01C3A92501460B85\" quest=\"484A0ED557A6BCE8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -192,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:foundry_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scorched Smeltery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

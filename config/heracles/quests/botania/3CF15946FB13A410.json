@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "1CAE66960A2018B1"
+  ],
+  "tasks": {
+    "5AED87C80E1506A1": {
+      "type": "heracles:item",
+      "item": "botania:gaia_spreader",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5AED87C80E1506A1\" quest=\"3CF15946FB13A410\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -48,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:gaia_spreader",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gaia Mana Spreader"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

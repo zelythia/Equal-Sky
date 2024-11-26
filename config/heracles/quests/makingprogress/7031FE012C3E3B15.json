@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "36BCD05441BAE289"
+  ],
+  "tasks": {
+    "5C8E03D8D0FA2EDD": {
+      "type": "heracles:item",
+      "item": "aequitas:pristine_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "11BA90554BF750DF": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "73EEBAA2FBCA1A11": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5C8E03D8D0FA2EDD\" quest=\"7031FE012C3E3B15\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"11BA90554BF750DF\" quest=\"7031FE012C3E3B15\"/>",
+      "<reward reward=\"73EEBAA2FBCA1A11\" quest=\"7031FE012C3E3B15\"/>"
+    ],
+    "groups": {
+      "Making Progress": {
+        "position": [
+          35,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "aequitas:pristine_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pristine Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

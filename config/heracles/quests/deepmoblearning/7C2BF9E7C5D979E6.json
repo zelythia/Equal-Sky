@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "664132B7CF4BD97E"
+  ],
+  "tasks": {
+    "517657297BC78FAA": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:trial_key",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "132658414E59538B": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:trial_keystone",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"517657297BC78FAA\" quest=\"7C2BF9E7C5D979E6\"/>",
+      "<task task=\"132658414E59538B\" quest=\"7C2BF9E7C5D979E6\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          144,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:trial_key",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Trials"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "19229D33032FDAC2": {
+      "type": "heracles:item",
+      "item": "techreborn:greenhouse_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Harvests and replants crops in a 9x9 area"
+    },
+    "description": [
+      "<task task=\"19229D33032FDAC2\" quest=\"29E5201F896CC957\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          48,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:greenhouse_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Greenhouse Controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

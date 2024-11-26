@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "7E6F259EF64165E3": {
+      "type": "heracles:item",
+      "item": "techreborn:lithium_ion_batpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Charges item in the inventory"
+    },
+    "description": [
+      "<subtitle id=\"53A7EE85878379CF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7E6F259EF64165E3\" quest=\"53A7EE85878379CF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          80,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:lithium_ion_batpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lithium Batpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

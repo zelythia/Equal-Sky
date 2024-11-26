@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "249068AD6027534F"
+  ],
+  "tasks": {
+    "228F06EBFE0F105D": {
+      "type": "heracles:item",
+      "item": "bewitchment:besmirched_robes",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Allows trading with demons"
+    },
+    "description": [
+      "<subtitle id=\"778C17BEC5C25A29\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"228F06EBFE0F105D\" quest=\"778C17BEC5C25A29\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -144,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:besmirched_robes",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Besmirched Robes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

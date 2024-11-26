@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26EA04F82708B88F"
+  ],
+  "tasks": {
+    "795904B90672DEA9": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"795904B90672DEA9\" quest=\"4DA86E2F77BEBB90\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -358,
+          246
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:crafting_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Crafting Unit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

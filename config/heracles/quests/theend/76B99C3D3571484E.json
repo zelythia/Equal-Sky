@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "4ECF43DAFA99529D",
+    "6C55C541B8B717D7",
+    "596C05DABA9A93B0",
+    "5E35F7D22B3DE40A",
+    "184058A5397BE619",
+    "394BA6F1AB394AC8",
+    "66720373D89424DA",
+    "6E4664D45CC7310B",
+    "3D524CBBF1888BDF",
+    "0B2F92F713051C31",
+    "6F661FCB912D4630",
+    "15318658083260DF",
+    "5FE1568E54AFAAC9"
+  ],
+  "tasks": {
+    "703F38C1A30D3638": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_catalyst",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"703F38C1A30D3638\" quest=\"76B99C3D3571484E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          192,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:infinity_catalyst",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Infinity Catalyst"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

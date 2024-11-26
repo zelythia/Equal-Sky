@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2EFC73899EC11E1E"
+  ],
+  "tasks": {
+    "0A13995CBC9B5EDC": {
+      "type": "heracles:item",
+      "item": "conjuring:abundance_gem",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0A13995CBC9B5EDC\" quest=\"75FF7162BE01D983\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          56,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:abundance_gem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Abundance Gem"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

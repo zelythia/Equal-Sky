@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3552A4924856265D"
+  ],
+  "tasks": {
+    "4C042846264E81A6": {
+      "type": "heracles:item",
+      "item": "ae2:drive",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4C042846264E81A6\" quest=\"2453E3165EE5074C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -32,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:drive",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "ME Drive"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2E24F6E316B2FA5C"
+  ],
+  "tasks": {
+    "1D8D08F66923D2B2": {
+      "type": "heracles:item",
+      "item": "energizedpower:solar_panel_6",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1D8D08F66923D2B2\" quest=\"6DD36F740A405200\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          336,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:solar_panel_6",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solar Panel (Tier VI)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

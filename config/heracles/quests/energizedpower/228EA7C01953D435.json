@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "031BB560C97679A9"
+  ],
+  "tasks": {
+    "71DA426E00EFBF81": {
+      "type": "heracles:item",
+      "item": "energizedpower:thermal_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"71DA426E00EFBF81\" quest=\"228EA7C01953D435\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -64,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:thermal_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Thermal Generator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

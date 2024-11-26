@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "70EF9657D4C432B6"
+  ],
+  "tasks": {
+    "0CEE82162DAE99EA": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:imperium_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0CEE82162DAE99EA\" quest=\"5DC42BBF84255789\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -16,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:imperium_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Imperium Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

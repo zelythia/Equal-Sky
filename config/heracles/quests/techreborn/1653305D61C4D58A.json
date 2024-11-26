@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "58B226CD09182437"
+  ],
+  "tasks": {
+    "16E151EC0F364210": {
+      "type": "heracles:item",
+      "item": "techreborn:chunk_loader",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Load a radius of up to 5 chunks"
+    },
+    "description": [
+      "<subtitle id=\"1653305D61C4D58A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"16E151EC0F364210\" quest=\"1653305D61C4D58A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          624,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:chunk_loader",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Industrial Chunkloader"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

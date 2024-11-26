@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "2CCC7C1B976AF960"
+  ],
+  "tasks": {
+    "6C2B974A99980FEE": {
+      "type": "heracles:item",
+      "item": "wands:diamond_wand",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6C2B974A99980FEE\" quest=\"08D9C2799C339316\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          240,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wands:diamond_wand",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Wand"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

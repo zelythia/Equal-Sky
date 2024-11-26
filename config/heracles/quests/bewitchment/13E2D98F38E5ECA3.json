@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "3EC28639FCE1B522"
+  ],
+  "tasks": {
+    "7E95237AA67539E8": {
+      "title": "Sigils",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Sigils",
+    "description": [
+      "<task task=\"7E95237AA67539E8\" quest=\"13E2D98F38E5ECA3\"/>",
+      "<hr/>",
+      "Sigils are supernatural symboly capable of affecting their surroundings that can be quite helpfull."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:mending_sigil"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          16,
+          -144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "288A9C724F521F46"
+  ],
+  "tasks": {
+    "45C82D385E160FEC": {
+      "type": "heracles:item",
+      "item": "fabricaeexnihilo:string_mesh",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "175992F92B6D54CA": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"45C82D385E160FEC\" quest=\"3BA71EA53AA3C737\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"175992F92B6D54CA\" quest=\"3BA71EA53AA3C737\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -112,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:string_mesh",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "String Mesh"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

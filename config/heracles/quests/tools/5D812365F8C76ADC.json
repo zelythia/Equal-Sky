@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "013AFCEDB52335E6": {
+      "type": "heracles:item",
+      "item": "iron-jetpacks:wood_jetpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"013AFCEDB52335E6\" quest=\"5D812365F8C76ADC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          160,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iron-jetpacks:wood_jetpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Wood Jetpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

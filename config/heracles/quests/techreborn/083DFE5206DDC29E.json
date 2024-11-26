@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "026489F9896580DC"
+  ],
+  "tasks": {
+    "0D4C669D252DF024": {
+      "type": "heracles:item",
+      "item": "techreborn:semi_fluid_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0D4C669D252DF024\" quest=\"083DFE5206DDC29E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          64,
+          320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:semi_fluid_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Semi Gluid Generator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

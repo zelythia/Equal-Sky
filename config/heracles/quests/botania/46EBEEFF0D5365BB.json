@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "69F4DF303447A762"
+  ],
+  "tasks": {
+    "4A6D66F9EEFE6959": {
+      "type": "heracles:item",
+      "item": "botania:mana_ring_greater",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4A6D66F9EEFE6959\" quest=\"46EBEEFF0D5365BB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          48,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_ring_greater",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Greater Band of Mana"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

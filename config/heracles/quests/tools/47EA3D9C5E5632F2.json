@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "32EEFF178B6383C7",
+    "54AC71EB9D4C9984"
+  ],
+  "tasks": {
+    "24BB4852EF15E8AE": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_fuel_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"24BB4852EF15E8AE\" quest=\"47EA3D9C5E5632F2\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -128,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:seared_fuel_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Seared Fuel Tank"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

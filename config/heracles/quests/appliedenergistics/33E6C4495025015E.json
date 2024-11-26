@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "49314D12C0A9FB67"
+  ],
+  "tasks": {
+    "4D11DC19AD153C6A": {
+      "type": "heracles:item",
+      "item": "ae2:calculation_processor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "5037B7BE6E90DD9B": {
+      "type": "heracles:item",
+      "item": "ae2:engineering_processor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1F6E96638BA8EA80": {
+      "type": "heracles:item",
+      "item": "ae2:logic_processor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1F6E96638BA8EA80\" quest=\"33E6C4495025015E\"/>",
+      "<task task=\"4D11DC19AD153C6A\" quest=\"33E6C4495025015E\"/>",
+      "<task task=\"5037B7BE6E90DD9B\" quest=\"33E6C4495025015E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -224,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:engineering_processor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Processors"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

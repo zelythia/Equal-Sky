@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "76D924B686F501B5": {
+      "type": "heracles:item",
+      "item": "botania:agricarnation",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Causes growth ticks in a 5 block radius when supplied with mana"
+    },
+    "description": [
+      "<subtitle id=\"579F19590D678746\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"76D924B686F501B5\" quest=\"579F19590D678746\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          112,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:agricarnation",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Agricarnation"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

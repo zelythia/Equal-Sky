@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "66B21D55ABD8EE55"
+  ],
+  "tasks": {
+    "6DA105BB8E6F89F1": {
+      "type": "heracles:item",
+      "item": "storagedrawers:emerald_storage_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6DA105BB8E6F89F1\" quest=\"45508350D9A865A4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          224,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "storagedrawers:emerald_storage_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Upgrade (V)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

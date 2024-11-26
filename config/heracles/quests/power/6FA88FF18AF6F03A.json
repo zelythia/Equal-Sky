@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "0A522DD810D664AA"
+  ],
+  "tasks": {
+    "08957EBC704A4522": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_nitro",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"08957EBC704A4522\" quest=\"6FA88FF18AF6F03A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          272,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:solar_panel_nitro",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solar Panel (Nitro)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

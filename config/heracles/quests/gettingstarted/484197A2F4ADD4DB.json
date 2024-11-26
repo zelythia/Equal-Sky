@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "55211A60E8E10FB9"
+  ],
+  "tasks": {
+    "061AFE9C85E96BDD": {
+      "type": "heracles:item",
+      "item": "fabricaeexnihilo:end_cake",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "36AEB8B7DFB48EF9": {
+      "xptype": "POINTS",
+      "amount": 20,
+      "type": "heracles:xp"
+    },
+    "5596600A83C06117": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 43690,
+          "Loot": "aequitas_sky:lootbags/rare",
+          "Name": "Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"061AFE9C85E96BDD\" quest=\"484197A2F4ADD4DB\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"36AEB8B7DFB48EF9\" quest=\"484197A2F4ADD4DB\"/>",
+      "<reward reward=\"5596600A83C06117\" quest=\"484197A2F4ADD4DB\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          80,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:end_cake",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "End Cake"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1A6BA9BA7B1B9D70": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soulium_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1A6BA9BA7B1B9D70\" quest=\"6013415EDFDF7C45\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:soulium_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Soulium Dust"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

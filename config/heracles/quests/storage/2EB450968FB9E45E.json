@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3AF67B29006FE48A"
+  ],
+  "tasks": {
+    "0798B2F311F66586": {
+      "type": "heracles:item",
+      "item": "storagedrawers:drawer_key",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0798B2F311F66586\" quest=\"2EB450968FB9E45E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          176,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "storagedrawers:drawer_key",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Drawer key"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

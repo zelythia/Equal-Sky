@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "173928293A97F936"
+  ],
+  "tasks": {
+    "3A972CFB24F66250": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3A972CFB24F66250\" quest=\"05702EB8CDB8B349\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -338,
+          345
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:crafting_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crafting Card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

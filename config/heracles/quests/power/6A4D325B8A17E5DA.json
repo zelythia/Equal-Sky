@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "28A1395DF9C54130"
+  ],
+  "tasks": {
+    "0BF03441D4B2E007": {
+      "type": "heracles:item",
+      "item": "powah:energizing_orb",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "76FE523121DEB5C3": {
+      "type": "heracles:item",
+      "item": "powah:energizing_rod_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0BF03441D4B2E007\" quest=\"6A4D325B8A17E5DA\"/>",
+      "<task task=\"76FE523121DEB5C3\" quest=\"6A4D325B8A17E5DA\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energizing_orb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energizing"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

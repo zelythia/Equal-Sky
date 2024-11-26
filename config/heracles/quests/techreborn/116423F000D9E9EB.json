@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "2149C138BD7DB784": {
+      "type": "heracles:item",
+      "item": "techreborn:greenhouse_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2149C138BD7DB784\" quest=\"116423F000D9E9EB\"/>",
+      "<hr/>",
+      "Also collects sap from Rubber trees"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          480,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:greenhouse_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Greenhouse Controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

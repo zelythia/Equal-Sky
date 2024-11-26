@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "dependencies": [
+    "778C17BEC5C25A29",
+    "38E7E174D62D6380"
+  ],
+  "tasks": {
+    "5E1F4801F75AB817": {
+      "type": "heracles:item",
+      "item": "bewitchment:demonic_contract"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "A deal with the devil",
+    "description": [
+      "<task task=\"5E1F4801F75AB817\" quest=\"705A7CD4E2ED42BB\"/>",
+      "<hr/>",
+      "Purchase a demonic contract from a demon."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:demonic_contract"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          16,
+          96
+        ]
+      }
+    }
+  }
+}

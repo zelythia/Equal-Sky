@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3ACCDFDBDC14F145"
+  ],
+  "tasks": {
+    "68B921B0A9EB5B6B": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_spirited",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"68B921B0A9EB5B6B\" quest=\"0A522DD810D664AA\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          224,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:solar_panel_spirited",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solar Panel (Spirited)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

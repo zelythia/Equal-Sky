@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "6BF58AE997220CBF"
+  ],
+  "tasks": {
+    "6F16166981B035C6": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_hardened",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6F16166981B035C6\" quest=\"2F6AA9BC663600EC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          80,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:thermo_generator_hardened",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Thermo Generator (Hardened)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

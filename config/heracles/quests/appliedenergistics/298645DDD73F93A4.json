@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "12554E11AC60CAF2"
+  ],
+  "tasks": {
+    "5E3489358A796EFA": {
+      "type": "heracles:item",
+      "item": "#ae2:quartz_wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #ae2:quartz_wrench"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5E3489358A796EFA\" quest=\"298645DDD73F93A4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -204,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": "#ae2:quartz_wrench",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quartz Wrench"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "0E8316066C1EC6BD"
+  ],
+  "tasks": {
+    "6DC905BF9F0B0202": {
+      "type": "heracles:item",
+      "item": "botania:crystal_bow",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6DC905BF9F0B0202\" quest=\"43495B2A336EEA7D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          319,
+          256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:crystal_bow",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crystal Bow"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

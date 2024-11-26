@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "61C0541C17FE4B65"
+  ],
+  "tasks": {
+    "1D339569DAEB2B03": {
+      "type": "heracles:item",
+      "item": "powah:magmator_nitro",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1D339569DAEB2B03\" quest=\"08DD5D7152A95169\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          272,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:magmator_nitro",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Magmator (Nitro)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

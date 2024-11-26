@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "03B1F28E3DD7CC10"
+  ],
+  "tasks": {
+    "02921B558D7483E0": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:polymer_clay",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"02921B558D7483E0\" quest=\"7EEBE717681E0AC8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -32,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:polymer_clay",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Polymer Clay"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

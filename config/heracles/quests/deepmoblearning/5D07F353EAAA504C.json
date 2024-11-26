@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4165269489B3650B"
+  ],
+  "tasks": {
+    "53019AD184B665C3": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:matter_condenser",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"53019AD184B665C3\" quest=\"5D07F353EAAA504C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          304,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:matter_condenser",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Matter Condenser"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

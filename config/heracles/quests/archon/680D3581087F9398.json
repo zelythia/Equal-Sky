@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "72284790229AA483"
+  ],
+  "tasks": {
+    "3AF7085A24C55A63": {
+      "type": "heracles:item",
+      "item": "archon:combustion_charge",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3AF7085A24C55A63\" quest=\"680D3581087F9398\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -144,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:combustion_charge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Combustion Charge"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3B4DB00C75E0E5BB"
+  ],
+  "tasks": {
+    "03C199D9B3110FD4": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:data_model_zombie",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"03C199D9B3110FD4\" quest=\"0B4D78EF7FE11746\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -160,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:data_model_zombie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Zombie Data Model"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "52E2DC06759A8779"
+  ],
+  "tasks": {
+    "20C1AE41443B21B0": {
+      "type": "heracles:item",
+      "item": "botania:natura_pylon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"20C1AE41443B21B0\" quest=\"3029BCAB9E0ADD2E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          208,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:natura_pylon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Natura Pylon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

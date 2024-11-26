@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "6B3CD73CA0452E79"
+  ],
+  "tasks": {
+    "46CCDE8F8E64ECD8": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_farmland",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"46CCDE8F8E64ECD8\" quest=\"55614DEC4D556442\"/>",
+      "<hr/>",
+      "Resource Crops planted on Essence Farmland will have a 10% chance to drop an additional seed. If they are planted on the corresponding tier of farmland then they will have a 20% chance to drop an additional seed.",
+      "<br/>",
+      "Inferium Crops planted on Essence Farmland will have increased Inferium Essence output. Each tier of farmland adds +50% to the base drop rate of 100%."
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:inferium_farmland",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Farmland"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

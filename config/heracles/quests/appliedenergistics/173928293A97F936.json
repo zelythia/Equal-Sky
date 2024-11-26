@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "4DA86E2F77BEBB90"
+  ],
+  "tasks": {
+    "0FDC0ECCCAF1CF49": {
+      "type": "heracles:item",
+      "item": "ae2:export_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "028E7561AF7306E4": {
+      "type": "heracles:item",
+      "item": "ae2:export_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0FDC0ECCCAF1CF49\" quest=\"173928293A97F936\"/>",
+      "<task task=\"028E7561AF7306E4\" quest=\"173928293A97F936\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -358,
+          304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:export_bus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "ME Export Bus"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

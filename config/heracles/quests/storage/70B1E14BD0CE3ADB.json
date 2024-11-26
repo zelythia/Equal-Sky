@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3EB45534ED7105DD"
+  ],
+  "tasks": {
+    "388093E18781A3AC": {
+      "type": "heracles:item",
+      "item": "ironchests:lock",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"388093E18781A3AC\" quest=\"70B1E14BD0CE3ADB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -96,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:lock",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lock"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

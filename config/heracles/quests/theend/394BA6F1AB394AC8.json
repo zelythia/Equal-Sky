@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "66720373D89424DA"
+  ],
+  "tasks": {
+    "2B39EE0146F30B80": {
+      "type": "heracles:item",
+      "item": "avaritia:singularity",
+      "nbt": {
+        "singularity_type": "amethyst"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2B39EE0146F30B80\" quest=\"394BA6F1AB394AC8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          48,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:singularity",
+        "count": 1,
+        "nbt": {
+          "singularity_type": "amethyst"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Amethyst Singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

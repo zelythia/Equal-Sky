@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3720F865D2FC0E7E": {
+      "type": "heracles:item",
+      "item": "tconstruct:fantastic_foundry",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3720F865D2FC0E7E\" quest=\"32EEFF178B6383C7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -256,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:fantastic_foundry",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Fantastic Foundry"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

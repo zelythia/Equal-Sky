@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "0158AA982554A4E0"
+  ],
+  "tasks": {
+    "6BAA6A8AC5037502": {
+      "type": "heracles:item",
+      "item": "wirelesschargers:advanced_wireless_player_charger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6BAA6A8AC5037502\" quest=\"0E458BE4FC48039D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          -192,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wirelesschargers:advanced_wireless_player_charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Wireless Player Charger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

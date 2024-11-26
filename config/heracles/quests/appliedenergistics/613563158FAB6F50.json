@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "12D8BFF226C74EDF"
+  ],
+  "tasks": {
+    "3687BE0AB4C2C552": {
+      "type": "heracles:item",
+      "item": "ae2:cell_component_64k",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3687BE0AB4C2C552\" quest=\"613563158FAB6F50\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          40,
+          -56
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:cell_component_64k",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "64k ME Storage Component"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

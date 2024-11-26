@@ -1,0 +1,68 @@
+{
+  "dependencies": [
+    "612556C984A56DE7"
+  ],
+  "tasks": {
+    "2A82088EF686C01B": {
+      "type": "heracles:item",
+      "item": "ae2:calculation_processor_press",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6AAC4D10002A70D2": {
+      "type": "heracles:item",
+      "item": "ae2:silicon_press",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "57FD0CED7B635B92": {
+      "type": "heracles:item",
+      "item": "ae2:logic_processor_press",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6EF96414C03324CE": {
+      "type": "heracles:item",
+      "item": "ae2:engineering_processor_press",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2A82088EF686C01B\" quest=\"49314D12C0A9FB67\"/>",
+      "<task task=\"6EF96414C03324CE\" quest=\"49314D12C0A9FB67\"/>",
+      "<task task=\"57FD0CED7B635B92\" quest=\"49314D12C0A9FB67\"/>",
+      "<task task=\"6AAC4D10002A70D2\" quest=\"49314D12C0A9FB67\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -288,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": "#ae2:inscriber_presses",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Presses"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

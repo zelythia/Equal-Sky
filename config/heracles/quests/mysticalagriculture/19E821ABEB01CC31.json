@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "38E10E907F3D7769",
+    "18D0D2052240A65A",
+    "0F1BD534C0078E85"
+  ],
+  "tasks": {
+    "570D42706DBD2DCE": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"570D42706DBD2DCE\" quest=\"19E821ABEB01CC31\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          144,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:awakened_supremium_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Awakened Supremium Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

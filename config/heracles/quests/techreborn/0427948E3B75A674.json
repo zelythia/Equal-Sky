@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "2F5ECB1620DF9035": {
+      "type": "heracles:item",
+      "item": "techreborn:alloy_smelter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2F5ECB1620DF9035\" quest=\"0427948E3B75A674\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          272,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:alloy_smelter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alloy Smelter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

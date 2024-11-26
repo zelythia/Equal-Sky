@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7EBB6799B8962ABF"
+  ],
+  "tasks": {
+    "44EAFA36FF0348B5": {
+      "type": "heracles:item",
+      "item": "powah:magmator_spirited",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"44EAFA36FF0348B5\" quest=\"61C0541C17FE4B65\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          224,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:magmator_spirited",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Magmator (Spirited)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

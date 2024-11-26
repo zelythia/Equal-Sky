@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "0B91511C52265D75"
+  ],
+  "tasks": {
+    "67949F386948B292": {
+      "type": "heracles:item",
+      "item": "wands:creative_wand",
+      "nbt": {
+        "multiplier": 1,
+        "stair_slab": 0,
+        "target_air": 0,
+        "inverted": 0,
+        "match_state": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "76EDB4DE8C1EADCA": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"67949F386948B292\" quest=\"446B5F7BA68C0CF3\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"76EDB4DE8C1EADCA\" quest=\"446B5F7BA68C0CF3\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          294,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wands:creative_wand",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Creative Wand"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

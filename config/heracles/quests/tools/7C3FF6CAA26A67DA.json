@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7CF5B0A32EE4E379"
+  ],
+  "tasks": {
+    "1C47998AFFEEF47C": {
+      "type": "heracles:item",
+      "item": "entangled:block",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1C47998AFFEEF47C\" quest=\"7C3FF6CAA26A67DA\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          368,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "entangled:block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Entangled Block"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

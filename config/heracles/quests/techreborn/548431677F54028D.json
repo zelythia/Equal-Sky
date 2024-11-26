@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "731651C47E066CBB"
+  ],
+  "tasks": {
+    "09A28E42ACF419E1": {
+      "type": "heracles:item",
+      "item": "techreborn:electronic_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "286B6385C6EFAE08": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_machine_frame",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"09A28E42ACF419E1\" quest=\"548431677F54028D\"/>",
+      "<task task=\"286B6385C6EFAE08\" quest=\"548431677F54028D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          125,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:electronic_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Electronic Circuit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

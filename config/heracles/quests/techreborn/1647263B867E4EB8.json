@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "6FED49EC54F084A5"
+  ],
+  "tasks": {
+    "70A6644C5853B9CC": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_solar_panel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"70A6644C5853B9CC\" quest=\"1647263B867E4EB8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -32,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:advanced_solar_panel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Solar Panel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

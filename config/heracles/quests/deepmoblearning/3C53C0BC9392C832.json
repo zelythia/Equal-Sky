@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "02A1B3E6F4303740"
+  ],
+  "tasks": {
+    "4E16C9DD3928415E": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:hellish_matter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4E16C9DD3928415E\" quest=\"3C53C0BC9392C832\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          64,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:hellish_matter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hellish Matter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "486CB99309F4EFC6"
+  ],
+  "tasks": {
+    "331F3D9A7769C24A": {
+      "type": "heracles:item",
+      "item": "megacells:cell_component_4m",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"331F3D9A7769C24A\" quest=\"11428FA0CCDB4D28\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          40,
+          -78
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "megacells:cell_component_4m",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "4m MEGA Storage Component"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

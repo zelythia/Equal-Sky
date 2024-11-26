@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "1BE5A16ADA305489"
+  ],
+  "tasks": {
+    "07A52220A324DCCE": {
+      "type": "heracles:item",
+      "item": "spell_engine:spell_binding",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"07A52220A324DCCE\" quest=\"48503E7720AA35FC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Spells": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "spell_engine:spell_binding",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Spell Binding Table"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "08D9C2799C339316"
+  ],
+  "tasks": {
+    "02A548CD52675B38": {
+      "type": "heracles:item",
+      "item": "wands:netherite_wand",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"02A548CD52675B38\" quest=\"5EC7A2FF884C6708\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          240,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wands:netherite_wand",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Wand"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

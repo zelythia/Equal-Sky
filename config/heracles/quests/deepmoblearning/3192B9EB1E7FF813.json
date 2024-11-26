@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "71C5271571D8B2E7"
+  ],
+  "tasks": {
+    "7958629AB02EED61": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:glitch_sword",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7958629AB02EED61\" quest=\"3192B9EB1E7FF813\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          256,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:glitch_sword",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glitch Sword"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

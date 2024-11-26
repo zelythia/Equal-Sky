@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "72284790229AA483"
+  ],
+  "tasks": {
+    "2B92ECDF2822F490": {
+      "type": "heracles:item",
+      "item": "archon:glisteel_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2B92ECDF2822F490\" quest=\"775CC0CE080D9AF9\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:glisteel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Glisteel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

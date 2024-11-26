@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7AA840C591281093"
+  ],
+  "tasks": {
+    "3EB23DE21219A7C6": {
+      "type": "heracles:item",
+      "item": "botania:brewery",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3EB23DE21219A7C6\" quest=\"7A5D5751B0B2C1E6\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          128,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:brewery",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Botanical Brewery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

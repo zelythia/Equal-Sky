@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "08BEBF89F0E2AE55"
+  ],
+  "tasks": {
+    "7C70C41B18F3AB87": {
+      "type": "heracles:item",
+      "item": "avaritia:neutronium_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6C061CA94370869D": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C70C41B18F3AB87\" quest=\"056515219E15E1C0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6C061CA94370869D\" quest=\"056515219E15E1C0\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -70,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:neutronium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Neutronium Ingot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

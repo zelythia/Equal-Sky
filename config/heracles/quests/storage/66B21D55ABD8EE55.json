@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3CBEE5A22FFE20AB"
+  ],
+  "tasks": {
+    "66CD1418C786D4B7": {
+      "type": "heracles:item",
+      "item": "storagedrawers:diamond_storage_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"66CD1418C786D4B7\" quest=\"66B21D55ABD8EE55\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          224,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "storagedrawers:diamond_storage_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Upgrade (IV)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "5402FA3571A09F5C": {
+      "type": "heracles:item",
+      "item": "techreborn:implosion_compressor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "75D9705837E65C28": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_machine_casing",
+      "amount": 9,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5402FA3571A09F5C\" quest=\"10CF0DD189B1D905\"/>",
+      "<task task=\"75D9705837E65C28\" quest=\"10CF0DD189B1D905\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          432,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:implosion_compressor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Implosion Compressor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

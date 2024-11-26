@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "0B91511C52265D75"
+  ],
+  "tasks": {
+    "4001B0682B1B66BF": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_creative",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4001B0682B1B66BF\" quest=\"04C8BFF6A50ADFB2\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          326,
+          31
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cell_creative",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Creative Energy Cell"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1B923CD506A00C32": {
+      "type": "heracles:item",
+      "item": "naturescompass:naturescompass",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Use the Nature's Compass to find any biome"
+    },
+    "description": [
+      "<subtitle id=\"410D6C4F43896F30\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1B923CD506A00C32\" quest=\"410D6C4F43896F30\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          432,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "naturescompass:naturescompass",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nature's Compass"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

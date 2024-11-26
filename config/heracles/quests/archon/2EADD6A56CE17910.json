@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "315100F4A2F1BA7A"
+  ],
+  "tasks": {
+    "55F1F08E52D89C9D": {
+      "type": "heracles:item",
+      "item": "archon:seeking_amulet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"55F1F08E52D89C9D\" quest=\"2EADD6A56CE17910\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          128,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:seeking_amulet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Seeking Amulet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5026418EDE8EA0CF"
+  ],
+  "tasks": {
+    "3006E842C75F86F2": {
+      "type": "heracles:item",
+      "item": "energizedpower:stone_solidifier",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3006E842C75F86F2\" quest=\"6AC962A1B9294F75\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          144,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:stone_solidifier",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stone Solidifier"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

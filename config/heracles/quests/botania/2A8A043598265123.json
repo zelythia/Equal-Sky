@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7AA840C591281093"
+  ],
+  "tasks": {
+    "20905E4B7E5D4999": {
+      "type": "heracles:item",
+      "item": "botania:aura_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"20905E4B7E5D4999\" quest=\"2A8A043598265123\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:aura_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Band of Aura"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

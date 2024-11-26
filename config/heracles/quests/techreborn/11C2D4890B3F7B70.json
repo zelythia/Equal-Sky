@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "58B226CD09182437"
+  ],
+  "tasks": {
+    "55360BD821889493": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_machine_casing",
+      "amount": 18,
+      "collection": "AUTOMATIC"
+    },
+    "0AC7A88356E2E6C2": {
+      "type": "heracles:item",
+      "item": "techreborn:vacuum_freezer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3DF492BF5648893F": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_machine_casing",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0AC7A88356E2E6C2\" quest=\"11C2D4890B3F7B70\"/>",
+      "<task task=\"55360BD821889493\" quest=\"11C2D4890B3F7B70\"/>",
+      "<task task=\"3DF492BF5648893F\" quest=\"11C2D4890B3F7B70\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          550,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:vacuum_freezer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vacuum Freezer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

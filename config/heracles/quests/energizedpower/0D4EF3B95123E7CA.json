@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4D7882890D0BA517"
+  ],
+  "tasks": {
+    "56FDC716E9838DFF": {
+      "type": "heracles:item",
+      "item": "energizedpower:time_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"56FDC716E9838DFF\" quest=\"0D4EF3B95123E7CA\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          448,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:time_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Time Controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

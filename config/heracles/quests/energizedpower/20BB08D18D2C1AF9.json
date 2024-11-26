@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "17907BFE253971F6",
+    "3DC58DC08785E574"
+  ],
+  "tasks": {
+    "1071A6C61179F0C1": {
+      "type": "heracles:item",
+      "item": "energizedpower:advanced_pulverizer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1071A6C61179F0C1\" quest=\"20BB08D18D2C1AF9\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          240,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:advanced_pulverizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Pulverizer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

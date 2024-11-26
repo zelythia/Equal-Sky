@@ -1,0 +1,68 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6F0EF6CA4719CB0C": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:electrum_jetpack"
+          },
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:gold_jetpack"
+          },
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:invar_jetpack"
+          },
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:steel_jetpack"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6F0EF6CA4719CB0C\" quest=\"6D4D752534120E8E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          160,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iron-jetpacks:gold_jetpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 3 Jetpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "0DCFAA658159506B"
+  ],
+  "tasks": {
+    "04FDB996FCED2839": {
+      "type": "heracles:item",
+      "item": "techreborn:fluid_replicator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Turns UU-Matter into fluids"
+    },
+    "description": [
+      "<subtitle id=\"7A5CA03D7323259B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"04FDB996FCED2839\" quest=\"7A5CA03D7323259B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          736,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:fluid_replicator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Replicator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

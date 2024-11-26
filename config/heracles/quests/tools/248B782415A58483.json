@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "47EA3D9C5E5632F2",
+    "2AC45CB619A0D3D1",
+    "54AC71EB9D4C9984"
+  ],
+  "tasks": {
+    "3973304B08D1AFBB": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_melter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Seared Smelter"
+    },
+    "description": [
+      "<task task=\"3973304B08D1AFBB\" quest=\"248B782415A58483\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -64,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:seared_melter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: tconstruct:seared_melter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

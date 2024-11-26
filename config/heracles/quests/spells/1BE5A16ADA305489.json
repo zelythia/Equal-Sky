@@ -1,0 +1,46 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5C0B7948D0CBBDC9": {
+      "type": "heracles:item",
+      "item": "#wizards:wands",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #wizards:wands"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5C0B7948D0CBBDC9\" quest=\"1BE5A16ADA305489\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Spells": {
+        "position": [
+          -80,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "#wizards:wands",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Wands"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

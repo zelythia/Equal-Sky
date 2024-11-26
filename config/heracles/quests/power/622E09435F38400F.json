@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "08B1F86F2D7C5FF8"
+  ],
+  "tasks": {
+    "5F5653699A28599D": {
+      "type": "heracles:item",
+      "item": "powah:solar_panel_blazing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5F5653699A28599D\" quest=\"622E09435F38400F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          128,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:solar_panel_blazing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solar Panel (Blazing)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

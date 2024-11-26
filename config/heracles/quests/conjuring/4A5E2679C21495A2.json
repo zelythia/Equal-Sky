@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4DAFED62A14DBA5E": {
+      "type": "heracles:item",
+      "item": "conjuring:enchiridion",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4DAFED62A14DBA5E\" quest=\"4A5E2679C21495A2\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          -128,
+          77
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:enchiridion",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Enchiridion"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

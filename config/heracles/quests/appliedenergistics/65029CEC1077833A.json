@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26EA04F82708B88F"
+  ],
+  "tasks": {
+    "500801B8612DF360": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_access_point",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"500801B8612DF360\" quest=\"65029CEC1077833A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          0,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:wireless_access_point",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "ME Wireless Access Point"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

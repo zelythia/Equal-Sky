@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "0E8316066C1EC6BD"
+  ],
+  "tasks": {
+    "2F692728111EAB85": {
+      "type": "heracles:item",
+      "item": "botania:rainbow_rod",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2F692728111EAB85\" quest=\"0A8DDAEC52B59819\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          256,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:rainbow_rod",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rod of the Bifrost"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

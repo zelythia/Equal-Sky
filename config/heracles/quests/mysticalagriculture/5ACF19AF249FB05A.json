@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "364AC6897EC840C1": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"364AC6897EC840C1\" quest=\"5ACF19AF249FB05A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -272,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:inferium_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Inferium Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

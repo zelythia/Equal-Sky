@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3A6E354DA3B02554": {
+      "type": "heracles:item",
+      "item": "entangled:item",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3A6E354DA3B02554\" quest=\"7CF5B0A32EE4E379\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          368,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "entangled:item",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Entangled Binder"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

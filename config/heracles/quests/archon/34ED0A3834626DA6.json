@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "19EEB185054A76D7": {
+      "type": "heracles:item",
+      "item": "archon:lightning_bottle",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"19EEB185054A76D7\" quest=\"34ED0A3834626DA6\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -128,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:lightning_bottle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lightning Bottle"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

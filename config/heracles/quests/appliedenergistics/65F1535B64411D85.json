@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26EA04F82708B88F"
+  ],
+  "tasks": {
+    "58265C2B1CA3062C": {
+      "type": "heracles:item",
+      "item": "ae2:condenser",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"58265C2B1CA3062C\" quest=\"65F1535B64411D85\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -90,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:condenser",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Matter Condenser"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

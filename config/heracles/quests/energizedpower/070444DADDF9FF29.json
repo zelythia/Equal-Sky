@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "511ABE1B2DB00858"
+  ],
+  "tasks": {
+    "16CE4241794E6874": {
+      "type": "heracles:item",
+      "item": "energizedpower:charger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"16CE4241794E6874\" quest=\"070444DADDF9FF29\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -208,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Charger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

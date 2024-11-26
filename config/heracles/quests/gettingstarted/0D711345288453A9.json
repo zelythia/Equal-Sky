@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "253A914094647159"
+  ],
+  "tasks": {
+    "13C5C0E9718D2939": {
+      "type": "heracles:item",
+      "item": "fabricaeexnihilo:wooden_crook",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4F8F12C93442D213": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use a crook to get more drops from leaves"
+    },
+    "description": [
+      "<subtitle id=\"0D711345288453A9\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"13C5C0E9718D2939\" quest=\"0D711345288453A9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4F8F12C93442D213\" quest=\"0D711345288453A9\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -240,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:wooden_crook",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crook"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

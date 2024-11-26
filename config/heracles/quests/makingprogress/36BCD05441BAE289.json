@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "06C9F39D97B15B05"
+  ],
+  "tasks": {
+    "101B87609A53568A": {
+      "type": "heracles:item",
+      "item": "aequitas:primordial_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2D79B000B3D09CD0": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "6CCC4BFBA3033712": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"101B87609A53568A\" quest=\"36BCD05441BAE289\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2D79B000B3D09CD0\" quest=\"36BCD05441BAE289\"/>",
+      "<reward reward=\"6CCC4BFBA3033712\" quest=\"36BCD05441BAE289\"/>"
+    ],
+    "groups": {
+      "Making Progress": {
+        "position": [
+          -61,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "aequitas:primordial_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Primordial Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

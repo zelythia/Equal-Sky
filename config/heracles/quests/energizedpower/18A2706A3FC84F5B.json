@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5D79B5D0558A3AC1"
+  ],
+  "tasks": {
+    "53647665D494C55D": {
+      "type": "heracles:item",
+      "item": "energizedpower:battery_1",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"53647665D494C55D\" quest=\"18A2706A3FC84F5B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -272,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:battery_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Battery (Tier I)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

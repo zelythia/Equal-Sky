@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "38E7E174D62D6380"
+  ],
+  "tasks": {
+    "19311971161E97E4": {
+      "type": "heracles:item",
+      "item": "bewitchment:harbinger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Defeat Lilith"
+    },
+    "description": [
+      "<subtitle id=\"11960C6253A3F86B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"19311971161E97E4\" quest=\"11960C6253A3F86B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          96,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:harbinger",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Harbinger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

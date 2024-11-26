@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4DA86E2F77BEBB90"
+  ],
+  "tasks": {
+    "4CD903B74F717FBB": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_access_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4CD903B74F717FBB\" quest=\"2C3CCE801F20266E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -416,
+          272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:pattern_access_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "ME Patter Access Terminal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

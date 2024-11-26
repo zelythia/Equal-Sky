@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "78502D28527FD3C6": {
+      "type": "heracles:item",
+      "item": "archon:soul_scythe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"78502D28527FD3C6\" quest=\"3BDD9ADE2F1E1D39\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -192,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:soul_scythe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Soul Scythe"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

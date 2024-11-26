@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4E60337C0FCD6845"
+  ],
+  "tasks": {
+    "39B8D0A56BF0EB9C": {
+      "type": "heracles:item",
+      "item": "botania:pure_daisy",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"39B8D0A56BF0EB9C\" quest=\"12FA0E5B70F5CA99\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -112,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:pure_daisy",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pure Daisy"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "09D6855369FD8E1A"
+  ],
+  "tasks": {
+    "7FD70BD7FA8DE4D3": {
+      "type": "heracles:item",
+      "item": "techreborn:recycler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Turns anything into scrap"
+    },
+    "description": [
+      "<subtitle id=\"5D281C10577C66EF\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7FD70BD7FA8DE4D3\" quest=\"5D281C10577C66EF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          272,
+          -49
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:recycler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The better Trashcan"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

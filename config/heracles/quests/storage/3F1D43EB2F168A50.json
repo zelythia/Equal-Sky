@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3EB45534ED7105DD"
+  ],
+  "tasks": {
+    "1F1B6215F08E94C7": {
+      "type": "heracles:item",
+      "item": "ironchests:key",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1F1B6215F08E94C7\" quest=\"3F1D43EB2F168A50\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -144,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:key",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Key"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

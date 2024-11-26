@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7A5D5751B0B2C1E6"
+  ],
+  "tasks": {
+    "7FCF97CEAE08EA9C": {
+      "type": "heracles:item",
+      "item": "botania:incense_plate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7FCF97CEAE08EA9C\" quest=\"2235F4FD772CD73B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          176,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:incense_plate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Incense Plate"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

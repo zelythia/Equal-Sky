@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5EB1C61F0B08C81F": {
+      "type": "heracles:item",
+      "item": "wizards:arcane_robe_legs",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "389C26B9CE70F505": {
+      "type": "heracles:item",
+      "item": "wizards:arcane_robe_feet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "120DC2CEE8346E3D": {
+      "type": "heracles:item",
+      "item": "wizards:arcane_robe_head",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "15FEB28D6922613C": {
+      "type": "heracles:item",
+      "item": "wizards:arcane_robe_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"120DC2CEE8346E3D\" quest=\"68156621A0F9EE4C\"/>",
+      "<task task=\"15FEB28D6922613C\" quest=\"68156621A0F9EE4C\"/>",
+      "<task task=\"5EB1C61F0B08C81F\" quest=\"68156621A0F9EE4C\"/>",
+      "<task task=\"389C26B9CE70F505\" quest=\"68156621A0F9EE4C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Spells": {
+        "position": [
+          48,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wizards:arcane_robe_chest",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Arcane Robe"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

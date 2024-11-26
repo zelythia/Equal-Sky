@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3B4DB00C75E0E5BB"
+  ],
+  "tasks": {
+    "2EDB221738C754E2": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:data_model_nether",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2EDB221738C754E2\" quest=\"24460233C46A8E17\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -144,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:data_model_nether",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Nether Data Model"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "0BE9F8095B309557"
+  ],
+  "tasks": {
+    "terra_leggings": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "069B6B67D4AA1E61": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "terra_boots": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "terra_helmet": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"terra_helmet\" quest=\"0063E496732E153A\"/>",
+      "<task task=\"069B6B67D4AA1E61\" quest=\"0063E496732E153A\"/>",
+      "<task task=\"terra_leggings\" quest=\"0063E496732E153A\"/>",
+      "<task task=\"terra_boots\" quest=\"0063E496732E153A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          96,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:terrasteel_chestplate",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Terrasteel Armor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

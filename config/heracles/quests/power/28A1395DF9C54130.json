@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7494F2A91292CBA7"
+  ],
+  "tasks": {
+    "28E90AABFCD17430": {
+      "type": "heracles:item",
+      "item": "powah:energy_cable_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"28E90AABFCD17430\" quest=\"28A1395DF9C54130\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          -128,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cable_starter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Cable (Starter)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

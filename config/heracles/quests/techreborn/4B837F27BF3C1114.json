@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "026489F9896580DC"
+  ],
+  "tasks": {
+    "55473CD62383A769": {
+      "type": "heracles:item",
+      "item": "techreborn:thermal_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"55473CD62383A769\" quest=\"4B837F27BF3C1114\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          15,
+          320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:thermal_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Thermal Genrator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "2B9007C2F35CA6C9"
+  ],
+  "tasks": {
+    "2416C3B0379CEE5A": {
+      "type": "heracles:item",
+      "item": "bewitchment:athame",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2416C3B0379CEE5A\" quest=\"3E2E86E300B27D04\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -192,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:athame",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Athame"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

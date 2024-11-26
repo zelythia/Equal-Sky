@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5B4BAC376494A2E3": {
+      "type": "heracles:item",
+      "item": "archon:earth_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5B4BAC376494A2E3\" quest=\"144912B6252E1FB5\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          272,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:earth_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Earth Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

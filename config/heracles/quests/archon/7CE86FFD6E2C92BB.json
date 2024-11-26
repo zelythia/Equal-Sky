@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2CEEE53610DDE068"
+  ],
+  "tasks": {
+    "1E9636276A280E8E": {
+      "type": "heracles:item",
+      "item": "archon:heaven_dial",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1E9636276A280E8E\" quest=\"7CE86FFD6E2C92BB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          176,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:heaven_dial",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Heaven Dial"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

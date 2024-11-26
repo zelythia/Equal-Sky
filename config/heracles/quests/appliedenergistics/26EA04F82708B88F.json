@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "33E6C4495025015E",
+    "12554E11AC60CAF2"
+  ],
+  "tasks": {
+    "31FC91B60F75F547": {
+      "type": "heracles:item",
+      "item": "ae2:controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "08788B0F0E841AFF": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 43690,
+          "Loot": "aequitas_sky:lootbags/rare",
+          "Name": "Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"31FC91B60F75F547\" quest=\"26EA04F82708B88F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"08788B0F0E841AFF\" quest=\"26EA04F82708B88F\"/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -160,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Me Controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

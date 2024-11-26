@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "56B7A689AD5D072D": {
+      "type": "heracles:item",
+      "item": "wizards:frost_robe_head",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6FC36F1091DFCC13": {
+      "type": "heracles:item",
+      "item": "wizards:frost_robe_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "635B67B88525D0B1": {
+      "type": "heracles:item",
+      "item": "wizards:frost_robe_legs",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "74D386D5FFA2BB3B": {
+      "type": "heracles:item",
+      "item": "wizards:frost_robe_feet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"56B7A689AD5D072D\" quest=\"7C6FCACFE3C96852\"/>",
+      "<task task=\"6FC36F1091DFCC13\" quest=\"7C6FCACFE3C96852\"/>",
+      "<task task=\"635B67B88525D0B1\" quest=\"7C6FCACFE3C96852\"/>",
+      "<task task=\"74D386D5FFA2BB3B\" quest=\"7C6FCACFE3C96852\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Spells": {
+        "position": [
+          0,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wizards:frost_robe_chest",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Frost Robe"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

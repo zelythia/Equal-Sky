@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "775CC0CE080D9AF9"
+  ],
+  "tasks": {
+    "24FD672DDF3AB9F5": {
+      "type": "heracles:item",
+      "item": "archon:mask_of_power",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Increases mana generation to 4 mana per second"
+    },
+    "description": [
+      "<subtitle id=\"389BCDDDEBD233AC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"24FD672DDF3AB9F5\" quest=\"389BCDDDEBD233AC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -16,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:mask_of_power",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mask of Power"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

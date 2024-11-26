@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "511ABE1B2DB00858"
+  ],
+  "tasks": {
+    "43EA65FE19182888": {
+      "type": "heracles:item",
+      "item": "energizedpower:crusher",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"43EA65FE19182888\" quest=\"169323759903B43E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -10,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:crusher",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crusher"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

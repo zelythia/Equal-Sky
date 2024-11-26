@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "2FE9C70D9BFECDFC"
+  ],
+  "tasks": {
+    "manaweave_boots": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "manaweave_leggings": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "15D9879C3B01F703": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "manaweave_helmet": {
+      "type": "heracles:item",
+      "item": "botania:manaweave_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"manaweave_helmet\" quest=\"5D599BF1AAA4EF0D\"/>",
+      "<task task=\"15D9879C3B01F703\" quest=\"5D599BF1AAA4EF0D\"/>",
+      "<task task=\"manaweave_leggings\" quest=\"5D599BF1AAA4EF0D\"/>",
+      "<task task=\"manaweave_boots\" quest=\"5D599BF1AAA4EF0D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          136
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:manaweave_chestplate",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Manaweave Robe"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

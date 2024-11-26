@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "253A914094647159"
+  ],
+  "tasks": {
+    "703FA5EB1B606BD5": {
+      "title": "Dance of Growth",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "05E025749C11F562": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "6171021B51B36D19": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Try shifting and sprinting next to plants to make them grow faster"
+    },
+    "description": [
+      "<subtitle id=\"0DAB414888DBC8F6\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"703FA5EB1B606BD5\" quest=\"0DAB414888DBC8F6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"05E025749C11F562\" quest=\"0DAB414888DBC8F6\"/>",
+      "<reward reward=\"6171021B51B36D19\" quest=\"0DAB414888DBC8F6\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -240,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:oak_sapling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Dance of Growth"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

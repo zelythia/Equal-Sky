@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "1A5739196FD616AB",
+    "57DC7DF5134A79D3"
+  ],
+  "tasks": {
+    "734CA6466A96D894": {
+      "type": "heracles:item",
+      "item": "archon:angelic_star",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"734CA6466A96D894\" quest=\"2CEEE53610DDE068\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          112,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:angelic_star",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Angelic Star"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

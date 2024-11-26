@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "45192034E7C4F2F2": {
+      "type": "heracles:item",
+      "item": "energizedpower:plant_growth_chamber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"45192034E7C4F2F2\" quest=\"6EB2FFB63D7CF4B8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          176,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:plant_growth_chamber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Plant Growth Chamber"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

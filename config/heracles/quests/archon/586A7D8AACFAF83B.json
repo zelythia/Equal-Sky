@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "2C1AC5C89B6E7323"
+  ],
+  "tasks": {
+    "516239595C0BDDC1": {
+      "type": "heracles:item",
+      "item": "archon:water_scepter",
+      "nbt": {
+        "archon": {}
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"516239595C0BDDC1\" quest=\"586A7D8AACFAF83B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          272,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:water_scepter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Water Scepter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

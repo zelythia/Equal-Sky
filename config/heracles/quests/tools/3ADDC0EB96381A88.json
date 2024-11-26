@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3EB8AFE2DC505D6C"
+  ],
+  "tasks": {
+    "10F98F3AB6A4477D": {
+      "type": "heracles:item",
+      "item": "iron-jetpacks:netherite_jetpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"10F98F3AB6A4477D\" quest=\"3ADDC0EB96381A88\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          160,
+          240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iron-jetpacks:netherite_jetpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 6 Jetpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

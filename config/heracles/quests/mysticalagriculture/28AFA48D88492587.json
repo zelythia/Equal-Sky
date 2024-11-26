@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "19E821ABEB01CC31"
+  ],
+  "tasks": {
+    "07A801939DAA89CA": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_pickaxe"
+    }
+  },
+  "rewards": {
+    "55D6DBA8888523B4": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:awakened_supremium_pickaxe",
+    "description": [
+      "<task task=\"07A801939DAA89CA\" quest=\"28AFA48D88492587\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"55D6DBA8888523B4\" quest=\"28AFA48D88492587\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_pickaxe"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          208,
+          16
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "dependencies": [
+    "6F225D2495622883"
+  ],
+  "tasks": {
+    "00A577F64A37508C": {
+      "type": "heracles:item",
+      "item": "botania:terrasteel_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "70F646D9F78BD217": {
+      "item": {
+        "id": "botania:blacker_lotus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"00A577F64A37508C\" quest=\"6D2BF5998DC828AF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"70F646D9F78BD217\" quest=\"6D2BF5998DC828AF\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          144,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:terrasteel_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Terrasteel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

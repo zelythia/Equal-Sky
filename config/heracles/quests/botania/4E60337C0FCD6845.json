@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "03B1F28E3DD7CC10"
+  ],
+  "tasks": {
+    "1BBCEAD5B91B8EE9": {
+      "type": "heracles:item",
+      "item": "botania:apothecary_default",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1BBCEAD5B91B8EE9\" quest=\"4E60337C0FCD6845\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -176,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:apothecary_default",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Petal Apothecary"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

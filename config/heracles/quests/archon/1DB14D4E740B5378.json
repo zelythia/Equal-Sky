@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "1B289DEF5EA3C5DE"
+  ],
+  "tasks": {
+    "0F56ABEE4060F05E": {
+      "type": "heracles:item",
+      "item": "archon:void_scepter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0F56ABEE4060F05E\" quest=\"1DB14D4E740B5378\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          176,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:void_scepter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Void Scepter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

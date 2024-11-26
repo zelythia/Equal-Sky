@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "48E0F5CE9378077F"
+  ],
+  "tasks": {
+    "55038A9026800598": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "7BDA5BACA940F719": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 43520,
+          "Loot": "aequitas_sky:lootbags/start",
+          "Name": "Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"55038A9026800598\" quest=\"05366246449CC8F5\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"7BDA5BACA940F719\" quest=\"05366246449CC8F5\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          208,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Iron Ingot"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

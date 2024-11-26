@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "0892505C09312989"
+  ],
+  "tasks": {
+    "1875768DA28464B8": {
+      "type": "heracles:item",
+      "item": "megacells:accumulation_processor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1875768DA28464B8\" quest=\"4A5778681D53FB95\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -32,
+          -78
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "megacells:accumulation_processor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Accumulation Processor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

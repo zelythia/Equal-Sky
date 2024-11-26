@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5ACF19AF249FB05A"
+  ],
+  "tasks": {
+    "4BA663B6DE5F0F8C": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_seeds",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4BA663B6DE5F0F8C\" quest=\"6B3CD73CA0452E79\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -208,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:inferium_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Inferium Seeds"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

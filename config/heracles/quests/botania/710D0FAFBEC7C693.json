@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "65E0926AD95A7D4A": {
+      "type": "heracles:item",
+      "item": "botania:ender_air_bottle",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Right click with an empty bottle in the Air while being in the End"
+    },
+    "description": [
+      "<task task=\"65E0926AD95A7D4A\" quest=\"710D0FAFBEC7C693\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:ender_air_bottle",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ender Air Bottle"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

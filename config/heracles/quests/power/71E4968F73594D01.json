@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4F4CA97D4E490FCA"
+  ],
+  "tasks": {
+    "66A7E90F73851A5E": {
+      "type": "heracles:item",
+      "item": "powah:furnator_niotic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"66A7E90F73851A5E\" quest=\"71E4968F73594D01\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          176,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:furnator_niotic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Furnator (Niotic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

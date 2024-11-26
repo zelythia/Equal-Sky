@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26EA04F82708B88F"
+  ],
+  "tasks": {
+    "6A42A58F5E7492EA": {
+      "type": "heracles:item",
+      "item": "ae2:storage_bus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6A42A58F5E7492EA\" quest=\"522A52B2D8B1C36F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -160,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:storage_bus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Bus"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

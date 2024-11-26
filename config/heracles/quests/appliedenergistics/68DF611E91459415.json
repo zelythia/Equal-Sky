@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "49530EE197F5ED4D"
+  ],
+  "tasks": {
+    "44C72B17E150CB3C": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_booster",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"44C72B17E150CB3C\" quest=\"68DF611E91459415\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          128,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:wireless_booster",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Booster"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

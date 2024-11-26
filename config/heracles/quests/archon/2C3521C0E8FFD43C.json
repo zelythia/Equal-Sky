@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2271C7F9BDD45977": {
+      "type": "heracles:item",
+      "item": "archon:fire_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2271C7F9BDD45977\" quest=\"2C3521C0E8FFD43C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          224,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:fire_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Fire Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

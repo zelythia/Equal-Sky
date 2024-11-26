@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "5EC7DF00CF761494"
+  ],
+  "tasks": {
+    "7CC4085FBC3461FA": {
+      "type": "heracles:item",
+      "item": "minecraft:gravel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1E20ABDC1667891B": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "209DFDA2AF60E0B2": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7CC4085FBC3461FA\" quest=\"37438C22C132B703\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1E20ABDC1667891B\" quest=\"37438C22C132B703\"/>",
+      "<reward reward=\"209DFDA2AF60E0B2\" quest=\"37438C22C132B703\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          80,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:gravel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Gravel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

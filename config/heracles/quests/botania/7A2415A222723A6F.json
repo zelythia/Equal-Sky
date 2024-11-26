@@ -1,0 +1,81 @@
+{
+  "dependencies": [
+    "26566B6D1BD3DC7B",
+    "710D0FAFBEC7C693"
+  ],
+  "tasks": {
+    "3BF211FCC7685046": {
+      "type": "heracles:item",
+      "item": "botania:flight_tiara",
+      "nbt": {
+        "variant": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2B65C3B32B7795FA": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "0A618F070D554C4A": {
+      "item": {
+        "id": "botania:dice",
+        "count": 1,
+        "nbt": {
+          "soulbindUUID": "2c763edb-5300-4989-8d9e-91ccb2944517"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Let's you fly"
+    },
+    "description": [
+      "<task task=\"3BF211FCC7685046\" quest=\"7A2415A222723A6F\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2B65C3B32B7795FA\" quest=\"7A2415A222723A6F\"/>",
+      "<reward reward=\"0A618F070D554C4A\" quest=\"7A2415A222723A6F\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          72
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:flight_tiara",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Flügel Tiara"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

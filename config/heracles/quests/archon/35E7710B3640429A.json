@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "048394B6C4FED8BD": {
+      "type": "heracles:item",
+      "item": "archon:experience_pouch",
+      "nbt": {
+        "archon": {}
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"048394B6C4FED8BD\" quest=\"35E7710B3640429A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -64,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:experience_pouch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Experience Pouch"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

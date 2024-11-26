@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26566B6D1BD3DC7B"
+  ],
+  "tasks": {
+    "40F45F50EF60F981": {
+      "type": "heracles:item",
+      "item": "botania:infinite_fruit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"40F45F50EF60F981\" quest=\"7B13276157CFFBF4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          416,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:infinite_fruit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Fruit of Grisaia"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

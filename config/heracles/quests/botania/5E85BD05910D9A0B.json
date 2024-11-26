@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "2FE9C70D9BFECDFC"
+  ],
+  "tasks": {
+    "3DEBB3C3C43AEEAA": {
+      "type": "heracles:item",
+      "item": "botania:teru_teru_bozu",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Wards away bad weather"
+    },
+    "description": [
+      "<subtitle id=\"5E85BD05910D9A0B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3DEBB3C3C43AEEAA\" quest=\"5E85BD05910D9A0B\"/>",
+      "<hr/>",
+      "Decreases duration of rain- and snowstorms.",
+      "Right clicking with a sunflower will clear the weather."
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          96,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:teru_teru_bozu",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Teru Teru Bozu"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

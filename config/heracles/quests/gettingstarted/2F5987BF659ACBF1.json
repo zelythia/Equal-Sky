@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "1882BBF97204F0E1"
+  ],
+  "tasks": {
+    "23FF84E286FE94E1": {
+      "type": "heracles:item",
+      "item": "simple_cobblestone_generator:generator_tier5",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0F126930F9A5BAB8": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 43690,
+          "Loot": "aequitas_sky:lootbags/rare",
+          "Name": "Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"23FF84E286FE94E1\" quest=\"2F5987BF659ACBF1\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0F126930F9A5BAB8\" quest=\"2F5987BF659ACBF1\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          208,
+          -256
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simple_cobblestone_generator:generator_tier5",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Cobblestone Generator 5"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

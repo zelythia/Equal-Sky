@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2CE35E1B4330E446"
+  ],
+  "tasks": {
+    "09FF0E994D972A46": {
+      "type": "heracles:item",
+      "item": "fabricaeexnihilo:stone_barrel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"09FF0E994D972A46\" quest=\"492CCDDF9881B4AA\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -48,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:stone_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stone Barrel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

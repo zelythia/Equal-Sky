@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7D8D2DC47C3B21CA"
+  ],
+  "tasks": {
+    "11C8715D0BF8FC6F": {
+      "type": "heracles:item",
+      "item": "powah:reactor_basic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"11C8715D0BF8FC6F\" quest=\"49BCAA1789BC2BE7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:reactor_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Reactor (Basic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

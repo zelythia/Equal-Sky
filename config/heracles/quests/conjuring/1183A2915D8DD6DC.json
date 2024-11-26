@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2B647ED38D8672BD": {
+      "type": "heracles:item",
+      "item": "conjuring:conjuration_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2B647ED38D8672BD\" quest=\"1183A2915D8DD6DC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          -128,
+          -13
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:conjuration_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Conjuration Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

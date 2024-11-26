@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "01337122DDE470B5": {
+      "type": "heracles:item",
+      "item": "techreborn:solid_canning_machine",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Used to make Biofuel and Sulfur"
+    },
+    "description": [
+      "<subtitle id=\"45D4FB5B36746D93\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"01337122DDE470B5\" quest=\"45D4FB5B36746D93\"/>",
+      "<hr/>",
+      "<br/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          176,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:solid_canning_machine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Solid Canning Machine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

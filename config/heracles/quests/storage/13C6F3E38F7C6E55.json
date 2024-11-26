@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "556126D26050BA1C": {
+      "type": "heracles:item",
+      "item": "techreborn:storage_buffer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"556126D26050BA1C\" quest=\"13C6F3E38F7C6E55\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          320,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:storage_buffer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Storage Buffer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

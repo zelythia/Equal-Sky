@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "6D4D752534120E8E"
+  ],
+  "tasks": {
+    "58BB9E93600DBD4F": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:diamond_jetpack"
+          },
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:platinum_jetpack"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"58BB9E93600DBD4F\" quest=\"48073233305ADA6C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          160,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iron-jetpacks:diamond_jetpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 4 Jetpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

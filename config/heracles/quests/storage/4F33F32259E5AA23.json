@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3EB45534ED7105DD"
+  ],
+  "tasks": {
+    "32D7604841B652BD": {
+      "type": "heracles:item",
+      "item": "ironchests:iron_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"32D7604841B652BD\" quest=\"4F33F32259E5AA23\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -96,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:iron_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron Chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

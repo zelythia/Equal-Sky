@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "295D8DF31930CAD5"
+  ],
+  "tasks": {
+    "2E2E356CD4773A86": {
+      "type": "heracles:item",
+      "item": "dankstorage:dank_4",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2E2E356CD4773A86\" quest=\"54EEF752CC159271\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          16,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dankstorage:dank_4",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dank 4"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

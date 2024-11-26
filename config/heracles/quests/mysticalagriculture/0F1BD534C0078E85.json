@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "5ACF19AF249FB05A"
+  ],
+  "tasks": {
+    "1BABBA9B01397FED": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:cognizant_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1BABBA9B01397FED\" quest=\"0F1BD534C0078E85\"/>",
+      "<hr/>",
+      "Optained by killing either a Wither or the Ender Dragon using an Essence Weapon"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          96,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:cognizant_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cognizant Dust"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "32385E349C5A2837": {
+      "type": "heracles:item",
+      "item": "archon:scripture_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"32385E349C5A2837\" quest=\"280145759B9CE19B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -192,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:scripture_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "S1cripture Table"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

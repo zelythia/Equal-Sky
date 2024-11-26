@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "0B91511C52265D75"
+  ],
+  "tasks": {
+    "52BC5762FBA27DA0": {
+      "type": "heracles:item",
+      "item": "iron-jetpacks:creative_jetpack",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5C1A85C0AB57020B": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"52BC5762FBA27DA0\" quest=\"389C9D31B8C9BE28\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5C1A85C0AB57020B\" quest=\"389C9D31B8C9BE28\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          294,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iron-jetpacks:creative_jetpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Creative Jetpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

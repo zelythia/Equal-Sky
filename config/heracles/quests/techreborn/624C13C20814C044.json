@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "22F987A3CCBBC62C"
+  ],
+  "tasks": {
+    "3246DEC3703A7ACF": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3246DEC3703A7ACF\" quest=\"624C13C20814C044\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          24,
+          -158
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Industrial Drill"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

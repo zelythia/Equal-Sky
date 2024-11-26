@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "33BF48AE457B9C83": {
+      "type": "heracles:item",
+      "item": "bewitchment:taglock",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"33BF48AE457B9C83\" quest=\"3E70A97F8A71F949\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -256,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:taglock",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Taglock"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

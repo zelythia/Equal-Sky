@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "268542FFBF6541FF": {
+      "type": "heracles:item",
+      "item": "ae2:sky_stone_block",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"268542FFBF6541FF\" quest=\"5FC78B7A0442B6F1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -528,
+          1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:sky_stone_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Sky Stone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

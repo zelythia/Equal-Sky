@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "58B226CD09182437"
+  ],
+  "tasks": {
+    "0497DD8798B42F03": {
+      "type": "heracles:item",
+      "item": "techreborn:quantum_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6B90C714EE1CB74D": {
+      "type": "heracles:item",
+      "item": "techreborn:quantum_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2D10D02B7C4C012A": {
+      "type": "heracles:item",
+      "item": "techreborn:quantum_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "34943045A076398C": {
+      "type": "heracles:item",
+      "item": "techreborn:quantum_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "48E2ACB76160ABAC": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2D10D02B7C4C012A\" quest=\"079686641D5B2ECB\"/>",
+      "<task task=\"6B90C714EE1CB74D\" quest=\"079686641D5B2ECB\"/>",
+      "<task task=\"0497DD8798B42F03\" quest=\"079686641D5B2ECB\"/>",
+      "<task task=\"34943045A076398C\" quest=\"079686641D5B2ECB\"/>",
+      "<hr/>",
+      "Each piece absorbs 20% of damage at the cost of energy.",
+      "Helmet: Water breathing",
+      "Chestplate: Create flight",
+      "Leggings: Increases movement speed",
+      "Boots: Increase swimming speed",
+      "<hr/>",
+      "<reward reward=\"48E2ACB76160ABAC\" quest=\"079686641D5B2ECB\"/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          624,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:quantum_chestplate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quantum Armor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

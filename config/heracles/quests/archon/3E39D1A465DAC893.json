@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "5AE219509DD54A1B"
+  ],
+  "tasks": {
+    "78B93455D1339343": {
+      "type": "heracles:item",
+      "item": "archon:infernal_coat",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"78B93455D1339343\" quest=\"3E39D1A465DAC893\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          128,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:infernal_coat",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Infernal Coat"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

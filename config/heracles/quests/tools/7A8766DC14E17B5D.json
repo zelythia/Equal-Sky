@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "6D4D752534120E8E",
+    "72B98BD44330C547"
+  ],
+  "tasks": {
+    "766AE09F7324E122": {
+      "type": "heracles:item",
+      "item": "itemfilters:or",
+      "nbt": {
+        "items": [
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:bronze_jetpack"
+          },
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:iron_jetpack"
+          },
+          {
+            "Count": 1,
+            "id": "iron-jetpacks:silver_jetpack"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"766AE09F7324E122\" quest=\"7A8766DC14E17B5D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          160,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "iron-jetpacks:iron_jetpack",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tier 2 Jetpack"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2A8A043598265123"
+  ],
+  "tasks": {
+    "7268E0A32F1D3522": {
+      "type": "heracles:item",
+      "item": "botania:aura_ring_greater",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7268E0A32F1D3522\" quest=\"504BC4BE63A73762\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:aura_ring_greater",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Greater Band of Aura"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "7498A7F39382599C",
+    "3DCAA5EA0E0DD3A8",
+    "36D9B318F6697EF0"
+  ],
+  "tasks": {
+    "65D1AD5ECB859913": {
+      "type": "heracles:item",
+      "item": "archon:undead_staff",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"65D1AD5ECB859913\" quest=\"4CF3F16AF6E25E35\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -16,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:undead_staff",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Undead Staff"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

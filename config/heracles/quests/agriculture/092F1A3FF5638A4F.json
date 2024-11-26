@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1AF9AF0751AF04E5": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:sink",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Simplest infinite water source"
+    },
+    "description": [
+      "<subtitle id=\"092F1A3FF5638A4F\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"1AF9AF0751AF04E5\" quest=\"092F1A3FF5638A4F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -64,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:sink",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Sink"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

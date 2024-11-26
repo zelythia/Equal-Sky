@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "036E9A0C79423ED6"
+  ],
+  "tasks": {
+    "2722DD7532D995FD": {
+      "type": "heracles:item",
+      "item": "minecraft:soul_sand",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6B6D78895357C7B8": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "62107385C0A0787F": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2722DD7532D995FD\" quest=\"6867E3EAA05B0F09\"/>",
+      "<hr/>",
+      "mycelium seed/mycelium block -> witch water + sand",
+      "<hr/>",
+      "<reward reward=\"62107385C0A0787F\" quest=\"6867E3EAA05B0F09\"/>",
+      "<reward reward=\"6B6D78895357C7B8\" quest=\"6867E3EAA05B0F09\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -175,
+          -69
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:soul_sand",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Soul Sand"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "25218BF2228E5097"
+  ],
+  "tasks": {
+    "1A5F4345F71CA17C": {
+      "type": "heracles:item",
+      "item": "powah:reactor_niotic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1A5F4345F71CA17C\" quest=\"28C1D087A56536B8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          176,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:reactor_niotic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Reactor (Niotic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

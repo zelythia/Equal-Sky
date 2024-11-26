@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2E6E8AC2BE19337E": {
+      "type": "heracles:item",
+      "item": "dankstorage:dock",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2E6E8AC2BE19337E\" quest=\"1AAB92241F2E58F2\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          16,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dankstorage:dock",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dock"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

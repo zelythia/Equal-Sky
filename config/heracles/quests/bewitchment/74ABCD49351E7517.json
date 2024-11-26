@@ -1,0 +1,38 @@
+{
+  "settings": {},
+  "dependencies": [
+    "38E7E174D62D6380",
+    "37DECE4DF1E6BE77"
+  ],
+  "tasks": {
+    "2DB7BA82695CE268": {
+      "type": "heracles:item",
+      "item": "besmirchment:phylactery"
+    },
+    "638BD1F04D15F3A2": {
+      "type": "heracles:item",
+      "item": "besmirchment:lich_gem"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Reach Lichdom",
+    "description": [
+      "<task task=\"2DB7BA82695CE268\" quest=\"74ABCD49351E7517\"/>",
+      "<task task=\"638BD1F04D15F3A2\" quest=\"74ABCD49351E7517\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "besmirchment:phylactery"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          16,
+          -96
+        ]
+      }
+    }
+  }
+}

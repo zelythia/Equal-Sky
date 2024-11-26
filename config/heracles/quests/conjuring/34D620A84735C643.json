@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2EFC73899EC11E1E"
+  ],
+  "tasks": {
+    "4CECF1C778E81EB7": {
+      "type": "heracles:item",
+      "item": "conjuring:haste_gem",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4CECF1C778E81EB7\" quest=\"34D620A84735C643\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          32,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:haste_gem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Haste Gem"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "03B1F28E3DD7CC10"
+  ],
+  "tasks": {
+    "460E592149B55D63": {
+      "type": "heracles:item",
+      "item": "#c:hammers",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #c:hammers"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"460E592149B55D63\" quest=\"5D79B5D0558A3AC1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -368,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": "#c:hammers",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Hammer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

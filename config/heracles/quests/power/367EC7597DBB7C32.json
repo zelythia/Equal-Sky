@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "28C1D087A56536B8"
+  ],
+  "tasks": {
+    "1C56990834CDCB56": {
+      "type": "heracles:item",
+      "item": "powah:reactor_spirited",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1C56990834CDCB56\" quest=\"367EC7597DBB7C32\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          224,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:reactor_spirited",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Reactor (Spirited)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

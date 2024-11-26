@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "7C528B70C347F519": {
+      "type": "heracles:item",
+      "item": "industrialreborn:mob_slaughter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Kills nearby mobs for their Loot and Experience"
+    },
+    "description": [
+      "<subtitle id=\"421BFE467445235B\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7C528B70C347F519\" quest=\"421BFE467445235B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          384,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialreborn:mob_slaughter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mob Slaughter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "dependencies": [
+    "infinity_tools",
+    "1BF01012238F950B",
+    "389C9D31B8C9BE28",
+    "04C8BFF6A50ADFB2",
+    "446B5F7BA68C0CF3",
+    "52DC518CB339F262",
+    "7F9C7FE89DFDDFA6",
+    "4AA7958E6977E7AE"
+  ],
+  "tasks": {
+    "6C33DB045C8F87E5": {
+      "title": "Thanks For Playing",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "31EC58200AC1BD0A": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 8,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6C33DB045C8F87E5\" quest=\"51C3FFAAD094B1C6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"31EC58200AC1BD0A\" quest=\"51C3FFAAD094B1C6\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          406,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Thanks For Playing"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

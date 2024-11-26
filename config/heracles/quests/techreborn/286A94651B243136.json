@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "660226FC2332B749"
+  ],
+  "tasks": {
+    "4C82218D048097A8": {
+      "type": "heracles:item",
+      "item": "industrialreborn:adult_filter_upgrade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4C82218D048097A8\" quest=\"286A94651B243136\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          224,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialreborn:adult_filter_upgrade",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Adult Filter Upgrade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

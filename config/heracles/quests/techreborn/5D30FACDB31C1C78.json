@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "793B562E88EA2163"
+  ],
+  "tasks": {
+    "027839FCE0D985D6": {
+      "type": "heracles:item",
+      "item": "techreborn:resin_basin",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Automatically gather sap from Rubber trees"
+    },
+    "description": [
+      "<subtitle id=\"5D30FACDB31C1C78\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"027839FCE0D985D6\" quest=\"5D30FACDB31C1C78\"/>",
+      "<hr/>",
+      "Must be placed directly onto a Rubber Tree and collects sap from above and below.",
+      "The sap can be extraced by placing a Chest underneath."
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -61,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:resin_basin",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Resin Basin"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

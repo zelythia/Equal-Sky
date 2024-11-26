@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "06C9F39D97B15B05"
+  ],
+  "tasks": {
+    "4645897336C3A7B9": {
+      "type": "heracles:item",
+      "item": "aequitas:collection_bowl_1",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "048A574930E8B7E2": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 43690,
+          "Loot": "aequitas_sky:lootbags/rare",
+          "Name": "Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4645897336C3A7B9\" quest=\"67D97CF6DEDC4409\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"048A574930E8B7E2\" quest=\"67D97CF6DEDC4409\"/>"
+    ],
+    "groups": {
+      "Making Progress": {
+        "position": [
+          -102,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "aequitas:collection_bowl_1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Collection Bowl I"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

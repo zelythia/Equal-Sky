@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "75D1DB0D9FEAC7D0",
+    "156750ED19605821"
+  ],
+  "tasks": {
+    "22F4361C1166C5B5": {
+      "type": "heracles:item",
+      "item": "tconstruct:tinkers_anvil",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"22F4361C1166C5B5\" quest=\"28440ED80ACEFCDD\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          0,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:tinkers_anvil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tinkers Anvil"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

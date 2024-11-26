@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "1001F48EADB99F3C"
+  ],
+  "tasks": {
+    "44236B926DFD8CB6": {
+      "type": "heracles:item",
+      "item": "piercingpaxels:netherite_paxel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"44236B926DFD8CB6\" quest=\"5784619BFA5327C3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          304,
+          144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "piercingpaxels:netherite_paxel",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Netherite Paxel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

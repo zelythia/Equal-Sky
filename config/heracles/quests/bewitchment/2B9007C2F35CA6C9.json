@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "205B6A5794ACCA70"
+  ],
+  "tasks": {
+    "4A3D91F90B60CF0E": {
+      "type": "heracles:item",
+      "item": "bewitchment:book_of_shadows",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4A3D91F90B60CF0E\" quest=\"2B9007C2F35CA6C9\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -288,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:book_of_shadows",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Book of Shadows"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "51077FEA5154DFD0"
+  ],
+  "tasks": {
+    "3B943B02D9981980": {
+      "type": "heracles:item",
+      "item": "powah:thermo_generator_niotic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3B943B02D9981980\" quest=\"30322C7663279CF7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          176,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:thermo_generator_niotic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Thermo Generator (Niotic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

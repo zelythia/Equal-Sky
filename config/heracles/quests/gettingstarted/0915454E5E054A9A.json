@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "0A4D8698A3D71545"
+  ],
+  "tasks": {
+    "3096AF41754A6B42": {
+      "type": "heracles:item",
+      "item": "excompressum:auto_heavy_sieve",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0B3294C8D02F0E7F": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3096AF41754A6B42\" quest=\"0915454E5E054A9A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0B3294C8D02F0E7F\" quest=\"0915454E5E054A9A\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          208,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "excompressum:auto_heavy_sieve",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Auto Heavy Sieve"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4B47D3D829F2F329"
+  ],
+  "tasks": {
+    "01E7EEDD4830749D": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:prudentium_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"01E7EEDD4830749D\" quest=\"631947D1732C737B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:prudentium_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Prudentium Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

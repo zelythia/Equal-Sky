@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "2FE9C70D9BFECDFC"
+  ],
+  "tasks": {
+    "78E19837270AA6D4": {
+      "type": "heracles:item",
+      "item": "botania:mana_pylon",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"78E19837270AA6D4\" quest=\"52E2DC06759A8779\"/>",
+      "<hr/>",
+      "for enchanting"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          208,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_pylon",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Mana Pylon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

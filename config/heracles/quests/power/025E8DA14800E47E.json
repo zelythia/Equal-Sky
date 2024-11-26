@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "68F5BF70A3A49093"
+  ],
+  "tasks": {
+    "2D1A988226BBB11C": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_spirited",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2D1A988226BBB11C\" quest=\"025E8DA14800E47E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          224,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cell_spirited",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Cell (Spirited)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

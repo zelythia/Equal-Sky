@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "3AD4A350595D9FD0"
+  ],
+  "tasks": {
+    "145C0B38E1338ADF": {
+      "type": "heracles:item",
+      "item": "conjuring:soul_alloy_hatchet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"145C0B38E1338ADF\" quest=\"2887EA291037B96E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          96,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:soul_alloy_hatchet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soul Alloy Hatchet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

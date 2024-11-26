@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "3158228FF2988728"
+  ],
+  "tasks": {
+    "68B840957D785323": {
+      "type": "heracles:item",
+      "item": "simple_cobblestone_generator:generator_tier1",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "53A4F3B4B484C04A": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "4EADF14B1EAB2664": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"68B840957D785323\" quest=\"4A165A94EB6B23D0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"53A4F3B4B484C04A\" quest=\"4A165A94EB6B23D0\"/>",
+      "<reward reward=\"4EADF14B1EAB2664\" quest=\"4A165A94EB6B23D0\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          208,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simple_cobblestone_generator:generator_tier1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Cobblestone Generator 1"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

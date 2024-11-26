@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "677C324CE370DF9C"
+  ],
+  "tasks": {
+    "passive": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:passive_soulium_dagger",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "hostile": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:hostile_soulium_dagger",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"passive\" quest=\"76A544920DC29C2E\"/>",
+      "<task task=\"hostile\" quest=\"76A544920DC29C2E\"/>",
+      "<hr/>",
+      "To increase the soul siphoning efficiency of the Soulium Dagger, you can upgrade it to have either a Hostile or Passive attunement. This is done using the Infusion Altar.",
+      "<br/>",
+      "An attuned Soulium Dagger will provide an additional 50% souls gathered from every mob that applies to the attunement. They also gain a slight damage increase."
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -16,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:passive_soulium_dagger",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Attuned Daggers"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

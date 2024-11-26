@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "1042E6D825B3F315"
+  ],
+  "tasks": {
+    "62A329867F54DD5D": {
+      "type": "heracles:item",
+      "item": "piercingpaxels:stone_paxel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"62A329867F54DD5D\" quest=\"17FFE3DC9484FCAE\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          304,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "piercingpaxels:stone_paxel",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stone Paxel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

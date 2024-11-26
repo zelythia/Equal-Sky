@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "3E5316EBDE567CB1",
+    "737FF05BA7F2728D"
+  ],
+  "tasks": {
+    "014CBB3C8BE6D55E": {
+      "type": "heracles:item",
+      "item": "bewitchment:demon_heart",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"014CBB3C8BE6D55E\" quest=\"38E7E174D62D6380\"/>",
+      "<hr/>",
+      "Summon a demon using 1 Diamond, 1 Demon Horn, 1 Snake Tounge, 1 Aconite and 1 Beladonna on a ritual with two red circles.",
+      "To start the ritual you have to sacrifice a Villager with the Athame inside the ritual circle."
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          16,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:demon_heart",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Summon a Demon"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

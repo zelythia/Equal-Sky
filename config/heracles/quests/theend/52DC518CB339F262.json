@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "0B91511C52265D75"
+  ],
+  "tasks": {
+    "5357199F1C9062FE": {
+      "type": "heracles:item",
+      "item": "botania:mana_tablet",
+      "nbt": {
+        "mana": 500000,
+        "creative": 1
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "467BD7C568FC5805": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5357199F1C9062FE\" quest=\"52DC518CB339F262\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"467BD7C568FC5805\" quest=\"52DC518CB339F262\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          262,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_tablet",
+        "count": 1,
+        "nbt": {
+          "mana": 500000,
+          "creative": 1
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Creative Mana Tablet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5D79B5D0558A3AC1"
+  ],
+  "tasks": {
+    "3F8724638E4A9969": {
+      "type": "heracles:item",
+      "item": "energizedpower:fluid_pipe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3F8724638E4A9969\" quest=\"78D22CA0EECCEFF7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -256,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:fluid_pipe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron Fluid Pipe"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "58B226CD09182437"
+  ],
+  "tasks": {
+    "3F32B1D10E140385": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_machine_casing",
+      "amount": 17,
+      "collection": "AUTOMATIC"
+    },
+    "2D81E4ED3C4E37C9": {
+      "type": "heracles:item",
+      "item": "techreborn:distillation_tower",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2E887E74C73D9161": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_machine_casing",
+      "amount": 17,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2D81E4ED3C4E37C9\" quest=\"0A21A01110CCC2C7\"/>",
+      "<task task=\"3F32B1D10E140385\" quest=\"0A21A01110CCC2C7\"/>",
+      "<task task=\"2E887E74C73D9161\" quest=\"0A21A01110CCC2C7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          550,
+          97
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:distillation_tower",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Distiallation Tower"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

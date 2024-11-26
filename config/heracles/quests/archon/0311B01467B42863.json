@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "144912B6252E1FB5"
+  ],
+  "tasks": {
+    "6FD5D2A9F8039F43": {
+      "type": "heracles:item",
+      "item": "archon:terrain_mace",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6FD5D2A9F8039F43\" quest=\"0311B01467B42863\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          224,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:terrain_mace",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Terrain Mace"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

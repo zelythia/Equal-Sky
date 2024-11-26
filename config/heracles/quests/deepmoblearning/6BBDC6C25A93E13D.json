@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "02A1B3E6F4303740"
+  ],
+  "tasks": {
+    "78A16D57A4E3CB97": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:extraterrestrial_matter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"78A16D57A4E3CB97\" quest=\"6BBDC6C25A93E13D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          64,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:extraterrestrial_matter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Extraterrestrial Matter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

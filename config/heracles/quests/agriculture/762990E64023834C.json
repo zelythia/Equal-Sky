@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "505EA4F29A0B33E8": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:fridge",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2E28062899CE81D4": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:cooking_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "7ADA7DBACF03ED51": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:counter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "1D763656E09D43ED": {
+      "type": "heracles:item",
+      "item": "#cookingforblockheads:ovens",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Oven"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "The best way to make food "
+    },
+    "description": [
+      "<subtitle id=\"762990E64023834C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"2E28062899CE81D4\" quest=\"762990E64023834C\"/>",
+      "<task task=\"505EA4F29A0B33E8\" quest=\"762990E64023834C\"/>",
+      "<task task=\"1D763656E09D43ED\" quest=\"762990E64023834C\"/>",
+      "<task task=\"7ADA7DBACF03ED51\" quest=\"762990E64023834C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -128,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:cooking_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Your own kitchen"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

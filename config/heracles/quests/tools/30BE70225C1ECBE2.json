@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "47EA3D9C5E5632F2",
+    "32EEFF178B6383C7",
+    "2AC45CB619A0D3D1"
+  ],
+  "tasks": {
+    "01ECB0DF02E898D0": {
+      "type": "heracles:item",
+      "item": "tconstruct:scorched_alloyer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Used for making alloys"
+    },
+    "description": [
+      "<subtitle id=\"30BE70225C1ECBE2\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"01ECB0DF02E898D0\" quest=\"30BE70225C1ECBE2\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -192,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:scorched_alloyer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scorched alloyer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

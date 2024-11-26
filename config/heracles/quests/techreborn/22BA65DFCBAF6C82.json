@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "0E9647F620D79B03": {
+      "type": "heracles:item",
+      "item": "techreborn:extractor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Extracts 3 Rubber from 1 Sap"
+    },
+    "description": [
+      "<subtitle id=\"22BA65DFCBAF6C82\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0E9647F620D79B03\" quest=\"22BA65DFCBAF6C82\"/>",
+      "<hr/>",
+      "<br/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          176,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:extractor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Extractor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

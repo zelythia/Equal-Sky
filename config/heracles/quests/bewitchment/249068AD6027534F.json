@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3E2E86E300B27D04"
+  ],
+  "tasks": {
+    "58852560ADF7F169": {
+      "type": "heracles:item",
+      "item": "bewitchment:witch_cauldron",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"58852560ADF7F169\" quest=\"249068AD6027534F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -192,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:witch_cauldron",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Witch Cauldron"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

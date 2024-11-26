@@ -1,0 +1,46 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "19DA81388B4C8875": {
+      "type": "heracles:item",
+      "item": "#archon:harvesters",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #archon:harvesters"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"19DA81388B4C8875\" quest=\"738D50F797B39CEC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -192,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": "#archon:harvesters",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Harvesters"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

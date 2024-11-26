@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3C463CD3D7D34016"
+  ],
+  "tasks": {
+    "33EED312416E8A6C": {
+      "type": "heracles:item",
+      "item": "botania:lens_normal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"33EED312416E8A6C\" quest=\"250E53883CF08D55\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          48,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:lens_normal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mana Lens"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "255D5CCE7DCB4B28": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_log",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "281BA250B59A0D39": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"255D5CCE7DCB4B28\" quest=\"253A914094647159\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"281BA250B59A0D39\" quest=\"253A914094647159\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -320,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Oak Log"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

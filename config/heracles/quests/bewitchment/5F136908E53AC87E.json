@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "38E7E174D62D6380"
+  ],
+  "tasks": {
+    "3B8A1A974BB2159C": {
+      "type": "heracles:item",
+      "item": "bewitchment:caduceus",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Defeat Baphomet"
+    },
+    "description": [
+      "<subtitle id=\"5F136908E53AC87E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"3B8A1A974BB2159C\" quest=\"5F136908E53AC87E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          64,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:caduceus",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Caduceus"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

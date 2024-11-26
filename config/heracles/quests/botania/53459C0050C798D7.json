@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "2FE9C70D9BFECDFC"
+  ],
+  "tasks": {
+    "16B4A99281BE0F02": {
+      "type": "heracles:item",
+      "item": "botania:grass_seeds",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Turns dirt into grass"
+    },
+    "description": [
+      "<subtitle id=\"53459C0050C798D7\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"16B4A99281BE0F02\" quest=\"53459C0050C798D7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -256,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:grass_seeds",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pasture Seeds"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

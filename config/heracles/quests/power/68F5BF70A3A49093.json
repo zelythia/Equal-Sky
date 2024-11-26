@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "64137A69290655D0"
+  ],
+  "tasks": {
+    "6114FF887399A504": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_niotic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6114FF887399A504\" quest=\"68F5BF70A3A49093\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          176,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cell_niotic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Cell (Niotic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

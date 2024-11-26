@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "056515219E15E1C0"
+  ],
+  "tasks": {
+    "57FA9816740457CA": {
+      "type": "heracles:item",
+      "item": "avaritia:compressor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "14B6327E457A6169": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"57FA9816740457CA\" quest=\"66720373D89424DA\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"14B6327E457A6169\" quest=\"66720373D89424DA\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -22,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:compressor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Compressor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

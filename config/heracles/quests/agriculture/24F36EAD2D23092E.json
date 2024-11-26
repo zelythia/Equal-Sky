@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3D27751A9164A60A": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:red_fertilizer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Speeds up growth"
+    },
+    "description": [
+      "<task task=\"3D27751A9164A60A\" quest=\"24F36EAD2D23092E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          112,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:red_fertilizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Fertilizer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

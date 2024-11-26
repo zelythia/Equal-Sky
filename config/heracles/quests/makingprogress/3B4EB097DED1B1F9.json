@@ -1,0 +1,69 @@
+{
+  "settings": {},
+  "dependencies": [
+    "06C9F39D97B15B05"
+  ],
+  "tasks": {
+    "7E7877925B907DA7": {
+      "type": "heracles:item",
+      "item": "aequitas:primal_essence_helmet"
+    },
+    "20ED02F41CC3AE3D": {
+      "type": "heracles:item",
+      "item": "aequitas:primal_essence_chestplate"
+    },
+    "3EF7570F1D135481": {
+      "type": "heracles:item",
+      "item": "aequitas:primal_essence_leggings"
+    },
+    "3CAE9E25F34EBEBC": {
+      "type": "heracles:item",
+      "item": "aequitas:primal_essence_boots"
+    }
+  },
+  "rewards": {
+    "3078C9B0E2ADD446": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 43690,
+          "Loot": "aequitas_sky:lootbags/rare",
+          "Name": "Rare Lootbag",
+          "Type": "RARE"
+        }
+      }
+    },
+    "1BB9FEB0F7B0488E": {
+      "type": "heracles:xp",
+      "xptype": "points",
+      "amount": 100
+    }
+  },
+  "display": {
+    "title": "Primal Armor",
+    "description": [
+      "<task task=\"7E7877925B907DA7\" quest=\"3B4EB097DED1B1F9\"/>",
+      "<task task=\"20ED02F41CC3AE3D\" quest=\"3B4EB097DED1B1F9\"/>",
+      "<task task=\"3EF7570F1D135481\" quest=\"3B4EB097DED1B1F9\"/>",
+      "<task task=\"3CAE9E25F34EBEBC\" quest=\"3B4EB097DED1B1F9\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3078C9B0E2ADD446\" quest=\"3B4EB097DED1B1F9\"/>",
+      "<reward reward=\"1BB9FEB0F7B0488E\" quest=\"3B4EB097DED1B1F9\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "aequitas:primal_essence_chestplate"
+    },
+    "groups": {
+      "Making Progress": {
+        "position": [
+          -109,
+          64
+        ]
+      }
+    }
+  }
+}

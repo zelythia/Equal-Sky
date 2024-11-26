@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6DBDE33CD3C20C17": {
+      "type": "heracles:item",
+      "item": "tconstruct:puny_smelting",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6DBDE33CD3C20C17\" quest=\"54AC71EB9D4C9984\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          0,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:puny_smelting",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Puny Smelting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

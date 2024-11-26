@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "144912B6252E1FB5",
+    "57DC7DF5134A79D3"
+  ],
+  "tasks": {
+    "0D699F8B6C8C6DAD": {
+      "type": "heracles:item",
+      "item": "archon:terranite_stone",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0D699F8B6C8C6DAD\" quest=\"761E0E365F864877\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          112,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:terranite_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Terranite Stone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

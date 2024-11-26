@@ -1,0 +1,34 @@
+{
+  "settings": {},
+  "tasks": {
+    "093A7E258CA18D7D": {
+      "title": "Drawer",
+      "icon": {
+        "type": "heracles:item",
+        "item": "storagedrawers:oak_full_drawers_1"
+      },
+      "type": "heracles:item",
+      "item": "#storagedrawers:drawers"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Drawer",
+    "description": [
+      "<task task=\"093A7E258CA18D7D\" quest=\"3AF67B29006FE48A\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "storagedrawers:oak_full_drawers_1"
+    },
+    "groups": {
+      "Storage": {
+        "position": [
+          176,
+          -16
+        ]
+      }
+    }
+  }
+}

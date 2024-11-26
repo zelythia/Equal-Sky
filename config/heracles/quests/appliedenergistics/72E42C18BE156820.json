@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "5FC78B7A0442B6F1"
+  ],
+  "tasks": {
+    "7289CDDA634110B5": {
+      "type": "heracles:item",
+      "item": "ae2:certus_quartz_crystal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6272F7932577FAC3": {
+      "type": "heracles:item",
+      "item": "ae2:certus_quartz_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7289CDDA634110B5\" quest=\"72E42C18BE156820\"/>",
+      "<task task=\"6272F7932577FAC3\" quest=\"72E42C18BE156820\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -432,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:certus_quartz_crystal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Certus Quartz"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

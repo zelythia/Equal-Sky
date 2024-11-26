@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "38E7E174D62D6380"
+  ],
+  "tasks": {
+    "2B8CF74F3071997C": {
+      "type": "heracles:item",
+      "item": "besmirchment:final_broom",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2B8CF74F3071997C\" quest=\"27228631D48F1142\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          112,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "besmirchment:final_broom",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Final Broom"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

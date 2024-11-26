@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "397437CAF150097B": {
+      "type": "heracles:item",
+      "item": "techreborn:wire_mill",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "A more efficient way to make cables"
+    },
+    "description": [
+      "<subtitle id=\"5A0BA87FFEB79843\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"397437CAF150097B\" quest=\"5A0BA87FFEB79843\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          224,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:wire_mill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wire Mill"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

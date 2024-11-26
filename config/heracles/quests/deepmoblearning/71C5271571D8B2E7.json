@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "7C2BF9E7C5D979E6"
+  ],
+  "tasks": {
+    "6350ED444C8CBF3A": {
+      "entity": {
+        "type": "dml-refabricated:system_glitch"
+      },
+      "amount": 1,
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6350ED444C8CBF3A\" quest=\"71C5271571D8B2E7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          208,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Kill 1 System Glitch"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6013415EDFDF7C45"
+  ],
+  "tasks": {
+    "0D23300DB9EB37E8": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tinkering_table"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: mysticalagriculture:tinkering_table",
+    "description": [
+      "<task task=\"0D23300DB9EB37E8\" quest=\"29045E227815AC62\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:tinkering_table"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -80,
+          32
+        ]
+      }
+    }
+  }
+}

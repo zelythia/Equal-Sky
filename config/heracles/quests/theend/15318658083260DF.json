@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "66720373D89424DA"
+  ],
+  "tasks": {
+    "7EDF6F2B0A2637B0": {
+      "type": "heracles:item",
+      "item": "avaritia:singularity",
+      "nbt": {
+        "singularity_type": "copper"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7EDF6F2B0A2637B0\" quest=\"15318658083260DF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          80,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:singularity",
+        "count": 1,
+        "nbt": {
+          "singularity_type": "copper"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

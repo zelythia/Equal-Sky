@@ -1,0 +1,58 @@
+{
+  "dependencies": [
+    "253A914094647159"
+  ],
+  "tasks": {
+    "12330BC81A92EEBE": {
+      "type": "heracles:item",
+      "item": "fabricaeexnihilo:oak_barrel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "57CE9FA99FA85ABA": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"12330BC81A92EEBE\" quest=\"036E9A0C79423ED6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"57CE9FA99FA85ABA\" quest=\"036E9A0C79423ED6\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -240,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:oak_barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Oak Barrel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

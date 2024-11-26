@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "66D6BA2A95F5C21F": {
+      "type": "heracles:item",
+      "item": "archon:channeler",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"66D6BA2A95F5C21F\" quest=\"72284790229AA483\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -192,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:channeler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Channeler"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

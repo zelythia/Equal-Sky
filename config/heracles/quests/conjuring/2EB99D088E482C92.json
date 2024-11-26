@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6647D6C5BB5B4835": {
+      "type": "heracles:item",
+      "item": "conjuring:blackstone_pedestal",
+      "amount": 4,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6647D6C5BB5B4835\" quest=\"2EB99D088E482C92\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          -32,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:blackstone_pedestal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blackstone Pedestals"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

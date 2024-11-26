@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "66720373D89424DA"
+  ],
+  "tasks": {
+    "1FEB68DA704CF54A": {
+      "type": "heracles:item",
+      "item": "avaritia:singularity",
+      "nbt": {
+        "singularity_type": "diamond"
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1FEB68DA704CF54A\" quest=\"6F661FCB912D4630\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          112,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:singularity",
+        "count": 1,
+        "nbt": {
+          "singularity_type": "diamond"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

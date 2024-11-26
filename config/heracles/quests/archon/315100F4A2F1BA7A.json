@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "1B289DEF5EA3C5DE",
+    "57DC7DF5134A79D3"
+  ],
+  "tasks": {
+    "242E49EA7A724B02": {
+      "type": "heracles:item",
+      "item": "archon:soulless_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"242E49EA7A724B02\" quest=\"315100F4A2F1BA7A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          64,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:soulless_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soulless Eye"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

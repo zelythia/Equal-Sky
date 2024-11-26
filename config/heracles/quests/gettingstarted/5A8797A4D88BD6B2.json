@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "62D543366DC6B6AE"
+  ],
+  "tasks": {
+    "63F0310A1DBDAB3F": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1721520CCE9CB6C0": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 43520,
+          "Loot": "aequitas_sky:lootbags/start",
+          "Name": "Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"63F0310A1DBDAB3F\" quest=\"5A8797A4D88BD6B2\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"1721520CCE9CB6C0\" quest=\"5A8797A4D88BD6B2\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          336,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Diamond"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

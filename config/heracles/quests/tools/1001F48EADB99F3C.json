@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "5B9E885AC28E25FB"
+  ],
+  "tasks": {
+    "3C79BE7AADEF8C30": {
+      "type": "heracles:item",
+      "item": "piercingpaxels:diamond_paxel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3C79BE7AADEF8C30\" quest=\"1001F48EADB99F3C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          304,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "piercingpaxels:diamond_paxel",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Paxel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

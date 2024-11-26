@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "44CA76AB4CD881A6",
+    "51B1DAD02F6A2494"
+  ],
+  "tasks": {
+    "45A014B0D346DB92": {
+      "type": "heracles:item",
+      "item": "minecraft:cobblestone",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0AEF5BD94E3F2F3C": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 43520,
+          "Loot": "aequitas_sky:lootbags/start",
+          "Name": "Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Sieving dirt produces different pebbles of many stones"
+    },
+    "description": [
+      "<subtitle id=\"2CE35E1B4330E446\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"45A014B0D346DB92\" quest=\"2CE35E1B4330E446\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0AEF5BD94E3F2F3C\" quest=\"2CE35E1B4330E446\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -48,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:cobblestone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Cobblestone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

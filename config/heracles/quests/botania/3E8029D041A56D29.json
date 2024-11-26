@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5FD2FF6DE0FC9634"
+  ],
+  "tasks": {
+    "3A8FA7CB370DF2F9": {
+      "type": "heracles:item",
+      "item": "botania:alchemy_catalyst",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3A8FA7CB370DF2F9\" quest=\"3E8029D041A56D29\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -48,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:alchemy_catalyst",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alchemy Catalyst"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

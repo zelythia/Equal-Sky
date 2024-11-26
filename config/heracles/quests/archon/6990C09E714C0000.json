@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7CED62F498BE6152"
+  ],
+  "tasks": {
+    "05AB9B489D7EEB0A": {
+      "type": "heracles:item",
+      "item": "archon:diamond_mana_catalyst",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"05AB9B489D7EEB0A\" quest=\"6990C09E714C0000\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -64,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:diamond_mana_catalyst",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond Mana Catalyst"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

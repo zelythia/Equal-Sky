@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "4EED69A5B70087E4",
+    "18A2706A3FC84F5B"
+  ],
+  "tasks": {
+    "7CE7059E8F4B78AF": {
+      "type": "heracles:item",
+      "item": "energizedpower:inventory_charger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7CE7059E8F4B78AF\" quest=\"352E89C2E8CB5C54\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -272,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:inventory_charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Inventory Charger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

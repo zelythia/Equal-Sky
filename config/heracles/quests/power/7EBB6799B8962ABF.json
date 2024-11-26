@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7C3E401A60558A98"
+  ],
+  "tasks": {
+    "50ADE4F5518ACD06": {
+      "type": "heracles:item",
+      "item": "powah:magmator_niotic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"50ADE4F5518ACD06\" quest=\"7EBB6799B8962ABF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          176,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:magmator_niotic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Magmator (Niotic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

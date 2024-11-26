@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "6B389372EA3F187D"
+  ],
+  "tasks": {
+    "12C006AB3BE14E33": {
+      "type": "heracles:item",
+      "item": "botania:twig_wand",
+      "nbt": {
+        "color1": 0,
+        "color2": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"12C006AB3BE14E33\" quest=\"73874DE84D85844A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:twig_wand",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wand of the Forest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

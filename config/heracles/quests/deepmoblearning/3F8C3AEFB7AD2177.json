@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "02A1B3E6F4303740"
+  ],
+  "tasks": {
+    "3AC1D773A22C9269": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:overworld_matter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3AC1D773A22C9269\" quest=\"3F8C3AEFB7AD2177\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          80,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:overworld_matter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Overworld Matter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

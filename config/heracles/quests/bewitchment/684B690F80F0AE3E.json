@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "05870E3D6E2AEFC9"
+  ],
+  "tasks": {
+    "54CF87620F41AF00": {
+      "type": "heracles:item",
+      "item": "bewitchment:crystal_ball",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Used to tell various futures"
+    },
+    "description": [
+      "<subtitle id=\"684B690F80F0AE3E\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"54CF87620F41AF00\" quest=\"684B690F80F0AE3E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -128,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:crystal_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crystal Ball"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

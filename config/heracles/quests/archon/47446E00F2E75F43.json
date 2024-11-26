@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "1A5739196FD616AB"
+  ],
+  "tasks": {
+    "364EC675FFB4DAE5": {
+      "type": "heracles:item",
+      "item": "archon:thunder_staff",
+      "nbt": {
+        "archon": {}
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"364EC675FFB4DAE5\" quest=\"47446E00F2E75F43\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          224,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:thunder_staff",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Thunder Staff"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "46124BCCC52928F3"
+  ],
+  "tasks": {
+    "372B3B75F56C8F91": {
+      "type": "heracles:item",
+      "item": "botania:corporea_spark",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"372B3B75F56C8F91\" quest=\"47ED10253458DDE0\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          240,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:corporea_spark",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Corporea Spark"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

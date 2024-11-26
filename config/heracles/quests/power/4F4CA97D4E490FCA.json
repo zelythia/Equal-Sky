@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "440ADE656E8AADDE"
+  ],
+  "tasks": {
+    "4B017E477B9DD03A": {
+      "type": "heracles:item",
+      "item": "powah:furnator_blazing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4B017E477B9DD03A\" quest=\"4F4CA97D4E490FCA\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          128,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:furnator_blazing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Furnator (Blazing)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

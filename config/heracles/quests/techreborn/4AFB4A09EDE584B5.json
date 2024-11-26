@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "575591B0A8FA840E"
+  ],
+  "tasks": {
+    "55096AAB8B038D6C": {
+      "type": "heracles:item",
+      "item": "industrialreborn:empty_soul_vial",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Right click to capture a mob"
+    },
+    "description": [
+      "<subtitle id=\"4AFB4A09EDE584B5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"55096AAB8B038D6C\" quest=\"4AFB4A09EDE584B5\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          432,
+          -180
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialreborn:empty_soul_vial",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soul Vial"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

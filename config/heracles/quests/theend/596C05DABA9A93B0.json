@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "08BEBF89F0E2AE55"
+  ],
+  "tasks": {
+    "7F380EA240803687": {
+      "type": "heracles:item",
+      "item": "avaritia:ultimate_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3A94D8EEB395DE72": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    },
+    "12FB7BAEDB542D28": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7F380EA240803687\" quest=\"596C05DABA9A93B0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3A94D8EEB395DE72\" quest=\"596C05DABA9A93B0\"/>",
+      "<reward reward=\"12FB7BAEDB542D28\" quest=\"596C05DABA9A93B0\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          48,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:ultimate_stew",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Ultimate Stew"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

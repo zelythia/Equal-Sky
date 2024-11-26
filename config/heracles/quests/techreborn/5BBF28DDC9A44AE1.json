@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "33AA34D878AF3C92"
+  ],
+  "tasks": {
+    "0534DDA6A32DFF1D": {
+      "type": "heracles:item",
+      "item": "techreborn:advanced_chainsaw",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0534DDA6A32DFF1D\" quest=\"5BBF28DDC9A44AE1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -24,
+          -110
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:advanced_chainsaw",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Chainsaw"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

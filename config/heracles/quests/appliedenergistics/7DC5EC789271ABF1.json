@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "1B1664CE79953E2B"
+  ],
+  "tasks": {
+    "7F71CF56239495DF": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_ring",
+      "amount": 16,
+      "collection": "AUTOMATIC"
+    },
+    "02FAEEDD90E04D0C": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_link",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7F71CF56239495DF\" quest=\"7DC5EC789271ABF1\"/>",
+      "<task task=\"02FAEEDD90E04D0C\" quest=\"7DC5EC789271ABF1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          64,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:quantum_link",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "ME Quantum Link"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

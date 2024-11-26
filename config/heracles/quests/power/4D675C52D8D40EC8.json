@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "1F8AA03717ECE82B"
+  ],
+  "tasks": {
+    "6BA587F3EBAF9A8B": {
+      "type": "heracles:item",
+      "item": "wirelesschargers:advanced_wireless_block_charger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6BA587F3EBAF9A8B\" quest=\"4D675C52D8D40EC8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          -192,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wirelesschargers:advanced_wireless_block_charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Wireless Charger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4D7882890D0BA517"
+  ],
+  "tasks": {
+    "6165CA2DE069769E": {
+      "type": "heracles:item",
+      "item": "energizedpower:teleporter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6165CA2DE069769E\" quest=\"632ECBDBB2D8CDE3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          464,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:teleporter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Teleporter"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

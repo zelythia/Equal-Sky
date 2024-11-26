@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "19E821ABEB01CC31"
+  ],
+  "tasks": {
+    "13F58B4B56F5900E": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_axe"
+    }
+  },
+  "rewards": {
+    "5E0DB6EF2C13574C": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:awakened_supremium_axe",
+    "description": [
+      "<task task=\"13F58B4B56F5900E\" quest=\"6C535B7C68515965\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5E0DB6EF2C13574C\" quest=\"6C535B7C68515965\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_axe"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          176,
+          -64
+        ]
+      }
+    }
+  }
+}

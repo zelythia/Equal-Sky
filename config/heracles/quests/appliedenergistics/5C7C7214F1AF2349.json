@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "239C793DF5DCAA8A"
+  ],
+  "tasks": {
+    "66944B382FE8AC88": {
+      "type": "heracles:item",
+      "item": "megacells:cell_component_256m",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3926EB22425EE34A": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"66944B382FE8AC88\" quest=\"5C7C7214F1AF2349\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3926EB22425EE34A\" quest=\"5C7C7214F1AF2349\"/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          18,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "megacells:cell_component_256m",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "256m MEGA Storage Component"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

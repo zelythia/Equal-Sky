@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "38D3508B0B5B4FB1",
+    "6EE68F9D28AC2DCF"
+  ],
+  "tasks": {
+    "check": {
+      "title": "Create a Mystical Agriculture Seed",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"check\" quest=\"05B310A90C5248F3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -208,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:prosperity_seed_base",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Seeds"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "2C3521C0E8FFD43C",
+    "57DC7DF5134A79D3"
+  ],
+  "tasks": {
+    "5D0F0D4F67460159": {
+      "type": "heracles:item",
+      "item": "archon:charred_eye",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5D0F0D4F67460159\" quest=\"5AE219509DD54A1B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          64,
+          -192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:charred_eye",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Charred Eye"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

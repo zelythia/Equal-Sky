@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "1CBC73C773E95C0F",
+    "47AD84BCF7132B20"
+  ],
+  "tasks": {
+    "2FDBCE5E0353350C": {
+      "type": "heracles:item",
+      "item": "#ae2:pattern_provider",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #ae2:pattern_provider"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2FDBCE5E0353350C\" quest=\"785456CEB46050A5\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -256,
+          246
+        ]
+      }
+    },
+    "icon": {
+      "item": "#megacells:mega_pattern_provider",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pattern Provider"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4E0308BE7B49422D": {
+      "type": "heracles:item",
+      "item": "avaritia:extreme_crafting_table",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5EC2E4BFE907E11C": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4E0308BE7B49422D\" quest=\"41789F73D6D48F7E\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5EC2E4BFE907E11C\" quest=\"41789F73D6D48F7E\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          -192,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:extreme_crafting_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Extreme Crafting Table"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

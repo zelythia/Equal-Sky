@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7FA4A8293634A3AB"
+  ],
+  "tasks": {
+    "61C23641D53D6585": {
+      "type": "heracles:item",
+      "item": "ae2:energy_acceptor",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"61C23641D53D6585\" quest=\"187012275FE6880D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -288,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:energy_acceptor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Acceptor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

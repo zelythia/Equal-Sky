@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "761C6550C95FACDC",
+    "17907BFE253971F6"
+  ],
+  "tasks": {
+    "3522A65452C4E9A5": {
+      "type": "heracles:item",
+      "item": "energizedpower:advanced_powered_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3522A65452C4E9A5\" quest=\"20E1F65ADC8737AB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          288,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:advanced_powered_furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Powered Furnac"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

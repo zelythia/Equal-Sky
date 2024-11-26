@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5D281C10577C66EF"
+  ],
+  "tasks": {
+    "54CC815AEE3D8D60": {
+      "type": "heracles:item",
+      "item": "techreborn:scrap_box",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"54CC815AEE3D8D60\" quest=\"0F530EEAD32D8E65\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          272,
+          -93
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:scrap_box",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scrap box"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

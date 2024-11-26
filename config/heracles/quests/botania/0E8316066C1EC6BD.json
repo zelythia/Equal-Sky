@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "61D102F94B960C40"
+  ],
+  "tasks": {
+    "7C5170F320695BD9": {
+      "type": "heracles:item",
+      "item": "botania:elementium_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7C5170F320695BD9\" quest=\"0E8316066C1EC6BD\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:elementium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elementium"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

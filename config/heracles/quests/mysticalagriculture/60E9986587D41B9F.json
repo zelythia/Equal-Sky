@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "677C324CE370DF9C"
+  ],
+  "tasks": {
+    "54430251C57FE411": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soul_extractor"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: mysticalagriculture:soul_extractor",
+    "description": [
+      "<task task=\"54430251C57FE411\" quest=\"60E9986587D41B9F\"/>",
+      "<hr/>",
+      "The Soul Extractor is a machine that takes in mob drops (such as Rotten Flesh, Gunpowder, Bones etc.) and converts them into a certain amount of mob souls."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soul_extractor"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -16,
+          80
+        ]
+      }
+    }
+  }
+}

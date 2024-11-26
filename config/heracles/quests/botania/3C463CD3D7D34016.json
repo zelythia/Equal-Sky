@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "6B389372EA3F187D"
+  ],
+  "tasks": {
+    "6923B679F43821F1": {
+      "type": "heracles:item",
+      "item": "botania:mana_spreader",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6923B679F43821F1\" quest=\"3C463CD3D7D34016\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_spreader",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mana Spreader"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

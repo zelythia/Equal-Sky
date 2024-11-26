@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "43397609886C3DDC"
+  ],
+  "tasks": {
+    "416D1C6E7BBE6195": {
+      "type": "heracles:item",
+      "item": "botania:life_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2E5532B9EC6D202E": {
+      "item": {
+        "id": "botania:dice",
+        "count": 2,
+        "nbt": {
+          "soulbindUUID": "2c763edb-5300-4989-8d9e-91ccb2944517"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"416D1C6E7BBE6195\" quest=\"26566B6D1BD3DC7B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2E5532B9EC6D202E\" quest=\"26566B6D1BD3DC7B\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          368,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:life_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gaia Spirit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

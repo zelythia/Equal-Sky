@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "3E2E86E300B27D04"
+  ],
+  "tasks": {
+    "337F28F5B107146E": {
+      "type": "heracles:item",
+      "item": "#bewitchment:altars",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #bewitchment:altars"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"337F28F5B107146E\" quest=\"05870E3D6E2AEFC9\"/>",
+      "<hr/>",
+      "Needs carpets placed on top.",
+      "Fills player ME buffer when nearby",
+      "<br/>",
+      "place many plants",
+      "swords: increase sturage multipliers",
+      "pentacels: skulls/gems increase gain",
+      "wands: candelabras, candles, torches: flat capacity bonus"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -128,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": "#bewitchment:altars",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Altars"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

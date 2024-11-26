@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "226BC57E1A01EE72"
+  ],
+  "tasks": {
+    "379CAE54F8860DA0": {
+      "type": "heracles:item",
+      "item": "wands:iron_wand",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"379CAE54F8860DA0\" quest=\"2CCC7C1B976AF960\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wands:iron_wand",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Iron Wand"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

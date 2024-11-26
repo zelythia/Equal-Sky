@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "0E13931C8B538666"
+  ],
+  "tasks": {
+    "4D94C20781BB3C42": {
+      "type": "heracles:item",
+      "item": "techreborn:treetap",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4D94C20781BB3C42\" quest=\"793B562E88EA2163\"/>",
+      "<hr/>",
+      "Use a Treetap on a Sap Spot of a Rubber tree to aquire sap. The Sap spot will regenerate over time."
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -77,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:treetap",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Treetap"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

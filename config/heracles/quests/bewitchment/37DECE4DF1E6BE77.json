@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "26ADA51D334B771F"
+  ],
+  "tasks": {
+    "4645BC4233CA6D44": {
+      "type": "heracles:item",
+      "item": "bewitchment:brazier",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4645BC4233CA6D44\" quest=\"37DECE4DF1E6BE77\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -64,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:brazier",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Curses"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

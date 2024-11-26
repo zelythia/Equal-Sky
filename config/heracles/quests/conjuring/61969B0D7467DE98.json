@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2CC31AB0EBC4A3EF": {
+      "type": "heracles:item",
+      "item": "conjuring:soulfire_forge",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2CC31AB0EBC4A3EF\" quest=\"61969B0D7467DE98\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          -64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:soulfire_forge",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soulfire Forge"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

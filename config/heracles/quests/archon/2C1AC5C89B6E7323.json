@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4610758BB78C8611": {
+      "type": "heracles:item",
+      "item": "archon:water_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4610758BB78C8611\" quest=\"2C1AC5C89B6E7323\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          320,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:water_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Water Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

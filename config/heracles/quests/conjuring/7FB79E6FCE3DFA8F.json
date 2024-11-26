@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "3AD4A350595D9FD0"
+  ],
+  "tasks": {
+    "071CA437CAD1ECBC": {
+      "type": "heracles:item",
+      "item": "conjuring:soul_alloy_pickaxe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"071CA437CAD1ECBC\" quest=\"7FB79E6FCE3DFA8F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          128,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:soul_alloy_pickaxe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soul Alloy Pickaxe"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

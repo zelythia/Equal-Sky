@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3BDD9ADE2F1E1D39"
+  ],
+  "tasks": {
+    "02A4E58427F97D97": {
+      "type": "heracles:item",
+      "item": "archon:soul_core_creature",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"02A4E58427F97D97\" quest=\"7498A7F39382599C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -104,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:soul_core_creature",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Creature Soul Core"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "7AC7B8EA76B6312D": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:market",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Buy any seeds and saplings"
+    },
+    "description": [
+      "<subtitle id=\"6FCA970D7E107540\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"7AC7B8EA76B6312D\" quest=\"6FCA970D7E107540\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -224,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:market",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Farmers Market"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

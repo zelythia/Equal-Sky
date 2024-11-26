@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "793B562E88EA2163"
+  ],
+  "tasks": {
+    "5BF38274C866C022": {
+      "type": "heracles:item",
+      "item": "techreborn:electric_treetap",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5BF38274C866C022\" quest=\"696FD65305ED8FE5\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          -61,
+          -35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:electric_treetap",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Electric Treetap"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "check": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"check\" quest=\"party\"/>",
+      "",
+      "Use Argonauts Party & Guild features for a better Multiplayer experience.",
+      "Can be accessed by /party or /guild"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -304,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:player_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Multiplayer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

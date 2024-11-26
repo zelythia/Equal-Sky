@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "38E7E174D62D6380"
+  ],
+  "tasks": {
+    "36629CD91E8FDA04": {
+      "type": "heracles:item",
+      "item": "bewitchment:horned_spear",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Defeat Herne"
+    },
+    "description": [
+      "<subtitle id=\"26584D81E51D449A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"36629CD91E8FDA04\" quest=\"26584D81E51D449A\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          96,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:horned_spear",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Horned Spear"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

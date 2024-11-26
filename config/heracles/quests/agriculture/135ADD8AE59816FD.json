@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4BE6920097CCE38B": {
+      "type": "heracles:item",
+      "item": "farmingforblockheads:green_fertilizer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Increases Crop Output"
+    },
+    "description": [
+      "<task task=\"4BE6920097CCE38B\" quest=\"135ADD8AE59816FD\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          48,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "farmingforblockheads:green_fertilizer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Green Fertilizer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

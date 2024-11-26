@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "08BEBF89F0E2AE55"
+  ],
+  "tasks": {
+    "44657BB24DAF7255": {
+      "type": "heracles:item",
+      "item": "avaritia:cosmic_meatballs",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6B09CF00382973B7": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "6294B44F09D87FD3": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"44657BB24DAF7255\" quest=\"3D524CBBF1888BDF\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6294B44F09D87FD3\" quest=\"3D524CBBF1888BDF\"/>",
+      "<reward reward=\"6B09CF00382973B7\" quest=\"3D524CBBF1888BDF\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          48,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:cosmic_meatballs",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Cosmic Meatballs"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

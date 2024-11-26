@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "367EC7597DBB7C32"
+  ],
+  "tasks": {
+    "02A8248BD24A62C8": {
+      "type": "heracles:item",
+      "item": "powah:reactor_nitro",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"02A8248BD24A62C8\" quest=\"2DA188762A54F6A8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          272,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:reactor_nitro",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Reactor (Nitro)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

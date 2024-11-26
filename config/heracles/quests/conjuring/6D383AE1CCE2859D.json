@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4CAA75788843B521"
+  ],
+  "tasks": {
+    "629FD4DB0588EE87": {
+      "type": "heracles:item",
+      "item": "conjuring:conjurer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"629FD4DB0588EE87\" quest=\"6D383AE1CCE2859D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          128,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:conjurer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Conjurer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

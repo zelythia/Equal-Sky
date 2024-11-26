@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4AB28084300F4385"
+  ],
+  "tasks": {
+    "5F23DAF713A97E39": {
+      "type": "heracles:item",
+      "item": "powah:magmator_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5F23DAF713A97E39\" quest=\"4AB28084300F4385\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          -16,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:magmator_starter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Magmator (Starter)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "785456CEB46050A5"
+  ],
+  "tasks": {
+    "74FA15E69CAA486C": {
+      "type": "heracles:item",
+      "item": "ae2:blank_pattern",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"74FA15E69CAA486C\" quest=\"7997F929A8B6B156\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -208,
+          272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:blank_pattern",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blank Pattern"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

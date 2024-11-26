@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "71C5271571D8B2E7"
+  ],
+  "tasks": {
+    "3DBC9F1638FD2865": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:glitch_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "7D0BF23ABBFA2B1C": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:glitch_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "25D9CB82E81DEE92": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:glitch_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "339B3B655101EB2D": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:glitch_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "68CC5B9CC976AFC2": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7D0BF23ABBFA2B1C\" quest=\"4165269489B3650B\"/>",
+      "<task task=\"339B3B655101EB2D\" quest=\"4165269489B3650B\"/>",
+      "<task task=\"3DBC9F1638FD2865\" quest=\"4165269489B3650B\"/>",
+      "<task task=\"25D9CB82E81DEE92\" quest=\"4165269489B3650B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"68CC5B9CC976AFC2\" quest=\"4165269489B3650B\"/>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          256,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:glitch_chestplate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Glitch Armor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

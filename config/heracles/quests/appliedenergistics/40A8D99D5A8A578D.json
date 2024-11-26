@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "341818904B7FD9C2"
+  ],
+  "tasks": {
+    "3698E33E6326975F": {
+      "type": "heracles:item",
+      "item": "ae2:fuzzy_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3698E33E6326975F\" quest=\"40A8D99D5A8A578D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -378,
+          384
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fuzzy_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fuzzy Card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6873D0A1BF12AF25": {
+      "type": "heracles:item",
+      "item": "conjuring:gem_tinkerer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6873D0A1BF12AF25\" quest=\"2EFC73899EC11E1E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          -32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:gem_tinkerer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gem Tinkerer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2453E3165EE5074C"
+  ],
+  "tasks": {
+    "029947B745FA13AF": {
+      "type": "heracles:item",
+      "item": "ae2:cell_workbench",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"029947B745FA13AF\" quest=\"4521D30F031EEC71\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -32,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:cell_workbench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cell Workbench"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

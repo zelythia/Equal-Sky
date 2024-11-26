@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "0B91511C52265D75"
+  ],
+  "tasks": {
+    "1FC8743B05BCD70F": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "3D2BE035A5A45804": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_legs",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "504206BF007CADFE": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2DDFED5C74AFDC6B": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "51D299C08A1EFE02": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 4,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1FC8743B05BCD70F\" quest=\"7F9C7FE89DFDDFA6\"/>",
+      "<task task=\"2DDFED5C74AFDC6B\" quest=\"7F9C7FE89DFDDFA6\"/>",
+      "<task task=\"3D2BE035A5A45804\" quest=\"7F9C7FE89DFDDFA6\"/>",
+      "<task task=\"504206BF007CADFE\" quest=\"7F9C7FE89DFDDFA6\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"51D299C08A1EFE02\" quest=\"7F9C7FE89DFDDFA6\"/>"
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          310,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:infinity_chestplate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Infinity Armor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5EDFB4B5F2D5C713": {
+      "advancements": [
+        "minecraft:nether/find_fortress"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5EDFB4B5F2D5C713\" quest=\"26ADA51D334B771F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -128,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": "#c:ore_bearing_ground/netherrack",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Find a Netherfortress"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

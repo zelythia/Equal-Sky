@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4F33F32259E5AA23"
+  ],
+  "tasks": {
+    "459F041953F2F51D": {
+      "type": "heracles:item",
+      "item": "ironchests:gold_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"459F041953F2F51D\" quest=\"2601F9A21D22E03C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -96,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:gold_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gold Chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

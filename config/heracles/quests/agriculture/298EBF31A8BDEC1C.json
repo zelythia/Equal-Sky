@@ -1,0 +1,50 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "051EC1D6F89A142D": {
+      "type": "heracles:item",
+      "item": "botania:overgrowth_seed",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Doubles growth speed"
+    },
+    "description": [
+      "<subtitle id=\"298EBF31A8BDEC1C\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"051EC1D6F89A142D\" quest=\"298EBF31A8BDEC1C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          48,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:overgrowth_seed",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Overgrowth Seed"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

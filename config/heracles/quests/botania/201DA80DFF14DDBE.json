@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5FD2FF6DE0FC9634"
+  ],
+  "tasks": {
+    "4E7EA307404B80EF": {
+      "type": "heracles:item",
+      "item": "botania:fabulous_pool",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4E7EA307404B80EF\" quest=\"201DA80DFF14DDBE\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          0,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:fabulous_pool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fabulous Mana Pool"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

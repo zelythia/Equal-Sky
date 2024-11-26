@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "72E42C18BE156820"
+  ],
+  "tasks": {
+    "4104FAAF09F41859": {
+      "type": "heracles:item",
+      "item": "ae2:inscriber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4104FAAF09F41859\" quest=\"612556C984A56DE7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -352,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:inscriber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Inscriber"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

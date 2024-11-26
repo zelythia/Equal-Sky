@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "0AB3E2DC51456B24": {
+      "type": "heracles:item",
+      "item": "powah:reactor_starter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0AB3E2DC51456B24\" quest=\"7D8D2DC47C3B21CA\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          -16,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:reactor_starter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Reactor (Starter)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

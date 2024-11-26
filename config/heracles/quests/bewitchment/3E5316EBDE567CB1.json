@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "05870E3D6E2AEFC9"
+  ],
+  "tasks": {
+    "2C7D4A1DE736C474": {
+      "type": "heracles:item",
+      "item": "bewitchment:chalk"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Rituals",
+    "description": [
+      "<task task=\"2C7D4A1DE736C474\" quest=\"3E5316EBDE567CB1\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "bewitchment:chalk"
+    },
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    }
+  }
+}

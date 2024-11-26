@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "249068AD6027534F"
+  ],
+  "tasks": {
+    "0073C2C36608A954": {
+      "type": "heracles:item",
+      "item": "bewitchment:hedgewitch_robes",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Increases crop yield"
+    },
+    "description": [
+      "<subtitle id=\"5F55DAF69CB10179\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0073C2C36608A954\" quest=\"5F55DAF69CB10179\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -192,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:hedgewitch_robes",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hedgewitch Robes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

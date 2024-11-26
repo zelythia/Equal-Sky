@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "1B289DEF5EA3C5DE"
+  ],
+  "tasks": {
+    "1CCAFCA38BCF4305": {
+      "type": "heracles:item",
+      "item": "archon:ender_blade",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1CCAFCA38BCF4305\" quest=\"608304F866FE6285\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          176,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:ender_blade",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ender Blade"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "248B782415A58483"
+  ],
+  "tasks": {
+    "4902164733989DB4": {
+      "type": "heracles:item",
+      "item": "tconstruct:mighty_smelting",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"4902164733989DB4\" quest=\"156750ED19605821\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:mighty_smelting",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mighty Smelting"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

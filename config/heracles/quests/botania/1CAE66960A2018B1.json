@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3C463CD3D7D34016"
+  ],
+  "tasks": {
+    "621D6B30E5D0563D": {
+      "type": "heracles:item",
+      "item": "botania:elven_spreader",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"621D6B30E5D0563D\" quest=\"1CAE66960A2018B1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -48,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:elven_spreader",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Elven Mana Spreader"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

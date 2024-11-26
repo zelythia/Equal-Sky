@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "1647263B867E4EB8"
+  ],
+  "tasks": {
+    "692400D00057159C": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_solar_panel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"692400D00057159C\" quest=\"565C2FF41378B7E2\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          16,
+          224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_solar_panel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Industrial Solar Panel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

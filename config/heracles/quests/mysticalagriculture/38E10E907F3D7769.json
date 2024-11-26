@@ -1,0 +1,40 @@
+{
+  "settings": {},
+  "tasks": {
+    "2CBEBE0EF83DA11E": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakening_altar"
+    },
+    "20FB1C47A2D09510": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "mysticalagriculture:awakening_pedestal"
+    },
+    "157D0937F9D49568": {
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "mysticalagriculture:essence_vessel"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "description": [
+      "<task task=\"2CBEBE0EF83DA11E\" quest=\"38E10E907F3D7769\"/>",
+      "<task task=\"20FB1C47A2D09510\" quest=\"38E10E907F3D7769\"/>",
+      "<task task=\"157D0937F9D49568\" quest=\"38E10E907F3D7769\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakening_altar"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          96,
+          32
+        ]
+      }
+    }
+  }
+}

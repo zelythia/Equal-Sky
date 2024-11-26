@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "03EE86D2D98194DE"
+  ],
+  "tasks": {
+    "52F320003C8C9EA5": {
+      "type": "heracles:item",
+      "item": "botania:mana_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"52F320003C8C9EA5\" quest=\"69F4DF303447A762\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          48,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Band of Mana"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

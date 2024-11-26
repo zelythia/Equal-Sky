@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "025E8DA14800E47E"
+  ],
+  "tasks": {
+    "2BAD2D4766012EAA": {
+      "type": "heracles:item",
+      "item": "powah:energy_cell_nitro",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2BAD2D4766012EAA\" quest=\"3930EB666DA1BEC3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          272,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energy_cell_nitro",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Cell (Nitro)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

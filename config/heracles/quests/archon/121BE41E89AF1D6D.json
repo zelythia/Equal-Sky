@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "280145759B9CE19B"
+  ],
+  "tasks": {
+    "50831ECAA6C75892": {
+      "type": "heracles:item",
+      "item": "#archon:wands",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Any #archon:wands"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"50831ECAA6C75892\" quest=\"121BE41E89AF1D6D\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -104,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": "#archon:wands",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wands"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

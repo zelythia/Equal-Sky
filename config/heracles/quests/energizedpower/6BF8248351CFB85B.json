@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "169323759903B43E",
+    "17907BFE253971F6"
+  ],
+  "tasks": {
+    "0A5CFE8A2982D3B3": {
+      "type": "heracles:item",
+      "item": "energizedpower:advanced_crusher",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0A5CFE8A2982D3B3\" quest=\"6BF8248351CFB85B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          288,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:advanced_crusher",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Advanced Crusher"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

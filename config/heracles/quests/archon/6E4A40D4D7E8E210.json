@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "72284790229AA483"
+  ],
+  "tasks": {
+    "6BF5DFAC8F670209": {
+      "type": "heracles:item",
+      "item": "archon:druid_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6BF5DFAC8F670209\" quest=\"6E4A40D4D7E8E210\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -144,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:druid_boots",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Druid Boots"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

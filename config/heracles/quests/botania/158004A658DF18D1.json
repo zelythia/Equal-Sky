@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "47ED10253458DDE0"
+  ],
+  "tasks": {
+    "32E31705101204AF": {
+      "type": "heracles:item",
+      "item": "botania:corporea_crystal_cube",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"32E31705101204AF\" quest=\"158004A658DF18D1\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          288,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:corporea_crystal_cube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Corporea Crystal Cube"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

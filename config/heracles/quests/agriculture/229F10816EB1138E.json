@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "29E5201F896CC957"
+  ],
+  "tasks": {
+    "369B858DEC58F1F5": {
+      "type": "heracles:item",
+      "item": "techreborn:lamp_incandescent",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Powered lamps above crops will speed-up growth"
+    },
+    "description": [
+      "<task task=\"369B858DEC58F1F5\" quest=\"229F10816EB1138E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          112,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:lamp_incandescent",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Incandescent Lamp"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

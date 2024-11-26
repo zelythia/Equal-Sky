@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "0892505C09312989"
+  ],
+  "tasks": {
+    "35C578B66DC3DAA6": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_entangled_singularity",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"35C578B66DC3DAA6\" quest=\"1B1664CE79953E2B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          16,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:quantum_entangled_singularity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quantum Entangled Singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

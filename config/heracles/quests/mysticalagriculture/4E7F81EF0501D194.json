@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "6B3CD73CA0452E79"
+  ],
+  "tasks": {
+    "0C2BA4EEE32A8E8B": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:inferium_growth_accelerator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0C2BA4EEE32A8E8B\" quest=\"4E7F81EF0501D194\"/>",
+      "<hr/>",
+      "Growth Accelerators apply growth ticks to the plant placed above it.",
+      "<br/>",
+      "Each tier of Growth Accelerator has a max range listed in its tooltip. Note that this range refers to how many blocks below the farmland/dirt it is effective."
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -144,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:inferium_growth_accelerator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Growth Accelerator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

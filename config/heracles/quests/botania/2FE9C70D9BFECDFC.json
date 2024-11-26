@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "3C463CD3D7D34016",
+    "5FD2FF6DE0FC9634",
+    "73874DE84D85844A"
+  ],
+  "tasks": {
+    "5098E8B427B3FA61": {
+      "advancements": [
+        "botania:main/generating_flower"
+      ],
+      "type": "heracles:advancement"
+    }
+  },
+  "rewards": {
+    "335721B64AC71840": {
+      "item": {
+        "id": "botania:black_lotus",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a generating flower"
+    },
+    "description": [
+      "<subtitle id=\"2FE9C70D9BFECDFC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"5098E8B427B3FA61\" quest=\"2FE9C70D9BFECDFC\"/>",
+      "<hr/>",
+      "See the Lexica Botania for more info.",
+      "<hr/>",
+      "<reward reward=\"335721B64AC71840\" quest=\"2FE9C70D9BFECDFC\"/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:endoflame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Generating Mana"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

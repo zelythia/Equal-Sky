@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2FE9C70D9BFECDFC"
+  ],
+  "tasks": {
+    "3B2BABFD2EC21397": {
+      "type": "heracles:item",
+      "item": "botania:runic_altar",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3B2BABFD2EC21397\" quest=\"7AA840C591281093\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          96,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:runic_altar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Runic Altar"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

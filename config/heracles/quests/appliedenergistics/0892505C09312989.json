@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "65F1535B64411D85"
+  ],
+  "tasks": {
+    "61F216217186A467": {
+      "type": "heracles:item",
+      "item": "ae2:singularity",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5732F17425751AD2": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"61F216217186A467\" quest=\"0892505C09312989\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"5732F17425751AD2\" quest=\"0892505C09312989\"/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -32,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:singularity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

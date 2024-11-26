@@ -1,0 +1,84 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "14FB12E2E8566F44": {
+      "icon": {
+        "item": {
+          "id": "minecraft:bee_nest",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:overworld",
+      "to": "the_bumblezone:the_bumblezone",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "79A677B6C31786ED": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 43690,
+          "Loot": "aequitas_sky:lootbags/rare",
+          "Name": "Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "54EBC8F24E315AB9": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"14FB12E2E8566F44\" quest=\"69C2F7426BA48E4B\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"79A677B6C31786ED\" quest=\"69C2F7426BA48E4B\"/>",
+      "<reward reward=\"54EBC8F24E315AB9\" quest=\"69C2F7426BA48E4B\"/>"
+    ],
+    "groups": {
+      "Making Progress": {
+        "position": [
+          -61,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:bee_nest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "The Bumblezone"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

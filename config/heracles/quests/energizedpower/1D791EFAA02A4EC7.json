@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5026418EDE8EA0CF"
+  ],
+  "tasks": {
+    "7B01640B602DCB51": {
+      "type": "heracles:item",
+      "item": "energizedpower:filtration_plant",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7B01640B602DCB51\" quest=\"1D791EFAA02A4EC7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          144,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:filtration_plant",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Filtration Plant"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

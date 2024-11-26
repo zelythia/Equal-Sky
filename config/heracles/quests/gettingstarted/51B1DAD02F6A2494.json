@@ -1,0 +1,77 @@
+{
+  "dependencies": [
+    "0DAB414888DBC8F6",
+    "036E9A0C79423ED6"
+  ],
+  "tasks": {
+    "34CB8B8491C59B2C": {
+      "type": "heracles:item",
+      "item": "minecraft:dirt",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2E40613B246E1EF8": {
+      "item": {
+        "id": "minecraft:dirt",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "535E7FCB219C651F": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Compost saplings and worms to get dirt"
+    },
+    "description": [
+      "<subtitle id=\"51B1DAD02F6A2494\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"34CB8B8491C59B2C\" quest=\"51B1DAD02F6A2494\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2E40613B246E1EF8\" quest=\"51B1DAD02F6A2494\"/>",
+      "<reward reward=\"535E7FCB219C651F\" quest=\"51B1DAD02F6A2494\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -176,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dirt",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Dirt"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

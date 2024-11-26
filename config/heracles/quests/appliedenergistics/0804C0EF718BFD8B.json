@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "36160574E31D9352"
+  ],
+  "tasks": {
+    "2873278984860256": {
+      "type": "heracles:item",
+      "item": "ae2:growth_accelerator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2873278984860256\" quest=\"0804C0EF718BFD8B\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -288,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:growth_accelerator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Growth Accelerator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "17907BFE253971F6"
+  ],
+  "tasks": {
+    "6E467CB1404A135C": {
+      "type": "heracles:item",
+      "item": "energizedpower:crystal_growth_chamber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"6E467CB1404A135C\" quest=\"22512BC81E047C09\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          240,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:crystal_growth_chamber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crystal Growth Chamber"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

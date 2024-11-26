@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "62968537FCB64C26"
+  ],
+  "tasks": {
+    "7743F985656C9F2B": {
+      "type": "heracles:item",
+      "item": "powah:furnator_basic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"7743F985656C9F2B\" quest=\"4753EC2F6EC08C6F\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          32,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:furnator_basic",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Furnator (Basic)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

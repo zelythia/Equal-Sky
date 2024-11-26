@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1389E3565A40D9B0": {
+      "type": "heracles:item",
+      "item": "archon:sky_essence",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1389E3565A40D9B0\" quest=\"1A5739196FD616AB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          272,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:sky_essence",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Sky Essence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

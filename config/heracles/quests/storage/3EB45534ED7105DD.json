@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "0D08253627851CB3": {
+      "type": "heracles:item",
+      "item": "ironchests:copper_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0D08253627851CB3\" quest=\"3EB45534ED7105DD\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -144,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ironchests:copper_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Chest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

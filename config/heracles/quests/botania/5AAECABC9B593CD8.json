@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "6D2BF5998DC828AF"
+  ],
+  "tasks": {
+    "1F327B3990D78494": {
+      "type": "heracles:item",
+      "item": "botania:terra_pick",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1F327B3990D78494\" quest=\"5AAECABC9B593CD8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          144,
+          272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:terra_pick",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Terra Shatterer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

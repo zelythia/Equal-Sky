@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "036E9A0C79423ED6"
+  ],
+  "tasks": {
+    "026A0A2F962E275E": {
+      "type": "heracles:item",
+      "item": "minecraft:clay",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "6FD685D325973B75": {
+      "xptype": "POINTS",
+      "amount": 5,
+      "type": "heracles:xp"
+    },
+    "01798EE4F3C81FA7": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Use a barrel to collect rainwater and make clay"
+    },
+    "description": [
+      "<subtitle id=\"3403B524AD01622A\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"026A0A2F962E275E\" quest=\"3403B524AD01622A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"6FD685D325973B75\" quest=\"3403B524AD01622A\"/>",
+      "<reward reward=\"01798EE4F3C81FA7\" quest=\"3403B524AD01622A\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          -176,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:clay",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Clay"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

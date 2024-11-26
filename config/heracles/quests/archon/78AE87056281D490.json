@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "35E7710B3640429A"
+  ],
+  "tasks": {
+    "0BDBF4B59522D169": {
+      "type": "heracles:item",
+      "item": "archon:super_experience_pouch",
+      "nbt": {
+        "archon": {}
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0BDBF4B59522D169\" quest=\"78AE87056281D490\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -16,
+          192
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:super_experience_pouch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Super Experience Pouch"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

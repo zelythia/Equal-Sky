@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "4E60337C0FCD6845"
+  ],
+  "tasks": {
+    "43FFE3F1D7A3697B": {
+      "type": "heracles:item",
+      "item": "botania:orechid",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Generates Ores"
+    },
+    "description": [
+      "<subtitle id=\"29D17020817B18FA\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"43FFE3F1D7A3697B\" quest=\"29D17020817B18FA\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          -112,
+          48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:orechid",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Orechid"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

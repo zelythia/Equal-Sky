@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2EFC73899EC11E1E"
+  ],
+  "tasks": {
+    "77B377149A791F00": {
+      "type": "heracles:item",
+      "item": "conjuring:ignorance_gem",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"77B377149A791F00\" quest=\"524F38D75DF0AC5E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Conjuring": {
+        "position": [
+          56,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "conjuring:ignorance_gem",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ignorance Gem"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

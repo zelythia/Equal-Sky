@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "7031FE012C3E3B15"
+  ],
+  "tasks": {
+    "30E1DE66E5FAC5BA": {
+      "type": "heracles:item",
+      "item": "aequitas:portable_pedestal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "478935D0E5A680D9": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"30E1DE66E5FAC5BA\" quest=\"49A5A3A9D709BA1A\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"478935D0E5A680D9\" quest=\"49A5A3A9D709BA1A\"/>"
+    ],
+    "groups": {
+      "Making Progress": {
+        "position": [
+          144,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "aequitas:portable_pedestal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Portable Pedestal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

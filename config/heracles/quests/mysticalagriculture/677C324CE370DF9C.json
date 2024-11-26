@@ -1,0 +1,39 @@
+{
+  "settings": {},
+  "dependencies": [
+    "6013415EDFDF7C45"
+  ],
+  "tasks": {
+    "233FC53F72D7E402": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soulium_dagger"
+    },
+    "3A2D38229808B090": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soul_jar"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "description": [
+      "<task task=\"233FC53F72D7E402\" quest=\"677C324CE370DF9C\"/>",
+      "<task task=\"3A2D38229808B090\" quest=\"677C324CE370DF9C\"/>",
+      "<hr/>",
+      "The Soulium Dagger is a special weapon that you use to collect souls from mobs. The basic Soulium Dagger gives 1 mob soul per kill.",
+      "<br/>",
+      "The Soulium Dagger can be enchanted with Soul Siphoning to increase souls collected by +10% per level up to 5."
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:soulium_dagger"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -80,
+          96
+        ]
+      }
+    }
+  }
+}

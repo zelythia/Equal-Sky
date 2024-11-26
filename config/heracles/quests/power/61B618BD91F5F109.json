@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "7FE45CA660D42DF7"
+  ],
+  "tasks": {
+    "493EF0B17D1EBBA0": {
+      "type": "heracles:item",
+      "item": "powah:furnator_nitro",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"493EF0B17D1EBBA0\" quest=\"61B618BD91F5F109\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          272,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:furnator_nitro",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Furnator (Nitro)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

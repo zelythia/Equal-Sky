@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "4521D30F031EEC71"
+  ],
+  "tasks": {
+    "46417687F9F1EDD8": {
+      "type": "heracles:item",
+      "item": "ae2:void_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"46417687F9F1EDD8\" quest=\"5B5E332DB0162A25\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -48,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:void_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Overflow Destruction Card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

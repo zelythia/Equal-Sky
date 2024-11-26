@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "68DF611E91459415"
+  ],
+  "tasks": {
+    "63BADBE0119DB0EB": {
+      "type": "heracles:item",
+      "item": "ae2wtlib:quantum_bridge_card",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"63BADBE0119DB0EB\" quest=\"5AC5D328A26E1399\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          192,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2wtlib:quantum_bridge_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quantum Bridge Card"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "493033E64EEC9FD3": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:infusion_altar",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "06664F04888F3F88": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:infusion_pedestal",
+      "amount": 8,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"493033E64EEC9FD3\" quest=\"38D3508B0B5B4FB1\"/>",
+      "<task task=\"06664F04888F3F88\" quest=\"38D3508B0B5B4FB1\"/>",
+      "<hr/>",
+      "You may place the pedestal items in any order you wish.",
+      "<br/>",
+      "Once you have all of your items placed, you can start crafting a recipe. To activate the Infusion Altar, you can either give it a Redstone signal or right-click on it with a Wand."
+    ],
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          -272,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mysticalagriculture:infusion_altar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "New Quest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

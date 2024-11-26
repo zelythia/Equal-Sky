@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "36D01BEB5C81EA38": {
+      "type": "heracles:item",
+      "item": "wands:stone_wand",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"36D01BEB5C81EA38\" quest=\"226BC57E1A01EE72\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          240,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "wands:stone_wand",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Building Wands"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

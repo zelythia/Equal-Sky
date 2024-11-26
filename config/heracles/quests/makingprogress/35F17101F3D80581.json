@@ -1,0 +1,63 @@
+{
+  "settings": {},
+  "tasks": {
+    "6C10956E8359F336": {
+      "type": "heracles:kill_entity",
+      "amount": 1,
+      "entity": {
+        "type": "minecraft:ender_dragon"
+      }
+    }
+  },
+  "rewards": {
+    "3A5727B50742F165": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    },
+    "00B08359025590AD": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag",
+          "Type": "COMMON"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Kill the Ender Dragon",
+    "description": [
+      "<task task=\"6C10956E8359F336\" quest=\"35F17101F3D80581\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3A5727B50742F165\" quest=\"35F17101F3D80581\"/>",
+      "<reward reward=\"00B08359025590AD\" quest=\"35F17101F3D80581\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:dragon_head"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "groups": {
+      "Making Progress": {
+        "position": [
+          -61,
+          144
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "775CC0CE080D9AF9"
+  ],
+  "tasks": {
+    "2E95AB74FAC5E0E0": {
+      "type": "heracles:item",
+      "item": "archon:summoning_pedestal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2E95AB74FAC5E0E0\" quest=\"57DC7DF5134A79D3\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:summoning_pedestal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Summoning Pedest"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

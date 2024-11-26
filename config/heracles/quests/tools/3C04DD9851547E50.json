@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "47EA3D9C5E5632F2",
+    "76A424460DA0CE44",
+    "156750ED19605821"
+  ],
+  "tasks": {
+    "215E4F7C1050B3B9": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_drain",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "54782C7421DDEFBE": {
+      "type": "heracles:item",
+      "item": "tconstruct:smeltery_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "35DBBDBDB4EBE9DA": {
+      "type": "heracles:item",
+      "item": "#tconstruct:seared_blocks",
+      "amount": 4,
+      "collection": "AUTOMATIC",
+      "title": "Any #tconstruct:seared_blocks"
+    },
+    "3C9585F8FB23C22D": {
+      "type": "heracles:item",
+      "item": "tconstruct:seared_chute",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Alloys and Smelts"
+    },
+    "description": [
+      "<subtitle id=\"3C04DD9851547E50\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"54782C7421DDEFBE\" quest=\"3C04DD9851547E50\"/>",
+      "<task task=\"215E4F7C1050B3B9\" quest=\"3C04DD9851547E50\"/>",
+      "<task task=\"3C9585F8FB23C22D\" quest=\"3C04DD9851547E50\"/>",
+      "<task task=\"35DBBDBDB4EBE9DA\" quest=\"3C04DD9851547E50\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tools": {
+        "position": [
+          -64,
+          112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "tconstruct:smeltery_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Smeltery"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

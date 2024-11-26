@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "3050C259DB2B2C11"
+  ],
+  "tasks": {
+    "0E894BB939D1FCA7": {
+      "type": "heracles:item",
+      "item": "excompressum:auto_compressed_hammer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "05F74FB54DA7D15B": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 43520,
+          "Loot": "aequitas_sky:lootbags/start",
+          "Name": "Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "0953EEF9592D3338": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0E894BB939D1FCA7\" quest=\"4638363B2235BCF0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0953EEF9592D3338\" quest=\"4638363B2235BCF0\"/>",
+      "<reward reward=\"05F74FB54DA7D15B\" quest=\"4638363B2235BCF0\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          336,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "excompressum:auto_compressed_hammer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Auto Compressed Hammer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

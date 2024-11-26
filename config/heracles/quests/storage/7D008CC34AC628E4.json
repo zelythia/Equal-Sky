@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5E976BFCF259E4FF": {
+      "type": "heracles:item",
+      "item": "kibe:entangled_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"5E976BFCF259E4FF\" quest=\"7D008CC34AC628E4\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          384,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:entangled_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Entangled Tank"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

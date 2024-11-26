@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "1635E5B05F3B337C"
+  ],
+  "tasks": {
+    "678A0ADA4E03947B": {
+      "type": "heracles:item",
+      "item": "energizedpower:reinforced_advanced_machine_frame",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"678A0ADA4E03947B\" quest=\"4D7882890D0BA517\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          400,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:reinforced_advanced_machine_frame",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Reinforced Advanced Machine Fram"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

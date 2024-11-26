@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "562BB9EC08DDF4AC"
+  ],
+  "tasks": {
+    "3310AE110C8CF926": {
+      "type": "heracles:item",
+      "item": "ae2:fluid_storage_cell_1k",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3310AE110C8CF926\" quest=\"531751551588FE72\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          144,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluid_storage_cell_1k",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "1k ME Fluide Storage Cell"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

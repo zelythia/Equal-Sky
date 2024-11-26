@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "2FE9C70D9BFECDFC"
+  ],
+  "tasks": {
+    "manasteel_helmet": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "6DCB64D2E3635B3D": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "manasteel_leggings": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "manasteel_boots": {
+      "type": "heracles:item",
+      "item": "botania:manasteel_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"manasteel_helmet\" quest=\"0BE9F8095B309557\"/>",
+      "<task task=\"6DCB64D2E3635B3D\" quest=\"0BE9F8095B309557\"/>",
+      "<task task=\"manasteel_leggings\" quest=\"0BE9F8095B309557\"/>",
+      "<task task=\"manasteel_boots\" quest=\"0BE9F8095B309557\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          96,
+          176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:manasteel_chestplate",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Manasteel Armor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

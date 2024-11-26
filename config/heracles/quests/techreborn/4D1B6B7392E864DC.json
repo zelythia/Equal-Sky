@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "0E6A9F27B92974F2": {
+      "type": "heracles:item",
+      "item": "industrialreborn:fluid_transposer",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Combines liquids with containers"
+    },
+    "description": [
+      "<subtitle id=\"4D1B6B7392E864DC\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"0E6A9F27B92974F2\" quest=\"4D1B6B7392E864DC\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          272,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialreborn:fluid_transposer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Transposer"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

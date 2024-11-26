@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "5FD2FF6DE0FC9634"
+  ],
+  "tasks": {
+    "732FB4E7EA5B8289": {
+      "type": "heracles:item",
+      "item": "botania:mana_tablet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"732FB4E7EA5B8289\" quest=\"03EE86D2D98194DE\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          48,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_tablet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mana Tablet"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

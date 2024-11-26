@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "05366246449CC8F5"
+  ],
+  "tasks": {
+    "158BE5F4D1AFA1EC": {
+      "type": "heracles:item",
+      "item": "fabricaeexnihilo:iron_mesh",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "4EA8DA97EC005AC2": {
+      "xptype": "POINTS",
+      "amount": 10,
+      "type": "heracles:xp"
+    },
+    "04965037198C293B": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 13882323,
+          "Loot": "aequitas_sky:lootbags/food",
+          "Name": "Nourishment Bag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"158BE5F4D1AFA1EC\" quest=\"62D543366DC6B6AE\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"4EA8DA97EC005AC2\" quest=\"62D543366DC6B6AE\"/>",
+      "<reward reward=\"04965037198C293B\" quest=\"62D543366DC6B6AE\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          272,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fabricaeexnihilo:iron_mesh",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Iron Mesh"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2ABE102F417D8971"
+  ],
+  "tasks": {
+    "30D0C2B4C2C644BD": {
+      "type": "heracles:item",
+      "item": "powah:magmator_blazing",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"30D0C2B4C2C644BD\" quest=\"7C3E401A60558A98\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          128,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:magmator_blazing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Magmator (Blazing)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

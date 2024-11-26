@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "3BDD9ADE2F1E1D39"
+  ],
+  "tasks": {
+    "3306D0EA10A0C167": {
+      "type": "heracles:item",
+      "item": "archon:soul_core_boss",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"3306D0EA10A0C167\" quest=\"3DCAA5EA0E0DD3A8\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Archon": {
+        "position": [
+          -104,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "archon:soul_core_boss",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Boos Soul Core"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

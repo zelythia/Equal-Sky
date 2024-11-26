@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "187012275FE6880D"
+  ],
+  "tasks": {
+    "1FECBAFBAF25CC3E": {
+      "type": "heracles:item",
+      "item": "ae2:energy_cell",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"1FECBAFBAF25CC3E\" quest=\"188BD731B13E5ECF\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics": {
+        "position": [
+          -224,
+          96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:energy_cell",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Cell"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

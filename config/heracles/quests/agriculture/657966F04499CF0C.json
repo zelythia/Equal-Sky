@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2A330F9F1D1425AC": {
+      "type": "heracles:item",
+      "item": "cookingforblockheads:toaster",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2A330F9F1D1425AC\" quest=\"657966F04499CF0C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Agriculture": {
+        "position": [
+          -64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "cookingforblockheads:toaster",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Toaster"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

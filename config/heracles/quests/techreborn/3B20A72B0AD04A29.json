@@ -1,0 +1,52 @@
+{
+  "dependencies": [
+    "548431677F54028D"
+  ],
+  "tasks": {
+    "14700026583B947C": {
+      "type": "heracles:item",
+      "item": "industrialreborn:animal_feeder",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Feeds nearby animals and breeds them"
+    },
+    "description": [
+      "<subtitle id=\"3B20A72B0AD04A29\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"14700026583B947C\" quest=\"3B20A72B0AD04A29\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          224,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "industrialreborn:animal_feeder",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Animal Feeder"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

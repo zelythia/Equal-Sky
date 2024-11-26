@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "3465C2ADC525CC0A"
+  ],
+  "tasks": {
+    "226B4DBA274B62AC": {
+      "type": "heracles:item",
+      "item": "techreborn:industrial_blast_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "76FFD2B1AEFE3667": {
+      "type": "heracles:item",
+      "item": "techreborn:basic_machine_casing",
+      "amount": 24,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"226B4DBA274B62AC\" quest=\"2B97530E91CBF635\"/>",
+      "<task task=\"76FFD2B1AEFE3667\" quest=\"2B97530E91CBF635\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Tech Reborn": {
+        "position": [
+          384,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:industrial_blast_furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Industrial Blast Furnace"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

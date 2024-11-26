@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "2E01B8610591E6B4"
+  ],
+  "tasks": {
+    "053A30B96790C434": {
+      "type": "heracles:item",
+      "item": "energizedpower:gold_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"053A30B96790C434\" quest=\"55A01A7F3B7373FB\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Energized Power": {
+        "position": [
+          -272,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "energizedpower:gold_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gold Cable"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

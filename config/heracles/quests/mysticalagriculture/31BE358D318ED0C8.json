@@ -1,0 +1,48 @@
+{
+  "settings": {},
+  "dependencies": [
+    "19E821ABEB01CC31"
+  ],
+  "tasks": {
+    "692708EA9DB0349E": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_sword"
+    }
+  },
+  "rewards": {
+    "740A4E11B694302A": {
+      "type": "heracles:item",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag",
+          "Type": "EPIC"
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: mysticalagriculture:awakened_supremium_sword",
+    "description": [
+      "<task task=\"692708EA9DB0349E\" quest=\"31BE358D318ED0C8\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"740A4E11B694302A\" quest=\"31BE358D318ED0C8\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "mysticalagriculture:awakened_supremium_sword"
+    },
+    "groups": {
+      "Mystical Agriculture": {
+        "position": [
+          208,
+          -48
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "71E4968F73594D01"
+  ],
+  "tasks": {
+    "35CDA2ED6608087F": {
+      "type": "heracles:item",
+      "item": "powah:furnator_spirited",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"35CDA2ED6608087F\" quest=\"7FE45CA660D42DF7\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Power": {
+        "position": [
+          224,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:furnator_spirited",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Furnator (Spirited)"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

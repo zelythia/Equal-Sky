@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "5A8797A4D88BD6B2"
+  ],
+  "tasks": {
+    "0D6FCE6FBC07C104": {
+      "type": "heracles:item",
+      "item": "aequitas:crafting_pedestal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "2F5A790EB5D72241": {
+      "type": "heracles:item",
+      "item": "aequitas:sampling_pedestal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "0D115C83BAC97CD7": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 43690,
+          "Loot": "aequitas_sky:lootbags/rare",
+          "Name": "Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0D6FCE6FBC07C104\" quest=\"16C57F9BADE35B51\"/>",
+      "<task task=\"2F5A790EB5D72241\" quest=\"16C57F9BADE35B51\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"0D115C83BAC97CD7\" quest=\"16C57F9BADE35B51\"/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          416,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "aequitas:crafting_pedestal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Crafting Pedestal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

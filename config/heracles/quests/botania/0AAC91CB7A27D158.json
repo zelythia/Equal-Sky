@@ -1,0 +1,50 @@
+{
+  "dependencies": [
+    "03EE86D2D98194DE"
+  ],
+  "tasks": {
+    "542C8C4F3166E7A7": {
+      "type": "heracles:item",
+      "item": "botania:mana_mirror",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"542C8C4F3166E7A7\" quest=\"0AAC91CB7A27D158\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Botania": {
+        "position": [
+          72,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:mana_mirror",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mana Mirror"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

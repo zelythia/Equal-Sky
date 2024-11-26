@@ -1,0 +1,120 @@
+{
+  "dependencies": [
+    "0B91511C52265D75"
+  ],
+  "tasks": {
+    "infinity tools": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_sword",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "infinity axe": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_axe",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "infinity hoe": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_hoe",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "infinity shovel": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_shovel",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "inifnity bow": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_bow",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "infinity pickaxe": {
+      "type": "heracles:item",
+      "item": "avaritia:infinity_pickaxe",
+      "nbt": {
+        "Enchantments": [
+          {
+            "lvl": 10,
+            "id": "minecraft:fortune"
+          }
+        ],
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "epic lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 11141290,
+          "Loot": "aequitas_sky:lootbags/epic",
+          "Name": "Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "The End": {
+        "position": [
+          315,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "avaritia:infinity_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Infinity Tools"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
